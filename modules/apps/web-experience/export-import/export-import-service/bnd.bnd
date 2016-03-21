@@ -1,6 +1,6 @@
 Bundle-Name: Liferay Export Import Service
 Bundle-SymbolicName: com.liferay.exportimport.service
-Bundle-Version: 1.0.1
+Bundle-Version: 2.0.0
 Export-Package:\
 	com.liferay.exportimport.content.processor.base,\
 	com.liferay.exportimport.controller,\
@@ -15,5 +15,4 @@ Export-Package:\
 	com.liferay.exportimport.xstream
 Liferay-Releng-Module-Group-Description:
 Liferay-Releng-Module-Group-Title: Data Management
--include: ../../app.bnd
 -liferay-includeresource: @com.liferay.util.java-*.jar!/com/liferay/util/xml/DocUtil.class

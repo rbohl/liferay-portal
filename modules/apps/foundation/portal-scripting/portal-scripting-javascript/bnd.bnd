@@ -1,6 +1,6 @@
 Bundle-Name: Liferay Portal Scripting JavaScript
 Bundle-SymbolicName: com.liferay.portal.scripting.javascript
-Bundle-Version: 1.0.1
+Bundle-Version: 2.0.0
 DynamicImport-Package: *
 Import-Package:\
 	!javax.swing.*,\
@@ -9,5 +9,4 @@ Import-Package:\
 	*
 Liferay-Releng-Module-Group-Description:
 Liferay-Releng-Module-Group-Title: Scripting Engines
--include: ../../app.bnd
 -liferay-includeresource: @rhino-*.jar

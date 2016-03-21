@@ -13,7 +13,7 @@ task buildLexiconIcons(type: Copy)
 task buildTheme
 task publishNodeModule(type: PublishNodeModuleTask)
 
-String alloyUIVersion = "3.0.3-deprecated.22"
+String alloyUIVersion = "3.0.3-deprecated.24"
 String lexiconVersion = "0.2.10"
 
 File themeDestinationDir = file("src/main/resources/META-INF/resources/_unstyled");
@@ -158,10 +158,6 @@ dependencies {
 	alloyUI group: "com.liferay.webjars", name: "com.liferay.webjars.alloy-ui", transitive: false, version: alloyUIVersion
 
 	lexicon group: "com.liferay.webjars", name: "com.liferay.webjars.lexicon", transitive: false, version: lexiconVersion
-}
-
-liferay {
-	deployDir = file("${liferayHome}/osgi/modules")
 }
 
 publishNodeModule {

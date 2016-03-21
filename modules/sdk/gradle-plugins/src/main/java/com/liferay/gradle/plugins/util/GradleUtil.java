@@ -16,14 +16,18 @@ package com.liferay.gradle.plugins.util;
 
 import com.liferay.gradle.plugins.BasePortalToolDefaultsPlugin;
 
+import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Map;
 import java.util.Properties;
+import java.util.Set;
 
 import org.gradle.api.Project;
+import org.gradle.api.file.SourceDirectorySet;
 
 /**
  * @author Andrea Di Giorgi
@@ -40,6 +44,59 @@ public class GradleUtil extends com.liferay.gradle.util.GradleUtil {
 
 		return GradleUtil.getProperty(
 			project, portalToolName + ".version", portalToolVersion);
+	}
+
+	public static File getSrcDir(SourceDirectorySet sourceDirectorySet) {
+		Set<File> srcDirs = sourceDirectorySet.getSrcDirs();
+
+		Iterator<File> iterator = srcDirs.iterator();
+
+		return iterator.next();
+	}
+
+	/**
+	 * Copied from <code>com.liferay.portal.kernel.util.ThreadUtil</code>.
+	 */
+	public static Thread[] getThreads() {
+		Thread currentThread = Thread.currentThread();
+
+		ThreadGroup threadGroup = currentThread.getThreadGroup();
+
+		while (threadGroup.getParent() != null) {
+			threadGroup = threadGroup.getParent();
+		}
+
+		int threadCountGuess = threadGroup.activeCount();
+
+		Thread[] threads = new Thread[threadCountGuess];
+
+		int threadCountActual = threadGroup.enumerate(threads);
+
+		while (threadCountActual == threadCountGuess) {
+			threadCountGuess *= 2;
+
+			threads = new Thread[threadCountGuess];
+
+			threadCountActual = threadGroup.enumerate(threads);
+		}
+
+		return threads;
+	}
+
+	public static boolean isRunningInsideDaemon() {
+		for (Thread thread : getThreads()) {
+			if (thread == null) {
+				continue;
+			}
+
+			String name = thread.getName();
+
+			if (name.startsWith("Daemon worker")) {
+				return true;
+			}
+		}
+
+		return false;
 	}
 
 	public static Map<String, String> toStringMap(Map<String, ?> map) {

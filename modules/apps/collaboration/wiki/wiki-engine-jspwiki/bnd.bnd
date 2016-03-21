@@ -1,6 +1,6 @@
 Bundle-Name: Liferay Wiki Engine JSPWiki
 Bundle-SymbolicName: com.liferay.wiki.engine.jspwiki
-Bundle-Version: 1.0.2
+Bundle-Version: 2.0.0
 Import-Package:\
 	!junit.framework.*,\
 	\
@@ -22,7 +22,6 @@ Import-Package:\
 Liferay-Releng-Module-Group-Description:
 Liferay-Releng-Module-Group-Title: Wiki
 Web-ContextPath: /wiki-engine-jspwiki
--include: ../../app.bnd
 -includeresource:\
 	@../../../../../lib/portal/ecs.jar,\
 	@../../../../../lib/portal/freshcookies-security.jar,\

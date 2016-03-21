@@ -1,6 +1,6 @@
 Bundle-Name: Liferay Portal Template FreeMarker
 Bundle-SymbolicName: com.liferay.portal.template.freemarker
-Bundle-Version: 1.0.1
+Bundle-Version: 2.0.0
 Export-Package:\
 	freemarker,\
 	\
@@ -61,8 +61,6 @@ Import-Package:\
 	*
 Liferay-Releng-Module-Group-Description:
 Liferay-Releng-Module-Group-Title: Template Engines
--include: ../../app.bnd
 -liferay-includeresource:\
-	WEB-INF=src/main/resources/WEB-INF,\
 	@javax.servlet.jsp.jstl-*.jar!/META-INF/*.tld,\
 	@freemarker-*.jar

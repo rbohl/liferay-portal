@@ -7,11 +7,10 @@ Bundle-ClassPath:\
 	lib/lucene-sandbox.jar
 Bundle-Name: Liferay Document Library Repository Search
 Bundle-SymbolicName: com.liferay.document.library.repository.search
-Bundle-Version: 1.0.1
+Bundle-Version: 2.0.0
 Export-Package: com.liferay.document.library.repository.search.util
 Liferay-Releng-Module-Group-Description:
 Liferay-Releng-Module-Group-Title: Document Library
--include: ../../app.bnd
 -liferay-includeresource:\
 	lib/lucene-analyzers-common.jar=lucene-analyzers-common-*.jar,\
 	lib/lucene-core.jar=lucene-core-*.jar,\

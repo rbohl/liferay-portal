@@ -108,8 +108,8 @@ page import="com.liferay.portal.kernel.util.Validator" %><%@
 page import="com.liferay.portal.kernel.util.WebKeys" %><%@
 page import="com.liferay.portal.kernel.util.comparator.UserScreenNameComparator" %><%@
 page import="com.liferay.portal.kernel.workflow.WorkflowConstants" %><%@
-page import="com.liferay.taglib.search.ResultRow" %><%@
-page import="com.liferay.util.RSSUtil" %>
+page import="com.liferay.rss.util.RSSUtil" %><%@
+page import="com.liferay.taglib.search.ResultRow" %>
 
 <%@ page import="java.text.Format" %>
 
@@ -157,6 +157,8 @@ String sessionClicksDefaultView = SessionClicks.get(request, "com.liferay.calend
 if (usePortalTimeZone) {
 	timeZoneId = user.getTimeZoneId();
 }
+
+boolean displaySchedulerOnly = GetterUtil.getBoolean(portletPreferences.getValue("displaySchedulerOnly", null), false);
 
 boolean enableRSS = !PortalUtil.isRSSFeedsEnabled() ? false : GetterUtil.getBoolean(portletPreferences.getValue("enableRss", null), true);
 int rssDelta = GetterUtil.getInteger(portletPreferences.getValue("rssDelta", StringPool.BLANK), SearchContainer.DEFAULT_DELTA);

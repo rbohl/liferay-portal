@@ -1,6 +1,5 @@
 buildService {
 	apiDir = "../social-private-messaging-api/src/main/java"
-	autoNamespaceTables = false
 	testDir = "../social-private-messaging-test/src/testIntegration/java"
 }
 
@@ -23,8 +22,4 @@ dependencies {
 	provided project(":apps:foundation:osgi:osgi-util")
 	provided project(":apps:foundation:portal:portal-spring-extender")
 	provided project(":apps:foundation:portal:portal-upgrade")
-}
-
-liferay {
-	deployDir = file("${liferayHome}/osgi/modules")
 }
