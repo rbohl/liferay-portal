@@ -99,17 +99,42 @@ import javax.portlet.PortletResponse;
  * @author Raymond Augé
  * @author Alexander Chow
  */
+
 @OSGiBeanProperties(
 	property = {
 		"related.entry.indexer.class.name=com.liferay.document.library.kernel.model.DLFileEntry"
 	},
 	service = {Indexer.class, RelatedEntryIndexer.class}
 )
+
+/** 
+ * When does a dev want to implement RelatedEntryIndexer?
+ */
 public class DLFileEntryIndexer
 	extends BaseIndexer<DLFileEntry> implements RelatedEntryIndexer {
 
 	public static final String CLASS_NAME = DLFileEntry.class.getName();
 
+/** No changes to the constructor, but let's run through it anyway
+ * 
+ *  setDefaultSelectedFieldNames: specifies the fields used to retrieve hits from 
+ *  the search engine documents.
+ *  
+ * setFilterSearch: i've never really understood this, but here's what I wrote in 
+ * the 7.0 docs: enabling a document-by-document check of the search results’ VIEW 
+ * permissions. This is redundant most of the time, but safeguards against unexpected 
+ * problems like the search index becoming stale, or if permission inheritance 
+ * doesn’t happen fast enough. Most of Liferay Portal’s internal apps use this setting. If not set, the indexer relies on the permissions information indexed in the search engine.
+ * 
+ * setPermissionAware: checks the users permission on the resource before returning 
+ * search documents
+ *  
+ *  In general, the constructor of each indexer is called when the portal is started. 
+ *  I guess the object waits in memory for its methods to be called, at query time or 
+ *  at index time? But I might have distorted basic Java concepts here.
+ *  
+ *  
+ *  */
 	public DLFileEntryIndexer() {
 		setDefaultSelectedFieldNames(
 			Field.ASSET_TAG_NAMES, Field.COMPANY_ID, Field.CONTENT,
@@ -118,7 +143,17 @@ public class DLFileEntryIndexer
 		setFilterSearch(true);
 		setPermissionAware(true);
 	}
+	
 
+	/** 
+	 * addRelatedClassNames is used during construction of the query, called in 
+	 * postProcessContextBooleanFilter. It appears to be used to determine whether 
+	 * to query attachments. I guess if isIncludeAttachments is false, the title and
+	 * description fields are queried but not the content? That's a guess.
+	 * 
+	 * 
+	 * 
+	 */
 	@Override
 	public void addRelatedClassNames(
 			BooleanFilter contextBooleanFilter, SearchContext searchContext)
@@ -128,6 +163,11 @@ public class DLFileEntryIndexer
 			contextBooleanFilter, searchContext);
 	}
 
+/** 
+ * addRelatedEntryFields is called in dogetDocument, which is where we mess 
+ * with the document itself, but it's in an if block I don't really understand.
+ * 	
+ */
 	@Override
 	public void addRelatedEntryFields(Document document, Object obj)
 		throws Exception {
@@ -160,6 +200,12 @@ public class DLFileEntryIndexer
 		return CLASS_NAME;
 	}
 
+	
+/**
+ * hasPermission is where the dev specifies which resource permission (usually VIEW) 
+ * should be used when permissions filtering this entity for the search results?
+ * 	
+ */
 	@Override
 	public boolean hasPermission(
 			PermissionChecker permissionChecker, String entryClassName,
@@ -170,6 +216,13 @@ public class DLFileEntryIndexer
 			permissionChecker, entryClassPK, ActionKeys.VIEW);
 	}
 
+/** 
+ * isVisible probably has something to do with checking the workflow status of the
+ * entity and determining if it should be displayed (if it's pending, or in_trash,
+ * for example, it shouldn't be displayed). What happens if you don't implement this
+ * method and your entity is workflow-enabled?
+ * 	
+ */
 	@Override
 	public boolean isVisible(long classPK, int status) throws Exception {
 		FileEntry fileEntry = DLAppLocalServiceUtil.getFileEntry(classPK);
@@ -179,6 +232,10 @@ public class DLFileEntryIndexer
 		return isVisible(fileVersion.getStatus(), status);
 	}
 
+/**
+ * isvisibleRelatedEntry now comes from the interface RelatedEntryIndexer. 
+ * I don't really know what this does, other than return a boolean.
+ */
 	@Override
 	public boolean isVisibleRelatedEntry(long classPK, int status)
 		throws Exception {
@@ -208,17 +265,42 @@ public class DLFileEntryIndexer
 		return true;
 	}
 
+/**
+ * 	postProcessContextBooleanFilter is invoked while the main search query 
+ *  is being constructed.    
+ *  
+ */
 	@Override
 	public void postProcessContextBooleanFilter(
 			BooleanFilter contextBooleanFilter, SearchContext searchContext)
 		throws Exception {
 
+	/**   
+	 * 
+	 * addStatus, which comes from BaseIndexer, makes sure  entities with
+	 * STATUS_IN_TRASH are excluded from the query. [How is that different from
+	 * isVisible?]
+	 * 
+	*/
+		
 		addStatus(contextBooleanFilter, searchContext);
 
+		
+	/** 
+	 * calls addRelatedClassNames is the search context has isIncludeAttachments=true
+	 * 	
+	 */
+		
 		if (searchContext.isIncludeAttachments()) {
 			addRelatedClassNames(contextBooleanFilter, searchContext);
 		}
 
+	/** 
+	 * Adds the HIDDEN field if it can't get any folder IDs or if it only get the 
+	 * default parent folder id (not exactly sure what that is)
+	 * 	
+	 */
+		
 		if (ArrayUtil.isEmpty(searchContext.getFolderIds()) ||
 			ArrayUtil.contains(
 				searchContext.getFolderIds(),
@@ -228,6 +310,12 @@ public class DLFileEntryIndexer
 				Field.HIDDEN, searchContext.isIncludeAttachments());
 		}
 
+	/** 
+	 * hmm, not sure what addSearchClassTypeIds does, even after inspecting it 
+	 * in BaseIndexer
+	 * 	
+	 */
+		
 		addSearchClassTypeIds(contextBooleanFilter, searchContext);
 
 		String ddmStructureFieldName = (String)searchContext.getAttribute(
@@ -290,6 +378,15 @@ public class DLFileEntryIndexer
 		}
 	}
 
+/** 
+ * postProcessSearchQuery adds clauses to the ongoing search query. When is this
+ * called versus postProcessContextBooleanFilter? Probably showing my ignorance, but 
+ * what's the difference between the two?
+ * 
+ * How do you make the decision about what to add here? I see This adds the localized
+ * content field, and a bunch of others.
+ */
+	
 	@Override
 	public void postProcessSearchQuery(
 			BooleanQuery searchQuery, BooleanFilter fullQueryBooleanFilter,
@@ -323,6 +420,11 @@ public class DLFileEntryIndexer
 		}
 	}
 
+/** 
+ * No idea, except that this is part of implementing REI
+ * 	
+ */
+	
 	@Override
 	public void updateFullQuery(SearchContext searchContext) {
 		if (searchContext.isIncludeAttachments()) {
@@ -331,6 +433,12 @@ public class DLFileEntryIndexer
 		}
 	}
 
+	
+/**
+ * 	Specific to DLFileEntries so I'm not worried about it.
+ * 
+ */
+	
 	protected void addFileEntryTypeAttributes(
 			Document document, DLFileVersion dlFileVersion)
 		throws PortalException {
@@ -358,6 +466,12 @@ public class DLFileEntryIndexer
 		}
 	}
 
+/** 
+ * instead of calling the BaseIndexer's createSummary in doGetSummary, 
+ *  this indexer create's its own summary. not sure about that prefix field though.
+ * 	
+ */
+	
 	protected Summary createSummary(
 		Locale locale, Document document, String titleField,
 		String contentField) {
@@ -371,12 +485,22 @@ public class DLFileEntryIndexer
 		return new Summary(title, content);
 	}
 
+/** 
+ * overriding doDelete just mates the DB entity with the corresponding 
+ * document so the right doc is deleted when the db entity is deleted
+ */
+	
 	@Override
 	protected void doDelete(DLFileEntry dlFileEntry) throws Exception {
 		deleteDocument(
 			dlFileEntry.getCompanyId(), dlFileEntry.getFileEntryId());
 	}
 
+/** 
+ * doGetDocument is for building the document to send to the search engine.
+ * 
+ */
+	
 	@Override
 	protected Document doGetDocument(DLFileEntry dlFileEntry) throws Exception {
 		if (_log.isDebugEnabled()) {
@@ -422,6 +546,9 @@ public class DLFileEntryIndexer
 						Locale defaultLocale = PortalUtil.getSiteDefaultLocale(
 							dlFileEntry.getGroupId());
 
+		/**
+		 * Yeah! Localized content!
+		 */
 						String localizedField =
 							LocalizationUtil.getLocalizedName(
 								Field.CONTENT, defaultLocale.toString());
@@ -530,6 +657,10 @@ public class DLFileEntryIndexer
 		}
 	}
 
+/**
+ * doGetSummary returns the summary created in createSummary	
+ */
+	
 	@Override
 	protected Summary doGetSummary(
 		Document document, Locale locale, String snippet,
@@ -547,6 +678,13 @@ public class DLFileEntryIndexer
 		return summary;
 	}
 
+/**
+ * doReindex is called when a reindex is triggered, from an update method call in 
+ * the service layer or an explicit reindex from sys admin (soon to be search admin)	
+ * 
+ * calls IndexWriterHelperUtil to update the document accordingly.
+ */
+	
 	@Override
 	protected void doReindex(DLFileEntry dlFileEntry) throws Exception {
 		DLFileVersion dlFileVersion = null;
