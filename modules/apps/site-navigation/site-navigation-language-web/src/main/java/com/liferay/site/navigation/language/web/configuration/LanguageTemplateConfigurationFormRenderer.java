@@ -87,8 +87,6 @@ public class LanguageTemplateConfigurationFormRenderer
 	public void render(HttpServletRequest request, HttpServletResponse response)
 		throws IOException {
 
-		System.out.println("I'm rendering the ConfigurationFormRenderer");
-
 		Locale locale = LocaleThreadLocal.getThemeDisplayLocale();
 
 		LanguageTemplateConfigurationDisplayContext
