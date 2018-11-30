@@ -1,6 +1,36 @@
+/**
+ * Copyright (c) 2000-present Liferay, Inc. All rights reserved.
+ *
+ * This library is free software; you can redistribute it and/or modify it under
+ * the terms of the GNU Lesser General Public License as published by the Free
+ * Software Foundation; either version 2.1 of the License, or (at your option)
+ * any later version.
+ *
+ * This library is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more
+ * details.
+ */
+
 package com.liferay.site.navigation.language.web.configuration;
 
+import com.liferay.configuration.admin.display.ConfigurationFormRenderer;
+import com.liferay.dynamic.data.mapping.model.DDMTemplate;
+import com.liferay.dynamic.data.mapping.service.DDMTemplateLocalService;
+import com.liferay.frontend.taglib.servlet.taglib.util.JSPRenderer;
+import com.liferay.portal.configuration.metatype.bnd.util.ConfigurableUtil;
+import com.liferay.portal.kernel.language.LanguageUtil;
+import com.liferay.portal.kernel.model.Group;
+import com.liferay.portal.kernel.security.auth.CompanyThreadLocal;
+import com.liferay.portal.kernel.service.GroupLocalService;
+import com.liferay.portal.kernel.servlet.taglib.ui.LanguageEntry;
+import com.liferay.portal.kernel.util.LocaleThreadLocal;
+import com.liferay.portal.kernel.util.ParamUtil;
+import com.liferay.portal.kernel.util.Portal;
+import com.liferay.portal.kernel.util.ResourceBundleUtil;
+
 import java.io.IOException;
+
 import java.util.HashMap;
 import java.util.List;
 import java.util.Locale;
@@ -15,49 +45,42 @@ import org.osgi.service.component.annotations.Component;
 import org.osgi.service.component.annotations.Modified;
 import org.osgi.service.component.annotations.Reference;
 
-import com.liferay.configuration.admin.display.ConfigurationFormRenderer;
-import com.liferay.dynamic.data.mapping.model.DDMTemplate;
-import com.liferay.dynamic.data.mapping.service.DDMTemplateLocalService;
-import com.liferay.frontend.taglib.servlet.taglib.util.JSPRenderer;
-import com.liferay.portal.configuration.metatype.bnd.util.ConfigurableUtil;
-import com.liferay.portal.kernel.model.Group;
-import com.liferay.portal.kernel.security.auth.CompanyThreadLocal;
-import com.liferay.portal.kernel.service.GroupLocalService;
-import com.liferay.portal.kernel.servlet.taglib.ui.LanguageEntry;
-import com.liferay.portal.kernel.util.LocaleThreadLocal;
-import com.liferay.portal.kernel.util.ParamUtil;
-import com.liferay.portal.kernel.util.Portal;
+/**
+ * @author Drew Brokke
+ */
+@Component(
+	configurationPid = "com.liferay.site.navigation.language.web.configuration.SiteNavigationLanguageWebTemplateConfiguration",
+	immediate = true, service = ConfigurationFormRenderer.class
+)
+public class LanguageTemplateConfigurationFormRenderer
+	implements ConfigurationFormRenderer {
 
-@Component(immediate = true, service = ConfigurationFormRenderer.class)
-public class LanguageTemplateConfigurationFormRenderer implements ConfigurationFormRenderer {
-
-    @Activate
-    @Modified
+	@Activate
+	@Modified
 	public void activate(Map<String, Object> properties) {
 		_siteNavigationLanguageWebTemplateConfiguration =
 			ConfigurableUtil.createConfigurable(
 				SiteNavigationLanguageWebTemplateConfiguration.class,
 				properties);
 	}
-	
+
 	@Override
 	public String getPid() {
-
-		return "com.liferay.site.navigation.language.web.configuration.SiteNavigationLanguageWebTemplateConfiguration";
+		return "com.liferay.site.navigation.language.web.configuration." +
+			"SiteNavigationLanguageWebTemplateConfiguration";
 	}
 
 	@Override
-	public Map<String, Object> getRequestParameters
-		(HttpServletRequest request) {
+	public Map<String, Object> getRequestParameters(
+		HttpServletRequest request) {
 
 		Map<String, Object> params = new HashMap<>();
 
-		String[] myddmtemplatekey = ParamUtil.getParameterValues(request, "myddmtemplatekey");
+		String ddmTemplateKey = ParamUtil.getString(request, "ddmTemplateKey");
 
-		params.put("ddm-template-key", myddmtemplatekey);
+		params.put("ddmTemplateKey", ddmTemplateKey);
 
 		return params;
-
 	}
 
 	@Override
@@ -65,7 +88,7 @@ public class LanguageTemplateConfigurationFormRenderer implements ConfigurationF
 		throws IOException {
 
 		System.out.println("I'm rendering the ConfigurationFormRenderer");
-		
+
 		Locale locale = LocaleThreadLocal.getThemeDisplayLocale();
 
 		LanguageTemplateConfigurationDisplayContext
@@ -92,11 +115,11 @@ public class LanguageTemplateConfigurationFormRenderer implements ConfigurationF
 				ddmTemplate.getTemplateKey(), ddmTemplate.getName(locale));
 		}
 
-		languageTemplateConfigurationDisplayContext.setRedirect(
-			_portal.getCurrentURL(request));
-
 		languageTemplateConfigurationDisplayContext.setFieldLabel(
-			"language-selection-style");
+			LanguageUtil.get(
+				ResourceBundleUtil.getBundle(
+					locale, LanguageTemplateConfigurationFormRenderer.class),
+				"language-selection-style"));
 
 		request.setAttribute(
 			LanguageTemplateConfigurationDisplayContext.class.getName(),

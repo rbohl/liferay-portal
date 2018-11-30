@@ -36,16 +36,8 @@ public class LanguageTemplateConfigurationDisplayContext {
 		return _fieldLabel;
 	}
 
-	public String getRedirect() {
-		return _redirect;
-	}
-
 	public List<String[]> getTemplateValues() {
 		return _templateValues;
-	}
-
-	public String getTitle() {
-		return _title;
 	}
 
 	public void setCurrentTemplateName(String currentTemplateName) {
@@ -56,18 +48,8 @@ public class LanguageTemplateConfigurationDisplayContext {
 		_fieldLabel = fieldLabel;
 	}
 
-	public void setRedirect(String redirect) {
-		_redirect = redirect;
-	}
-
-	public void setTitle(String title) {
-		_title = title;
-	}
-
 	private String _currentTemplateName;
 	private String _fieldLabel;
-	private String _redirect;
 	private final List<String[]> _templateValues = new ArrayList<>();
-	private String _title;
 
 }

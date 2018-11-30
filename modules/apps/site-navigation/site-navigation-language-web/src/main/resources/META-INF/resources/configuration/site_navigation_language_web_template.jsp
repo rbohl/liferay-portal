@@ -17,29 +17,22 @@
 <%@ include file="/init.jsp" %>
 
 <%
-LanguageTemplateConfigurationDisplayContext languageTemplateConfigurationDisplayContext = (LanguageTemplateConfigurationDisplayContext)request.getAttribute(LanguageTemplateConfigurationDisplayContext.class.getName());
+LanguageTemplateConfigurationDisplayContext
+	languageTemplateConfigurationDisplayContext = (LanguageTemplateConfigurationDisplayContext)request.getAttribute(LanguageTemplateConfigurationDisplayContext.class.getName());
 
 String currentTemplateName = languageTemplateConfigurationDisplayContext.getCurrentTemplateName();
 %>
 
-<portlet:actionURL name="/site_navigation_language/update_language_template_configuration" var="editURL" />
+<aui:select label="<%= HtmlUtil.escape(languageTemplateConfigurationDisplayContext.getFieldLabel()) %>" name="ddmTemplateKey" value="<%= currentTemplateName %>">
 
-<div class="sheet sheet-lg">
-	<aui:form action="<%= editURL %>" name="fm">
-		<aui:input name="redirect" type="hidden" value="<%= languageTemplateConfigurationDisplayContext.getRedirect() %>" />
+	<%
+	for (String[] templateValue : languageTemplateConfigurationDisplayContext.getTemplateValues()) {
+	%>
 
-		<aui:select label="<%= HtmlUtil.escape(languageTemplateConfigurationDisplayContext.getFieldLabel()) %>" name="ddmTemplateKey" value="<%= currentTemplateName %>">
+		<aui:option label="<%= templateValue[1] %>" selected="<%= currentTemplateName.equals(templateValue[0]) %>" value="<%= templateValue[0] %>" />
 
-			<%
-			for (String[] templateValue : languageTemplateConfigurationDisplayContext.getTemplateValues()) {
-			%>
+	<%
+	}
+	%>
 
-				<aui:option label="<%= templateValue[1] %>" selected="<%= currentTemplateName.equals(templateValue[0]) %>" value="<%= templateValue[0] %>" />
-
-			<%
-			}
-			%>
-
-		</aui:select>
-	</aui:form>
-</div>
+</aui:select>
