@@ -15,25 +15,16 @@
 package com.liferay.site.navigation.language.web.configuration;
 
 import com.liferay.configuration.admin.display.ConfigurationFormRenderer;
-import com.liferay.dynamic.data.mapping.model.DDMTemplate;
 import com.liferay.dynamic.data.mapping.service.DDMTemplateLocalService;
 import com.liferay.frontend.taglib.servlet.taglib.util.JSPRenderer;
 import com.liferay.portal.configuration.metatype.bnd.util.ConfigurableUtil;
-import com.liferay.portal.kernel.language.LanguageUtil;
-import com.liferay.portal.kernel.model.Group;
-import com.liferay.portal.kernel.security.auth.CompanyThreadLocal;
 import com.liferay.portal.kernel.service.GroupLocalService;
-import com.liferay.portal.kernel.servlet.taglib.ui.LanguageEntry;
-import com.liferay.portal.kernel.util.LocaleThreadLocal;
 import com.liferay.portal.kernel.util.ParamUtil;
 import com.liferay.portal.kernel.util.Portal;
-import com.liferay.portal.kernel.util.ResourceBundleUtil;
 
 import java.io.IOException;
 
 import java.util.HashMap;
-import java.util.List;
-import java.util.Locale;
 import java.util.Map;
 
 import javax.servlet.ServletContext;
@@ -87,41 +78,9 @@ public class LanguageTemplateConfigurationFormRenderer
 	public void render(HttpServletRequest request, HttpServletResponse response)
 		throws IOException {
 
-		Locale locale = LocaleThreadLocal.getThemeDisplayLocale();
-
-		LanguageTemplateConfigurationDisplayContext
-			languageTemplateConfigurationDisplayContext =
-				new LanguageTemplateConfigurationDisplayContext();
-
-		languageTemplateConfigurationDisplayContext.setCurrentTemplateName(
-			_siteNavigationLanguageWebTemplateConfiguration.ddmTemplateKey());
-
-		long groupId = 0;
-
-		Group group = _groupLocalService.fetchCompanyGroup(
-			CompanyThreadLocal.getCompanyId());
-
-		if (group != null) {
-			groupId = group.getGroupId();
-		}
-
-		List<DDMTemplate> ddmTemplates = _ddmTemplateLocalService.getTemplates(
-			groupId, _portal.getClassNameId(LanguageEntry.class));
-
-		for (DDMTemplate ddmTemplate : ddmTemplates) {
-			languageTemplateConfigurationDisplayContext.addTemplateValue(
-				ddmTemplate.getTemplateKey(), ddmTemplate.getName(locale));
-		}
-
-		languageTemplateConfigurationDisplayContext.setFieldLabel(
-			LanguageUtil.get(
-				ResourceBundleUtil.getBundle(
-					locale, LanguageTemplateConfigurationFormRenderer.class),
-				"language-selection-style"));
-
 		request.setAttribute(
-			LanguageTemplateConfigurationDisplayContext.class.getName(),
-			languageTemplateConfigurationDisplayContext);
+			SiteNavigationLanguageWebTemplateConfiguration.class.getName(),
+			_siteNavigationLanguageWebTemplateConfiguration);
 
 		_jspRenderer.renderJSP(
 			_servletContext, request, response,

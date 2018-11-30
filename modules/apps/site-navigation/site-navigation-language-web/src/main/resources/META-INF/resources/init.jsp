@@ -23,12 +23,20 @@ taglib uri="http://liferay.com/tld/portlet" prefix="liferay-portlet" %><%@
 taglib uri="http://liferay.com/tld/theme" prefix="liferay-theme" %><%@
 taglib uri="http://liferay.com/tld/ui" prefix="liferay-ui" %>
 
-<%@ page import="com.liferay.portal.kernel.servlet.taglib.ui.LanguageEntry" %><%@
+<%@ page import="com.liferay.dynamic.data.mapping.model.DDMTemplate" %><%@
+page import="com.liferay.dynamic.data.mapping.service.DDMTemplateLocalServiceUtil" %><%@
+page import="com.liferay.portal.kernel.language.LanguageUtil" %><%@
+page import="com.liferay.portal.kernel.model.Group" %><%@
+page import="com.liferay.portal.kernel.service.GroupLocalServiceUtil" %><%@
+page import="com.liferay.portal.kernel.servlet.taglib.ui.LanguageEntry" %><%@
 page import="com.liferay.portal.kernel.util.Constants" %><%@
 page import="com.liferay.portal.kernel.util.HtmlUtil" %><%@
-page import="com.liferay.site.navigation.language.web.configuration.LanguageTemplateConfigurationDisplayContext" %><%@
+page import="com.liferay.portal.kernel.util.PortalUtil" %><%@
 page import="com.liferay.site.navigation.language.web.configuration.SiteNavigationLanguagePortletInstanceConfiguration" %><%@
+page import="com.liferay.site.navigation.language.web.configuration.SiteNavigationLanguageWebTemplateConfiguration" %><%@
 page import="com.liferay.site.navigation.language.web.internal.display.context.SiteNavigationLanguageDisplayContext" %>
+
+<%@ page import="java.util.List" %>
 
 <liferay-theme:defineObjects />
 

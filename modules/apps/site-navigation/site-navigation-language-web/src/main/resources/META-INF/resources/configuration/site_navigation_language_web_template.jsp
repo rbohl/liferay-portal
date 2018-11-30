@@ -17,19 +17,28 @@
 <%@ include file="/init.jsp" %>
 
 <%
-LanguageTemplateConfigurationDisplayContext
-	languageTemplateConfigurationDisplayContext = (LanguageTemplateConfigurationDisplayContext)request.getAttribute(LanguageTemplateConfigurationDisplayContext.class.getName());
+SiteNavigationLanguageWebTemplateConfiguration siteNavigationLanguageWebTemplateConfiguration = (SiteNavigationLanguageWebTemplateConfiguration)request.getAttribute(SiteNavigationLanguageWebTemplateConfiguration.class.getName());
 
-String currentTemplateName = languageTemplateConfigurationDisplayContext.getCurrentTemplateName();
+String currentTemplateKey = siteNavigationLanguageWebTemplateConfiguration.ddmTemplateKey();
 %>
 
-<aui:select label="<%= HtmlUtil.escape(languageTemplateConfigurationDisplayContext.getFieldLabel()) %>" name="ddmTemplateKey" value="<%= currentTemplateName %>">
+<aui:select label='<%= HtmlUtil.escape(LanguageUtil.get(request, "language-selection-style")) %>' name="ddmTemplateKey" value="<%= currentTemplateKey %>">
 
 	<%
-	for (String[] templateValue : languageTemplateConfigurationDisplayContext.getTemplateValues()) {
+	long groupId = 0;
+	Group companyGroup = GroupLocalServiceUtil.fetchCompanyGroup(company.getCompanyId());
+
+	if (companyGroup != null) {
+		groupId = companyGroup.getGroupId();
+	}
+
+	List<DDMTemplate> ddmTemplates = DDMTemplateLocalServiceUtil.getTemplates(groupId, PortalUtil.getClassNameId(LanguageEntry.class));
+
+	for (DDMTemplate ddmTemplate : ddmTemplates) {
+		String templateKey = ddmTemplate.getTemplateKey();
 	%>
 
-		<aui:option label="<%= templateValue[1] %>" selected="<%= currentTemplateName.equals(templateValue[0]) %>" value="<%= templateValue[0] %>" />
+		<aui:option label="<%= ddmTemplate.getName(locale) %>" selected="<%= currentTemplateKey.equals(templateKey) %>" value="<%= templateKey %>" />
 
 	<%
 	}
