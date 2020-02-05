@@ -1,21 +1,29 @@
 package com.liferay.portal.search.similar.results.web.internal.configuration;
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import org.osgi.service.component.annotations.Component;
+import org.osgi.service.component.annotations.Reference;
 
-import com.liferay.asset.kernel.AssetRendererFactoryRegistryUtil;
-import com.liferay.asset.kernel.model.AssetRendererFactory;
 import com.liferay.configuration.admin.definition.ConfigurationFieldOptionsProvider;
-import com.liferay.portal.kernel.security.auth.CompanyThreadLocal;
-import com.liferay.portal.search.similar.results.web.internal.constants.SimilarResultsPortletKeys;
+import com.liferay.configuration.admin.definition.ConfigurationFieldOptionsProvider.Option;
+import com.liferay.dynamic.data.mapping.model.DDMTemplate;
+import com.liferay.dynamic.data.mapping.service.DDMTemplateLocalService;
+import com.liferay.portal.kernel.dao.orm.QueryUtil;
+import com.liferay.portal.kernel.model.Group;
+import com.liferay.portal.kernel.service.ClassNameLocalService;
+import com.liferay.portal.kernel.service.GroupLocalService;
+import com.liferay.portal.search.similar.results.web.internal.display.context.SimilarResultsDocumentDisplayContext;
+import com.liferay.portlet.display.template.PortletDisplayTemplate;
 
 @Component(
 	property = {
-		"configuration.field.name=enabledClassNames",
-		"configuration.pid=com.liferay.asset.auto.tagger.google.cloud.natural.language.internal.configuration.GCloudNaturalLanguageAssetAutoTaggerCompanyConfiguration",
-		"configuration.pid=com.liferay.asset.auto.tagger.opennlp.internal.configuration.OpenNLPDocumentAssetAutoTaggerCompanyConfiguration"
+		"configuration.field.name=similarResultsTemplateKeyDefault",
+		"configuration.pid=com.liferay.portal.search.similar.results.web.internal.configuration.SimilarResultsWebTemplateConfiguration"
 	},
 	service = ConfigurationFieldOptionsProvider.class
 )
@@ -23,44 +31,74 @@ public class SimilarResultsWebTemplateConfigurationFieldOptionsProvider implemen
 
 public List<Option> getOptions() {
 	
+	// this junk don't work for real
+	// long groupId = 20129;
+	long classNameId = _classNameLocalService.getClassNameId(SimilarResultsDocumentDisplayContext.class);
+	//this fails to get 
+	// get all groups
+	List<Group> groups = _groupLocalService.getGroups(QueryUtil.ALL_POS, QueryUtil.ALL_POS);
 	
-	// get the portlet id
-	String id = SimilarResultsPortletKeys.SIMILAR_RESULTS;
-	
-	
-	
-List<AssetRendererFactory<?>> assetRendererFactories =
-		AssetRendererFactoryRegistryUtil.getAssetRendererFactories(
-			CompanyThreadLocal.getCompanyId());
+	for (Group group : groups) {
 
-	Stream<AssetRendererFactory<?>> stream =
-		assetRendererFactories.stream();
+		long groupId = group.getGroupId();
+		List<Long> groupIds = new ArrayList<>();
+		groupIds.add(groupId);
+	}
 
-	return stream.filter(
-		assetRendererFactory -> {
-			TextExtractor textExtractor =
-				_textExtractorTracker.getTextExtractor(
-					assetRendererFactory.getClassName());
-
-			return textExtractor != null;
-		}
-	).map(
-		assetRendererFactory -> new Option() {
+	List<DDMTemplate> templates = _ddmTemplateLocalService.getTemplates(groupId, classNameId);
+	Stream<DDMTemplate> stream = templates.stream();
+			
+//			_portletDisplayTemplate.getPortletDisplayTemplateDDMTemplate
+//			(groupId, classNameId, "displayStyle");
+	
+	
+	return stream.map(
+		template -> new Option() {
 
 			@Override
 			public String getLabel(Locale locale) {
-				return assetRendererFactory.getTypeName(locale);
+				return template.getNameCurrentValue();
 			}
 
 			@Override
 			public String getValue() {
-				return assetRendererFactory.getClassName();
+				return template.getTemplateKey();
 			}
-
 		}
-	).collect(
+		).collect(
 		Collectors.toList()
 	);
 }
 
+	@Reference(unbind = "-")
+	protected void setPortletDisplayTemplate(
+		PortletDisplayTemplate portletDisplayTemplate) {
+
+		_portletDisplayTemplate = portletDisplayTemplate;
+	}
+
+	@Reference(unbind = "-")
+	protected void setClassNameLocalService(
+		ClassNameLocalService classNameLocalService) {
+
+		_classNameLocalService = classNameLocalService;
+	}
+	@Reference(unbind = "-")
+	protected void setDDMTemplateLocalService(
+		DDMTemplateLocalService ddmTemplateLocalService) {
+
+		_ddmTemplateLocalService = ddmTemplateLocalService;
+	}
+
+	@Reference(unbind = "-")
+	protected void setGroupLocalService(
+		GroupLocalService groupLocalService) {
+
+		_groupLocalService = groupLocalService;
+	}
+
+	private static PortletDisplayTemplate _portletDisplayTemplate;
+	private static ClassNameLocalService _classNameLocalService;
+	private static GroupLocalService _groupLocalService;
+	private static DDMTemplateLocalService _ddmTemplateLocalService;
 }

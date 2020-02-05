@@ -30,7 +30,7 @@ import com.liferay.portal.configuration.metatype.annotations.ExtendedObjectClass
 public interface SimilarResultsWebTemplateConfiguration {
 
 	@Meta.AD(
-		deflt = "similar-results-compact-ftl",
+		deflt = "",
 		name = "similar-results-template-key-default", required = false
 	)
 	public String similarResultsTemplateKeyDefault();
