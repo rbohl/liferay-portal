@@ -897,6 +897,8 @@ import org.osgi.service.component.annotations.Reference;
 		<#assign serviceBaseExceptions = serviceBuilder.getServiceBaseExceptions(methods, "update" + entity.name, [apiPackagePath + ".model." + entity.name], []) />
 
 		/**
+		 * This method is not intended for use by external consumers of the API.
+		 *
 		 * Updates the ${entity.humanName} in the database or adds it if it does not yet exist. Also notifies the appropriate model listeners.
 		 *
 		 * @param ${entity.varName} the ${entity.humanName}
