@@ -205,6 +205,8 @@ import org.osgi.service.component.annotations.Reference;
 		<#assign serviceBaseExceptions = serviceBuilder.getServiceBaseExceptions(methods, "add" + entity.name, [apiPackagePath + ".model." + entity.name], []) />
 
 		/**
+		 * This method is not intended for use by external consumers of the API.
+		 *
 		 * Adds the ${entity.humanName} to the database. Also notifies the appropriate model listeners.
 		 *
 		 * @param ${entity.varName} the ${entity.humanName}
