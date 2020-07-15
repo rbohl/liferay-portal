@@ -207,7 +207,8 @@ import org.osgi.service.component.annotations.Reference;
 		/**
 		 * Adds the ${entity.humanName} to the database. Also notifies the appropriate model listeners.
 		 *
-		 * <p> Before calling this method, inspect the ${entity.humanName}LocalServiceImpl class. If a more robust entry point to the API is defined there, call it instead.
+		 * <p>
+		 * Important: Inspect the ${entity.humanName}LocalServiceImpl for overloaded versions of the method. If provided, use these entry points to the API, as the implementation logic may require the additional parameters defined there.
 		 * </p>
 		 *
 		 * @param ${entity.varName} the ${entity.humanName}
@@ -260,7 +261,8 @@ import org.osgi.service.component.annotations.Reference;
 		/**
 		 * Deletes the ${entity.humanName} with the primary key from the database. Also notifies the appropriate model listeners.
 		 *
-		 * <p> Before calling this method, inspect the ${entity.humanName}LocalServiceImpl class. If a more robust entry point to the API is defined there, call it instead.
+		 * <p>
+		 * Important: Inspect the ${entity.humanName}LocalServiceImpl for overloaded versions of the method. If provided, use these entry points to the API, as the implementation logic may require the additional parameters defined there.
 		 * </p>
 		 *
 		 * @param ${entity.PKVarName} the primary key of the ${entity.humanName}
@@ -305,7 +307,8 @@ import org.osgi.service.component.annotations.Reference;
 		/**
 		 * Deletes the ${entity.humanName} from the database. Also notifies the appropriate model listeners.
 		 *
-		 * <p> Before calling this method, inspect the ${entity.humanName}LocalServiceImpl class. If a more robust entry point to the API is defined there, call it instead.
+		 * <p>
+		 * Important: Inspect the ${entity.humanName}LocalServiceImpl for overloaded versions of the method. If provided, use these entry points to the API, as the implementation logic may require the additional parameters defined there.
 		 * </p>
 		 *
 		 * @param ${entity.varName} the ${entity.humanName}
@@ -906,7 +909,8 @@ import org.osgi.service.component.annotations.Reference;
 		/**
 		 * Updates the ${entity.humanName} in the database or adds it if it does not yet exist. Also notifies the appropriate model listeners.
 		 *
-		 * <p> Before calling this method, inspect the ${entity.humanName}LocalServiceImpl class. If a more robust entry point to the API is defined there, call it instead.
+		 * <p>
+		 * Important: Inspect the ${entity.humanName}LocalServiceImpl for overloaded versions of the method. If provided, use these entry points to the API, as the implementation logic may require the additional parameters defined there.
 		 * </p>
 		 *
 		 * @param ${entity.varName} the ${entity.humanName}
