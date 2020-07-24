@@ -70,7 +70,7 @@ public interface TrashEntryLocalService
 	/*
 	 * NOTE FOR DEVELOPERS:
 	 *
-	 * Never modify or reference this interface directly. Always use {@link TrashEntryLocalServiceUtil} to access the trash entry local service. Add custom service methods to <code>com.liferay.trash.service.impl.TrashEntryLocalServiceImpl</code> and rerun ServiceBuilder to automatically copy the method declarations to this interface.
+	 * Never modify this interface directly. Add custom service methods to <code>com.liferay.trash.service.impl.TrashEntryLocalServiceImpl</code> and rerun ServiceBuilder to automatically copy the method declarations to this interface. Consume the trash entry local service via injection or a <code>org.osgi.util.tracker.ServiceTracker</code>. Use {@link TrashEntryLocalServiceUtil} if injection and service tracking are not available.
 	 */
 
 	/**
