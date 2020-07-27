@@ -1058,7 +1058,7 @@ public class DocumentImpl implements Document {
 
 	/**
 	 * @deprecated As of Athanasius (7.3.x), replaced by {@link
-	 *			 #toString(StringBundler, Collection)}
+	 *             #toString(StringBundler, Collection)}
 	 */
 	@Deprecated
 	protected void toString(
