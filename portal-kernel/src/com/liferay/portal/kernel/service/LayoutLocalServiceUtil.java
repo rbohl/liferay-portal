@@ -859,8 +859,7 @@ public class LayoutLocalServiceUtil {
 	 * @param privateLayout whether the layout is private to the group
 	 * @param type the type of the layouts (optiona.lly {@link
 	 LayoutConstants#TYPE_PORTLET})
-	 * @return the matching layouts, or an empty list if no matches were
-	 found
+	 * @return the matching layouts, or an empty list if no matches were found
 	 */
 	public static java.util.List<com.liferay.portal.kernel.model.Layout>
 			getAllLayouts(long groupId, boolean privateLayout, String type)
