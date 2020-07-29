@@ -113,7 +113,8 @@ public interface DLFileEntryTypeLocalService
 
 	/**
 	 * @deprecated As of Athanasius (7.3.x), replaced by {@link
-	 #addFileEntryType(long, long, String, Map, Map, long, ServiceContext)}
+	 #addFileEntryType(long, long, String, Map, Map, long,
+	 ServiceContext)}
 	 */
 	@Deprecated
 	public DLFileEntryType addFileEntryType(
@@ -124,7 +125,8 @@ public interface DLFileEntryTypeLocalService
 
 	/**
 	 * @deprecated As of Athanasius (7.3.x), replaced by {@link
-	 #addFileEntryType(long, long, String, Map, Map, long, ServiceContext)}
+	 #addFileEntryType(long, long, String, Map, Map, long,
+	 ServiceContext)}
 	 */
 	@Deprecated
 	public DLFileEntryType addFileEntryType(

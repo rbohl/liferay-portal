@@ -689,8 +689,8 @@ public class UserServiceSoap {
 	 * @param status the workflow status
 	 * @param start the lower bound of the range of users
 	 * @param end the upper bound of the range of users (not inclusive)
-	 * @param orderByComparator the comparator to order the users by (optionally
-	 <code>null</code>)
+	 * @param orderByComparator the comparator to order the users by
+	 (optionally <code>null</code>)
 	 * @return the matching users
 	 */
 	public static com.liferay.portal.kernel.model.UserSoap[] getGroupUsers(
@@ -719,8 +719,8 @@ public class UserServiceSoap {
 	 *
 	 * @param groupId the primary key of the group
 	 * @param status the workflow status
-	 * @param orderByComparator the comparator to order the users by (optionally
-	 <code>null</code>)
+	 * @param orderByComparator the comparator to order the users by
+	 (optionally <code>null</code>)
 	 * @return the matching users
 	 */
 	public static com.liferay.portal.kernel.model.UserSoap[] getGroupUsers(
@@ -894,8 +894,8 @@ public class UserServiceSoap {
 	 * @param status the workflow status
 	 * @param start the lower bound of the range of users
 	 * @param end the upper bound of the range of users (not inclusive)
-	 * @param orderByComparator the comparator to order the users by (optionally
-	 <code>null</code>)
+	 * @param orderByComparator the comparator to order the users by
+	 (optionally <code>null</code>)
 	 * @return the matching users
 	 */
 	public static com.liferay.portal.kernel.model.UserSoap[]
@@ -925,8 +925,8 @@ public class UserServiceSoap {
 	 *
 	 * @param organizationId the primary key of the organization
 	 * @param status the workflow status
-	 * @param orderByComparator the comparator to order the users by (optionally
-	 <code>null</code>)
+	 * @param orderByComparator the comparator to order the users by
+	 (optionally <code>null</code>)
 	 * @return the matching users
 	 */
 	public static com.liferay.portal.kernel.model.UserSoap[]

@@ -65,7 +65,8 @@ public interface DLFileEntryTypeService extends BaseService {
 
 	/**
 	 * @deprecated As of Athanasius (7.3.x), replaced by {@link
-	 #addFileEntryType(long, String, Map, Map, long, ServiceContext)}
+	 #addFileEntryType(long, String, Map, Map, long,
+	 ServiceContext)}
 	 */
 	@Deprecated
 	public DLFileEntryType addFileEntryType(
@@ -76,7 +77,8 @@ public interface DLFileEntryTypeService extends BaseService {
 
 	/**
 	 * @deprecated As of Athanasius (7.3.x), replaced by {@link
-	 #addFileEntryType(long, String, Map, Map, long, ServiceContext)}
+	 #addFileEntryType(long, String, Map, Map, long,
+	 ServiceContext)}
 	 */
 	@Deprecated
 	public DLFileEntryType addFileEntryType(

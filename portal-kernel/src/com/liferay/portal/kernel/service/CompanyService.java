@@ -291,7 +291,8 @@ public interface CompanyService extends BaseService {
 	 * found in portal.properties.
 	 *
 	 * @param companyId the primary key of the company
-	 * @param unicodeProperties the company's properties. See {@link UnicodeProperties}
+	 * @param unicodeProperties the company's properties. See {@link
+	 UnicodeProperties}
 	 */
 	public void updatePreferences(
 			long companyId, UnicodeProperties unicodeProperties)

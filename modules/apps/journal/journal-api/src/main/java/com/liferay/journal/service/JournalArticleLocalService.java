@@ -83,7 +83,7 @@ public interface JournalArticleLocalService
 	/*
 	 * NOTE FOR DEVELOPERS:
 	 *
-	 * Never modify or reference this interface directly. Always use {@link JournalArticleLocalServiceUtil} to access the journal article local service. Add custom service methods to <code>com.liferay.journal.service.impl.JournalArticleLocalServiceImpl</code> and rerun ServiceBuilder to automatically copy the method declarations to this interface.
+	 * Never modify this interface directly. Add custom service methods to <code>com.liferay.journal.service.impl.JournalArticleLocalServiceImpl</code> and rerun ServiceBuilder to automatically copy the method declarations to this interface. Consume the journal article local service via injection or a <code>org.osgi.util.tracker.ServiceTracker</code>. Use {@link JournalArticleLocalServiceUtil} if injection and service tracking are not available.
 	 */
 
 	/**
@@ -1299,7 +1299,8 @@ public interface JournalArticleLocalService
 	 return
 	 * @param end the upper bound of the range of web content articles to
 	 return (not inclusive)
-	 * @param orderByComparator the comparator to order the web content articles
+	 * @param orderByComparator the comparator to order the web content
+	 articles
 	 * @return the range of matching web content articles ordered by the
 	 comparator
 	 */
@@ -1994,7 +1995,8 @@ public interface JournalArticleLocalService
 	 return
 	 * @param end the upper bound of the range of web content articles to
 	 return (not inclusive)
-	 * @param orderByComparator the comparator to order the web content articles
+	 * @param orderByComparator the comparator to order the web content
+	 articles
 	 * @return the range of matching web content articles ordered by the
 	 comparator
 	 */
@@ -2057,7 +2059,8 @@ public interface JournalArticleLocalService
 	 return
 	 * @param end the upper bound of the range of web content articles to
 	 return (not inclusive)
-	 * @param orderByComparator the comparator to order the web content articles
+	 * @param orderByComparator the comparator to order the web content
+	 articles
 	 * @return the range of matching web content articles ordered by the
 	 comparator
 	 */
@@ -2368,7 +2371,8 @@ public interface JournalArticleLocalService
 	 return
 	 * @param end the upper bound of the range of web content articles to
 	 return (not inclusive)
-	 * @param orderByComparator the comparator to order the web content articles
+	 * @param orderByComparator the comparator to order the web content
+	 articles
 	 * @return the range of matching web content articles ordered by the
 	 comparator
 	 */
@@ -2441,7 +2445,8 @@ public interface JournalArticleLocalService
 	 return
 	 * @param end the upper bound of the range of web content articles to
 	 return (not inclusive)
-	 * @param orderByComparator the comparator to order the web content articles
+	 * @param orderByComparator the comparator to order the web content
+	 articles
 	 * @return the range of matching web content articles ordered by the
 	 comparator
 	 */
@@ -2514,7 +2519,8 @@ public interface JournalArticleLocalService
 	 return
 	 * @param end the upper bound of the range of web content articles to
 	 return (not inclusive)
-	 * @param orderByComparator the comparator to order the web content articles
+	 * @param orderByComparator the comparator to order the web content
+	 articles
 	 * @return the range of matching web content articles ordered by the
 	 comparator
 	 */

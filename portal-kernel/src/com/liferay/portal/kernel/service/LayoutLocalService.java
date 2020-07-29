@@ -753,8 +753,7 @@ public interface LayoutLocalService
 	 * @param privateLayout whether the layout is private to the group
 	 * @param type the type of the layouts (optiona.lly {@link
 	 LayoutConstants#TYPE_PORTLET})
-	 * @return the matching layouts, or an empty list if no matches were
-	 found
+	 * @return the matching layouts, or an empty list if no matches were found
 	 */
 	@Transactional(propagation = Propagation.SUPPORTS, readOnly = true)
 	public List<Layout> getAllLayouts(

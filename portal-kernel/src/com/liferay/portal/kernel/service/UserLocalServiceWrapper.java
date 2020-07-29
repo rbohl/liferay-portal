@@ -556,8 +556,6 @@ public class UserLocalServiceWrapper
 	 * authenticating users of <code>tunnel-web</code>.
 	 *
 	 * @param companyId the primary key of the user's company
-	 * @param username either the user's email address, screen name, or primary
-	 key
 	 * @param realm unused
 	 * @param nonce the number used once
 	 * @param method the request method
@@ -1305,8 +1303,8 @@ public class UserLocalServiceWrapper
 	 * @param status the workflow status
 	 * @param start the lower bound of the range of users
 	 * @param end the upper bound of the range of users (not inclusive)
-	 * @param orderByComparator the comparator to order the users by (optionally
-	 <code>null</code>)
+	 * @param orderByComparator the comparator to order the users by
+	 (optionally <code>null</code>)
 	 * @return the matching users
 	 */
 	@Override
@@ -1335,8 +1333,8 @@ public class UserLocalServiceWrapper
 	 *
 	 * @param groupId the primary key of the group
 	 * @param status the workflow status
-	 * @param orderByComparator the comparator to order the users by (optionally
-	 <code>null</code>)
+	 * @param orderByComparator the comparator to order the users by
+	 (optionally <code>null</code>)
 	 * @return the matching users
 	 */
 	@Override
@@ -1464,8 +1462,8 @@ public class UserLocalServiceWrapper
 	 * @param status the workflow status
 	 * @param start the lower bound of the range of users
 	 * @param end the upper bound of the range of users (not inclusive)
-	 * @param orderByComparator the comparator to order the users by (optionally
-	 <code>null</code>)
+	 * @param orderByComparator the comparator to order the users by
+	 (optionally <code>null</code>)
 	 * @return the matching users
 	 */
 	@Override
@@ -1494,8 +1492,8 @@ public class UserLocalServiceWrapper
 	 *
 	 * @param organizationId the primary key of the organization
 	 * @param status the workflow status
-	 * @param orderByComparator the comparator to order the users by (optionally
-	 <code>null</code>)
+	 * @param orderByComparator the comparator to order the users by
+	 (optionally <code>null</code>)
 	 * @return the matching users
 	 */
 	@Override
@@ -1644,8 +1642,8 @@ public class UserLocalServiceWrapper
 	 types can be found in {@link SocialRelationConstants}.
 	 * @param start the lower bound of the range of users
 	 * @param end the upper bound of the range of users (not inclusive)
-	 * @param orderByComparator the comparator to order the users by (optionally
-	 <code>null</code>)
+	 * @param orderByComparator the comparator to order the users by
+	 (optionally <code>null</code>)
 	 * @return the ordered range of users with a mutual social relation of the
 	 type with the user
 	 */
@@ -1679,8 +1677,8 @@ public class UserLocalServiceWrapper
 	 * @param userId2 the primary key of the second user
 	 * @param start the lower bound of the range of users
 	 * @param end the upper bound of the range of users (not inclusive)
-	 * @param orderByComparator the comparator to order the users by (optionally
-	 <code>null</code>)
+	 * @param orderByComparator the comparator to order the users by
+	 (optionally <code>null</code>)
 	 * @return the ordered range of users with a mutual social relation with the
 	 user
 	 */
@@ -2197,8 +2195,8 @@ public class UserLocalServiceWrapper
 	 com.liferay.portal.kernel.service.persistence.UserFinder}.
 	 * @param start the lower bound of the range of users
 	 * @param end the upper bound of the range of users (not inclusive)
-	 * @param orderByComparator the comparator to order the users by (optionally
-	 <code>null</code>)
+	 * @param orderByComparator the comparator to order the users by
+	 (optionally <code>null</code>)
 	 * @return the matching users
 	 * @see com.liferay.portal.kernel.service.persistence.UserFinder
 	 */
@@ -2292,8 +2290,8 @@ public class UserLocalServiceWrapper
 	 or the last name 'smith'&quot;.
 	 * @param start the lower bound of the range of users
 	 * @param end the upper bound of the range of users (not inclusive)
-	 * @param orderByComparator the comparator to order the users by (optionally
-	 <code>null</code>)
+	 * @param orderByComparator the comparator to order the users by
+	 (optionally <code>null</code>)
 	 * @return the matching users
 	 * @see com.liferay.portal.kernel.service.persistence.UserFinder
 	 */
