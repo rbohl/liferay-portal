@@ -1242,7 +1242,7 @@ The tags `<aui:fieldset-group>` and `<liferay-frontend:fieldset-group>` added un
 
 ### What changed?
 
-`ContainerTag` was removed because `<aui:container>` was removed from tld definition.
+`ContainerTag` was removed, and with it the `<aui:container>` tag. The tag was also removed from the [AUI tld](https://learn.liferay.com/reference/latest/en/dxp/taglibs/util-taglib/aui/tld-summary.html).
 
 ### Who is affected?
 
@@ -1254,4 +1254,4 @@ Replace usages of `<aui:container>` with `<clay:container>`.
 
 ### Why was this change made?
 
-The tag `<aui:container>` was deprecated in previous versions.
+The tag `<aui:container>` was deprecated in a previous version.
