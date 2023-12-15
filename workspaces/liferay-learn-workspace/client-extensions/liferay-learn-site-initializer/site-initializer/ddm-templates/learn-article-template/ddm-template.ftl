@@ -131,7 +131,7 @@
 							href="https://liferay.dev/c/portal/login?redirect=https://liferay.dev/ask/questions/liferay-learn-feedback/new"
 							title="${languageUtil.get(locale, 'give-feedback', 'Give Feedback')}">
 							<svg>
-								<use xlink:href="#edit"></use>
+								<use xlink:href="#comments"></use>
 							</svg>
 						</a>
 					</div>
