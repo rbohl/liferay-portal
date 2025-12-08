@@ -1,0 +1,15 @@
+assemble:
+    -   from: build/vite
+        into: static
+liferay-learn-custom-element:
+    cssURLs:
+        -   "**/index*.css"
+    friendlyURLMapping: liferay-learn-custom-element
+    htmlElementName: liferay-learn-custom-element
+    instanceable: true
+    name: Liferay Learn
+    portletCategoryName: category.client-extensions
+    type: customElement
+    urls:
+        -   main.js
+    useESM: true

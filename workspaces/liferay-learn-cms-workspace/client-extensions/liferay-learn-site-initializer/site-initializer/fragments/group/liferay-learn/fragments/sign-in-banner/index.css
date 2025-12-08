@@ -1,0 +1,75 @@
+.sign-in-banner {
+	align-items: center;
+	background:
+		radial-gradient(52.24% 284.19% at 100% 100%, #FF6DA3 16.34%, rgba(202, 0, 250, 0.8) 55.85%, rgba(202, 0, 250, 0) 100%),
+		radial-gradient(100% 300% at 0% 100%, #009CFF 0%, #0001A5 36.46%, #0069FF 75.52%, #00E0FF 100%);
+	border-radius: 10px;
+	color: var(--color-neutral-0, #ffffff);
+	display: flex;
+	font-size: 1rem;
+	font-weight: 600;
+	gap: 0.5rem;
+	justify-content: center;
+	padding: 0.5rem 1.75rem;
+	position: relative; 
+	width: 100%;
+	
+	a {
+		color: var(--color-neutral-0, #ffffff);
+		cursor: pointer;
+	}
+
+	.banner-content {
+		align-items: center;
+		display: flex;
+		gap: 1rem;
+		justify-content: center;
+		text-align: center;
+		width: 90%;
+	}
+	
+	.banner-icon-close {
+		background: none;
+		border: none;
+		cursor: pointer;
+		position: absolute;
+		right: 3%;
+	}
+	
+	.banner-login-button {
+		align-items: center;
+		background-color: var(--color-neutral-0, #ffffff);
+		border: 1px solid var(--color-brand-primary, #0B5FFF);
+		border-radius: 0.5rem;
+		color: #0B5FFF;
+		display: flex;
+		flex-wrap: wrap;
+		height: 50%;
+		justify-content: center;
+		padding: 0.5rem;
+	}
+}
+
+
+@media (max-width: 768px) {
+	.banner-login-button {
+		width: unset !important;
+	}
+}
+
+@media (max-width: 1229px) {
+	.sign-in-banner {
+		bottom: 0.5rem;
+		box-shadow: 0 1.25px 4px 0 rgba(39, 40, 51, 0.25);
+		left: 0.5rem;
+		padding: 1rem;
+		position: fixed;
+		right: 0.5rem;
+		width: unset;
+		z-index: 9999;
+
+		.banner-icon-close {
+			position: static;
+		}
+	}
+}

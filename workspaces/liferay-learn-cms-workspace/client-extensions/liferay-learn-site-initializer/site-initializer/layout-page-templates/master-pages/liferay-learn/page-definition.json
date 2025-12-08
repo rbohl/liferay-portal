@@ -1,0 +1,3590 @@
+{
+	"pageElement": {
+		"pageElements": [
+			{
+				"definition": {
+					"cssClasses": [
+						"public-site-navigation-container"
+					],
+					"fragment": {
+						"key": "public-sites-navigation",
+						"siteKey": "Liferay Learn"
+					},
+					"fragmentConfig": {
+						"darkNav": true,
+						"searchBlueprintId": 0,
+						"showAccountMenu": true,
+						"showCta": false,
+						"showHelp": true,
+						"showLanguageMenu": true,
+						"showSearch": true,
+						"showSiteName": true,
+						"showSitesMenu": true
+					},
+					"fragmentFields": [
+						{
+							"id": "searchSeeAllResultsButton",
+							"value": {
+								"fragmentLink": {
+									"value": {
+										"href": {
+											"value": "/search"
+										}
+									}
+								}
+							}
+						},
+						{
+							"id": "siteName",
+							"value": {
+								"fragmentLink": {
+								},
+								"text": {
+									"value_i18n": {
+										"en_US": "Learn"
+									}
+								}
+							}
+						}
+					],
+					"indexed": true
+				},
+				"pageElements": [
+					{
+						"definition": {
+						},
+						"pageElements": [
+							{
+								"definition": {
+									"fragmentStyle": {
+										"paddingBottom": "2",
+										"paddingLeft": "2",
+										"paddingRight": "2",
+										"paddingTop": "2"
+									},
+									"indexed": true,
+									"layout": {
+									}
+								},
+								"pageElements": [
+									{
+										"definition": {
+											"cssClasses": [
+												"liferay-nav-item"
+											],
+											"fragmentLink": {
+												"href": {
+													"value_i18n": {
+														"en_US": "https://www.liferay.com"
+													}
+												},
+												"target": "Blank"
+											},
+											"fragmentStyle": {
+												"paddingBottom": "2",
+												"paddingLeft": "2",
+												"paddingRight": "2",
+												"paddingTop": "2"
+											},
+											"indexed": true,
+											"layout": {
+												"align": "Center",
+												"contentDisplay": "FlexRow"
+											}
+										},
+										"pageElements": [
+											{
+												"definition": {
+													"fragment": {
+														"key": "BASIC_COMPONENT-html"
+													},
+													"fragmentConfig": {
+													},
+													"fragmentFields": [
+														{
+															"id": "element-html",
+															"value": {
+																"html": {
+																	"value_i18n": {
+																		"en_US": "<svg class=\"lexicon-icon lexicon-icon-sites\" role=\"presentation\" viewBox=\"0 0 512 512\">\n  <use color=\"#fff\" xlink:href=\"/o/dialect-theme/images/clay/icons.svg#sites\"></use>\n</svg>"
+																	}
+																}
+															}
+														}
+													],
+													"fragmentStyle": {
+														"backgroundColor": "colorBrandPrimary",
+														"borderRadius": "4px",
+														"paddingLeft": "1",
+														"paddingRight": "1",
+														"width": "12%"
+													},
+													"indexed": true
+												},
+												"type": "Fragment"
+											},
+											{
+												"definition": {
+													"cssClasses": [
+														"liferay-nav-text"
+													],
+													"fragment": {
+														"key": "dialect-text",
+														"siteKey": "Liferay Learn"
+													},
+													"fragmentConfig": {
+														"textType": "text-paragraph",
+														"truncateText": false
+													},
+													"fragmentFields": [
+														{
+															"id": "element-text",
+															"value": {
+																"fragmentLink": {
+																	"value": {
+																		"href": {
+																			"value_i18n": {
+																				"en_US": ""
+																			}
+																		}
+																	}
+																},
+																"text": {
+																	"value_i18n": {
+																		"en_US": "Liferay.com"
+																	}
+																}
+															}
+														}
+													],
+													"fragmentStyle": {
+														"marginLeft": "2"
+													},
+													"indexed": true
+												},
+												"type": "Fragment"
+											},
+											{
+												"definition": {
+													"fragment": {
+														"key": "BASIC_COMPONENT-html"
+													},
+													"fragmentConfig": {
+													},
+													"fragmentFields": [
+														{
+															"id": "element-html",
+															"value": {
+																"html": {
+																	"value_i18n": {
+																		"en_US": "<svg class=\"hover-show-icon lexicon-icon lexicon-icon-sites\" role=\"presentation\" viewBox=\"0 0 512 512\">\n  <use xlink:href=\"/o/dialect-theme/images/clay/icons.svg#shortcut\"></use>\n</svg>"
+																	}
+																}
+															}
+														}
+													],
+													"indexed": true
+												},
+												"type": "Fragment"
+											}
+										],
+										"type": "Section"
+									},
+									{
+										"definition": {
+											"cssClasses": [
+												"liferay-nav-item"
+											],
+											"fragmentLink": {
+												"href": {
+													"value_i18n": {
+														"en_US": "https://support.liferay.com/"
+													}
+												},
+												"target": "Blank"
+											},
+											"fragmentStyle": {
+												"paddingBottom": "2",
+												"paddingLeft": "2",
+												"paddingRight": "2",
+												"paddingTop": "2"
+											},
+											"indexed": true,
+											"layout": {
+												"align": "Center",
+												"contentDisplay": "FlexRow"
+											}
+										},
+										"pageElements": [
+											{
+												"definition": {
+													"fragment": {
+														"key": "BASIC_COMPONENT-html"
+													},
+													"fragmentConfig": {
+													},
+													"fragmentFields": [
+														{
+															"id": "element-html",
+															"value": {
+																"html": {
+																	"value_i18n": {
+																		"en_US": "<svg class=\"lexicon-icon lexicon-icon-sites\" role=\"presentation\" viewBox=\"0 0 512 512\">\n  <use color=\"#fff\" xlink:href=\"/o/dialect-theme/images/clay/icons.svg#sites\"></use>\n</svg>"
+																	}
+																}
+															}
+														}
+													],
+													"fragmentStyle": {
+														"backgroundColor": "colorAccent4",
+														"borderRadius": "4px",
+														"paddingLeft": "1",
+														"paddingRight": "1",
+														"width": "12%"
+													},
+													"indexed": true
+												},
+												"type": "Fragment"
+											},
+											{
+												"definition": {
+													"cssClasses": [
+														"liferay-nav-text"
+													],
+													"fragment": {
+														"key": "dialect-text",
+														"siteKey": "Liferay Learn"
+													},
+													"fragmentConfig": {
+														"textType": "text-paragraph",
+														"truncateText": false
+													},
+													"fragmentFields": [
+														{
+															"id": "element-text",
+															"value": {
+																"fragmentLink": {
+																	"value": {
+																		"href": {
+																			"value_i18n": {
+																				"en_US": ""
+																			}
+																		}
+																	}
+																},
+																"text": {
+																	"value_i18n": {
+																		"en_US": "Customer Portal"
+																	}
+																}
+															}
+														}
+													],
+													"fragmentStyle": {
+														"marginLeft": "2",
+														"width": "26rem"
+													},
+													"indexed": true
+												},
+												"type": "Fragment"
+											},
+											{
+												"definition": {
+													"fragment": {
+														"key": "BASIC_COMPONENT-html"
+													},
+													"fragmentConfig": {
+													},
+													"fragmentFields": [
+														{
+															"id": "element-html",
+															"value": {
+																"html": {
+																	"value_i18n": {
+																		"en_US": "<svg class=\"hover-show-icon lexicon-icon lexicon-icon-sites\" role=\"presentation\" viewBox=\"0 0 512 512\">\n  <use xlink:href=\"/o/dialect-theme/images/clay/icons.svg#shortcut\"></use>\n</svg>"
+																	}
+																}
+															}
+														}
+													],
+													"indexed": true
+												},
+												"type": "Fragment"
+											}
+										],
+										"type": "Section"
+									},
+									{
+										"definition": {
+											"cssClasses": [
+												"liferay-nav-item"
+											],
+											"fragmentLink": {
+												"href": {
+													"value_i18n": {
+														"en_US": "https://partner.liferay.com/"
+													}
+												},
+												"target": "Blank"
+											},
+											"fragmentStyle": {
+												"paddingBottom": "2",
+												"paddingLeft": "2",
+												"paddingRight": "2",
+												"paddingTop": "2"
+											},
+											"indexed": true,
+											"layout": {
+												"align": "Center",
+												"contentDisplay": "FlexRow"
+											}
+										},
+										"pageElements": [
+											{
+												"definition": {
+													"fragment": {
+														"key": "BASIC_COMPONENT-html"
+													},
+													"fragmentConfig": {
+													},
+													"fragmentFields": [
+														{
+															"id": "element-html",
+															"value": {
+																"html": {
+																	"value_i18n": {
+																		"en_US": "<svg class=\"lexicon-icon lexicon-icon-sites\" role=\"presentation\" viewBox=\"0 0 512 512\">\n  <use color=\"#fff\" xlink:href=\"/o/dialect-theme/images/clay/icons.svg#sites\"></use>\n</svg>"
+																	}
+																}
+															}
+														}
+													],
+													"fragmentStyle": {
+														"backgroundColor": "colorAccent2",
+														"borderRadius": "4px",
+														"paddingLeft": "1",
+														"paddingRight": "1",
+														"width": "12%"
+													},
+													"indexed": true
+												},
+												"type": "Fragment"
+											},
+											{
+												"definition": {
+													"cssClasses": [
+														"liferay-nav-text"
+													],
+													"fragment": {
+														"key": "dialect-text",
+														"siteKey": "Liferay Learn"
+													},
+													"fragmentConfig": {
+														"textType": "text-paragraph",
+														"truncateText": false
+													},
+													"fragmentFields": [
+														{
+															"id": "element-text",
+															"value": {
+																"fragmentLink": {
+																	"value": {
+																		"href": {
+																			"value_i18n": {
+																				"en_US": ""
+																			}
+																		}
+																	}
+																},
+																"text": {
+																	"value_i18n": {
+																		"en_US": "Partner Portal"
+																	}
+																}
+															}
+														}
+													],
+													"fragmentStyle": {
+														"marginLeft": "2",
+														"width": "26rem"
+													},
+													"indexed": true
+												},
+												"type": "Fragment"
+											},
+											{
+												"definition": {
+													"fragment": {
+														"key": "BASIC_COMPONENT-html"
+													},
+													"fragmentConfig": {
+													},
+													"fragmentFields": [
+														{
+															"id": "element-html",
+															"value": {
+																"html": {
+																	"value_i18n": {
+																		"en_US": "<svg class=\"hover-show-icon lexicon-icon lexicon-icon-sites\" role=\"presentation\" viewBox=\"0 0 512 512\">\n  <use xlink:href=\"/o/dialect-theme/images/clay/icons.svg#shortcut\"></use>\n</svg>"
+																	}
+																}
+															}
+														}
+													],
+													"indexed": true
+												},
+												"type": "Fragment"
+											}
+										],
+										"type": "Section"
+									},
+									{
+										"definition": {
+											"cssClasses": [
+												"liferay-nav-item"
+											],
+											"fragmentLink": {
+												"href": {
+													"value_i18n": {
+														"en_US": "https://liferay.dev/"
+													}
+												},
+												"target": "Blank"
+											},
+											"fragmentStyle": {
+												"paddingBottom": "2",
+												"paddingLeft": "2",
+												"paddingRight": "2",
+												"paddingTop": "2"
+											},
+											"indexed": true,
+											"layout": {
+												"align": "Center",
+												"contentDisplay": "FlexRow"
+											}
+										},
+										"pageElements": [
+											{
+												"definition": {
+													"fragment": {
+														"key": "BASIC_COMPONENT-html"
+													},
+													"fragmentConfig": {
+													},
+													"fragmentFields": [
+														{
+															"id": "element-html",
+															"value": {
+																"html": {
+																	"value_i18n": {
+																		"en_US": "<svg class=\"lexicon-icon lexicon-icon-sites\" role=\"presentation\" viewBox=\"0 0 512 512\">\n  <use color=\"#fff\" xlink:href=\"/o/dialect-theme/images/clay/icons.svg#sites\"></use>\n</svg>"
+																	}
+																}
+															}
+														}
+													],
+													"fragmentStyle": {
+														"backgroundColor": "colorAccent5",
+														"borderRadius": "4px",
+														"paddingLeft": "1",
+														"paddingRight": "1",
+														"width": "12%"
+													},
+													"indexed": true
+												},
+												"type": "Fragment"
+											},
+											{
+												"definition": {
+													"cssClasses": [
+														"liferay-nav-text"
+													],
+													"fragment": {
+														"key": "dialect-text",
+														"siteKey": "Liferay Learn"
+													},
+													"fragmentConfig": {
+														"textType": "text-paragraph",
+														"truncateText": false
+													},
+													"fragmentFields": [
+														{
+															"id": "element-text",
+															"value": {
+																"fragmentLink": {
+																	"value": {
+																		"href": {
+																			"value_i18n": {
+																				"en_US": ""
+																			}
+																		}
+																	}
+																},
+																"text": {
+																	"value_i18n": {
+																		"en_US": "Community"
+																	}
+																}
+															}
+														}
+													],
+													"fragmentStyle": {
+														"marginLeft": "2"
+													},
+													"indexed": true
+												},
+												"type": "Fragment"
+											},
+											{
+												"definition": {
+													"fragment": {
+														"key": "BASIC_COMPONENT-html"
+													},
+													"fragmentConfig": {
+													},
+													"fragmentFields": [
+														{
+															"id": "element-html",
+															"value": {
+																"html": {
+																	"value_i18n": {
+																		"en_US": "<svg class=\"hover-show-icon lexicon-icon lexicon-icon-sites\" role=\"presentation\" viewBox=\"0 0 512 512\">\n  <use xlink:href=\"/o/dialect-theme/images/clay/icons.svg#shortcut\"></use>\n</svg>"
+																	}
+																}
+															}
+														}
+													],
+													"indexed": true
+												},
+												"type": "Fragment"
+											}
+										],
+										"type": "Section"
+									},
+									{
+										"definition": {
+											"cssClasses": [
+												"liferay-nav-item"
+											],
+											"fragmentLink": {
+												"href": {
+													"value_i18n": {
+														"en_US": "https://marketplace.liferay.com/"
+													}
+												}
+											},
+											"fragmentStyle": {
+												"paddingBottom": "2",
+												"paddingLeft": "2",
+												"paddingRight": "2",
+												"paddingTop": "2"
+											},
+											"indexed": true,
+											"layout": {
+												"align": "Center",
+												"contentDisplay": "FlexRow"
+											}
+										},
+										"pageElements": [
+											{
+												"definition": {
+													"fragment": {
+														"key": "BASIC_COMPONENT-html"
+													},
+													"fragmentConfig": {
+													},
+													"fragmentFields": [
+														{
+															"id": "element-html",
+															"value": {
+																"html": {
+																	"value_i18n": {
+																		"en_US": "<svg class=\"lexicon-icon lexicon-icon-sites\" role=\"presentation\" viewBox=\"0 0 512 512\">\n  <use color=\"#fff\" xlink:href=\"/o/dialect-theme/images/clay/icons.svg#sites\"></use>\n</svg>"
+																	}
+																}
+															}
+														}
+													],
+													"fragmentStyle": {
+														"backgroundColor": "colorAccent1",
+														"borderRadius": "4px",
+														"paddingLeft": "1",
+														"paddingRight": "1",
+														"width": "12%"
+													},
+													"indexed": true
+												},
+												"type": "Fragment"
+											},
+											{
+												"definition": {
+													"cssClasses": [
+														"liferay-nav-text"
+													],
+													"fragment": {
+														"key": "dialect-text",
+														"siteKey": "Liferay Learn"
+													},
+													"fragmentConfig": {
+														"textType": "text-paragraph",
+														"truncateText": false
+													},
+													"fragmentFields": [
+														{
+															"id": "element-text",
+															"value": {
+																"fragmentLink": {
+																	"value": {
+																		"href": {
+																			"value_i18n": {
+																				"en_US": ""
+																			}
+																		}
+																	}
+																},
+																"text": {
+																	"value_i18n": {
+																		"en_US": "Marketplace"
+																	}
+																}
+															}
+														}
+													],
+													"fragmentStyle": {
+														"marginLeft": "2"
+													},
+													"indexed": true
+												},
+												"type": "Fragment"
+											},
+											{
+												"definition": {
+													"fragment": {
+														"key": "BASIC_COMPONENT-html"
+													},
+													"fragmentConfig": {
+													},
+													"fragmentFields": [
+														{
+															"id": "element-html",
+															"value": {
+																"html": {
+																	"value_i18n": {
+																		"en_US": "<svg class=\"hover-show-icon lexicon-icon lexicon-icon-sites\" role=\"presentation\" viewBox=\"0 0 512 512\">\n  <use xlink:href=\"/o/dialect-theme/images/clay/icons.svg#shortcut\"></use>\n</svg>"
+																	}
+																}
+															}
+														}
+													],
+													"indexed": true
+												},
+												"type": "Fragment"
+											}
+										],
+										"type": "Section"
+									}
+								],
+								"type": "Section"
+							}
+						],
+						"type": "FragmentDropZone"
+					},
+					{
+						"definition": {
+						},
+						"pageElements": [
+							{
+								"definition": {
+									"widgetInstance": {
+										"widgetConfig": {
+										},
+										"widgetName": "com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet"
+									}
+								},
+								"type": "Widget"
+							}
+						],
+						"type": "FragmentDropZone"
+					},
+					{
+						"definition": {
+						},
+						"pageElements": [
+							{
+								"definition": {
+									"indexed": true,
+									"layout": {
+									}
+								},
+								"pageElements": [
+									{
+										"definition": {
+											"fragment": {
+												"key": "account-dropdown",
+												"siteKey": "Liferay Learn"
+											},
+											"fragmentConfig": {
+												"additionalItems": true,
+												"alignDropdown": "right",
+												"hideLabel": true
+											},
+											"fragmentFields": [
+											],
+											"indexed": true
+										},
+										"pageElements": [
+											{
+												"definition": {
+													"fragmentDropZoneId": "account-dropdown-dropzone"
+												},
+												"pageElements": [
+													{
+														"definition": {
+															"customCSS": ".[$FRAGMENT_CLASS$] {\n   \n}",
+															"fragment": {
+																"key": "dropdown-menu-item",
+																"siteKey": "Liferay Learn"
+															},
+															"fragmentConfig": {
+																"external": false,
+																"url": {
+																	"en_US": {
+																	}
+																}
+															},
+															"fragmentFields": [
+																{
+																	"id": "html",
+																	"value": {
+																		"html": {
+																			"value_i18n": {
+																				"en_US": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M19.4689 4.00049H16.475C16.2001 4.00049 15.9766 4.22405 15.9766 4.50004V7.49398C15.9766 7.77 16.2001 7.99353 16.4761 7.99353H19.4701C19.746 7.99353 19.9696 7.76997 19.9696 7.49398V4.50004C19.9685 4.22402 19.745 4.00049 19.4689 4.00049Z\" fill=\"currentColor\"></path>\n<path d=\"M7.49447 9.9884H4.50053C4.22451 9.9884 4.00098 10.2119 4.00098 10.488V13.4819C4.00098 13.7579 4.22454 13.9814 4.50053 13.9814H7.49447C7.77049 13.9814 7.9929 13.7579 7.9929 13.4819V10.488C7.9929 10.2119 7.76934 9.9884 7.49447 9.9884Z\" fill=\"currentColor\"></path>\n<path d=\"M13.4808 9.9884H10.4869C10.2108 9.9884 9.9873 10.2119 9.9873 10.488V13.4819C9.9873 13.7579 10.2108 13.9814 10.4869 13.9814H13.4808C13.7568 13.9814 13.9803 13.7579 13.9803 13.4819V10.488C13.9803 10.2119 13.7568 9.9884 13.4808 9.9884Z\" fill=\"currentColor\"></path>\n<path d=\"M19.4691 9.9884H16.4751C16.1991 9.9884 15.9756 10.2119 15.9756 10.488V13.4819C15.9756 13.7579 16.1991 13.9814 16.4751 13.9814H19.4691C19.7451 13.9814 19.9686 13.7579 19.9686 13.4819V10.488C19.9686 10.2119 19.7451 9.9884 19.4691 9.9884Z\" fill=\"currentColor\"></path>\n<path d=\"M7.49447 15.9762H4.50053C4.22451 15.9762 4.00098 16.1998 4.00098 16.4758V19.4697C4.00098 19.7446 4.22454 19.9681 4.50053 19.9681H7.49447C7.77049 19.9681 7.9929 19.7446 7.9929 19.4686V16.4746C7.9929 16.1998 7.76934 15.9762 7.49447 15.9762Z\" fill=\"currentColor\"></path>\n<path d=\"M13.4808 15.9762H10.4869C10.2108 15.9762 9.9873 16.1998 9.9873 16.4758V19.4697C9.9873 19.7457 10.2108 19.9692 10.4869 19.9692H13.4808C13.7568 19.9692 13.9803 19.7457 13.9803 19.4697V16.4758C13.9803 16.1998 13.7568 15.9762 13.4808 15.9762Z\" fill=\"currentColor\"></path>\n<path d=\"M19.4691 15.9762H16.4751C16.1991 15.9762 15.9756 16.1998 15.9756 16.4758V19.4697C15.9756 19.7457 16.1991 19.9693 16.4751 19.9693H19.4691C19.7451 19.9681 19.9686 19.7446 19.9686 19.4686V16.4746C19.9686 16.1998 19.7451 15.9762 19.4691 15.9762Z\" fill=\"currentColor\"></path>\n<path d=\"M7.49447 4.00049H4.50053C4.22451 4.00049 4.00098 4.22405 4.00098 4.50004V7.49398C4.00098 7.76888 4.22454 7.99241 4.50053 7.99241H7.49447C7.77049 7.99241 7.9929 7.76885 7.9929 7.49285V4.50008C7.9929 4.22405 7.76934 4.00049 7.49447 4.00049Z\" fill=\"currentColor\"></path>\n<path d=\"M13.4808 4.00049H10.4869C10.2108 4.00049 9.9873 4.22405 9.9873 4.50004V7.49398C9.9873 7.77 10.2108 7.99353 10.4869 7.99353H13.4808C13.7568 7.99353 13.9803 7.76997 13.9803 7.49398V4.50004C13.9803 4.22402 13.7568 4.00049 13.4808 4.00049Z\" fill=\"currentColor\"></path>\n</svg>\n"
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "title",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "Dashboard"
+																			}
+																		}
+																	}
+																}
+															],
+															"indexed": true
+														},
+														"type": "Fragment"
+													}
+												],
+												"type": "FragmentDropZone"
+											}
+										],
+										"type": "Fragment"
+									}
+								],
+								"type": "Section"
+							}
+						],
+						"type": "FragmentDropZone"
+					},
+					{
+						"definition": {
+						},
+						"pageElements": [
+							{
+								"definition": {
+									"cssClasses": [
+										"documentation-education-dropdown"
+									],
+									"fragmentStyle": {
+										"textColor": "colorNeutral0"
+									},
+									"indexed": true,
+									"layout": {
+										"contentDisplay": "FlexRow"
+									}
+								},
+								"pageElements": [
+									{
+										"definition": {
+											"cssClasses": [
+												"documentation-dropdown"
+											],
+											"fragment": {
+												"key": "public-sites-navigation-dropdown",
+												"siteKey": "Liferay Learn"
+											},
+											"fragmentConfig": {
+												"buttonSize": "nm",
+												"buttonType": "primary",
+												"displayOnHover": false,
+												"keepOpen": false,
+												"panelType": "mega-menu"
+											},
+											"fragmentFields": [
+												{
+													"id": "dropdown-text",
+													"value": {
+														"fragmentLink": {
+														},
+														"text": {
+															"value_i18n": {
+																"en_US": "Documentation"
+															}
+														}
+													}
+												},
+												{
+													"id": "title",
+													"value": {
+														"fragmentLink": {
+														}
+													}
+												}
+											],
+											"indexed": true
+										},
+										"pageElements": [
+											{
+												"definition": {
+													"fragmentDropZoneId": "1"
+												},
+												"pageElements": [
+													{
+														"definition": {
+															"indexed": true,
+															"layout": {
+															}
+														},
+														"pageElements": [
+															{
+																"definition": {
+																	"gutters": true,
+																	"indexed": true,
+																	"modulesPerRow": 4,
+																	"numberOfColumns": 4,
+																	"reverseOrder": false,
+																	"rowViewports": [
+																		{
+																			"id": "landscapeMobile",
+																			"rowViewportDefinition": {
+																				"modulesPerRow": 1
+																			}
+																		},
+																		{
+																			"id": "portraitMobile",
+																			"rowViewportDefinition": {
+																			}
+																		},
+																		{
+																			"id": "tablet",
+																			"rowViewportDefinition": {
+																			}
+																		}
+																	],
+																	"verticalAlignment": "top"
+																},
+																"pageElements": [
+																	{
+																		"definition": {
+																			"columnViewports": [
+																				{
+																					"columnViewportDefinition": {
+																						"size": 12
+																					},
+																					"id": "landscapeMobile"
+																				},
+																				{
+																					"columnViewportDefinition": {
+																					},
+																					"id": "portraitMobile"
+																				},
+																				{
+																					"columnViewportDefinition": {
+																					},
+																					"id": "tablet"
+																				}
+																			],
+																			"size": 1
+																		},
+																		"type": "Column"
+																	},
+																	{
+																		"definition": {
+																			"columnViewports": [
+																				{
+																					"columnViewportDefinition": {
+																						"size": 12
+																					},
+																					"id": "landscapeMobile"
+																				},
+																				{
+																					"columnViewportDefinition": {
+																					},
+																					"id": "portraitMobile"
+																				},
+																				{
+																					"columnViewportDefinition": {
+																					},
+																					"id": "tablet"
+																				}
+																			],
+																			"size": 5
+																		},
+																		"pageElements": [
+																			{
+																				"definition": {
+																					"cssClasses": [
+																						"container-cta-dropdown"
+																					],
+																					"customCSS": ".[$FRAGMENT_CLASS$] {\n\n\n}",
+																					"fragmentStyle": {
+																						"paddingBottom": "3",
+																						"paddingLeft": "3",
+																						"paddingRight": "3",
+																						"paddingTop": "3",
+																						"width": "100%"
+																					},
+																					"indexed": true,
+																					"layout": {
+																						"align": "Center",
+																						"contentDisplay": "FlexRow",
+																						"justify": "End",
+																						"paddingBottom": 1,
+																						"paddingLeft": 1,
+																						"paddingRight": 1,
+																						"paddingTop": 1
+																					}
+																				},
+																				"pageElements": [
+																					{
+																						"definition": {
+																							"fragmentStyle": {
+																								"paddingTop": "4"
+																							},
+																							"indexed": true,
+																							"layout": {
+																								"align": "Center",
+																								"contentDisplay": "FlexColumn",
+																								"paddingTop": 2
+																							}
+																						},
+																						"pageElements": [
+																							{
+																								"definition": {
+																									"fragment": {
+																										"key": "dialect-text",
+																										"siteKey": "Liferay Learn"
+																									},
+																									"fragmentConfig": {
+																										"textType": "text-paragraph",
+																										"truncateText": false
+																									},
+																									"fragmentFields": [
+																										{
+																											"id": "element-text",
+																											"value": {
+																												"fragmentLink": {
+																												},
+																												"text": {
+																													"value_i18n": {
+																														"en_US": "Capabilities"
+																													}
+																												}
+																											}
+																										}
+																									],
+																									"fragmentStyle": {
+																										"fontWeight": "600",
+																										"marginRight": "auto",
+																										"paddingBottom": "2",
+																										"textColor": "#54555F"
+																									},
+																									"indexed": true
+																								},
+																								"type": "Fragment"
+																							},
+																							{
+																								"definition": {
+																									"cssClasses": [
+																										"container-cta-content-dropdown"
+																									],
+																									"fragmentStyle": {
+																										"paddingTop": "2"
+																									},
+																									"indexed": true,
+																									"layout": {
+																										"align": "Start",
+																										"contentDisplay": "FlexRow"
+																									}
+																								},
+																								"pageElements": [
+																									{
+																										"definition": {
+																											"indexed": true,
+																											"layout": {
+																												"contentDisplay": "FlexColumn"
+																											}
+																										},
+																										"pageElements": [
+																											{
+																												"definition": {
+																													"fragment": {
+																														"key": "mega-menu-item",
+																														"siteKey": "Liferay Learn"
+																													},
+																													"fragmentConfig": {
+																														"external": false,
+																														"url": "",
+																														"visual": "icon"
+																													},
+																													"fragmentFields": [
+																														{
+																															"id": "description",
+																															"value": {
+																																"fragmentLink": {
+																																},
+																																"text": {
+																																	"value_i18n": {
+																																		"en_US": "Use Liferay's Cloud infrastructure to launch your solutions more quickly and securely."
+																																	}
+																																}
+																															}
+																														},
+																														{
+																															"id": "html",
+																															"value": {
+																																"html": {
+																																	"value_i18n": {
+																																		"en_US": "<svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M2.12679 5.27334C2.12679 4.86211 2.46758 4.50667 2.92679 4.50667H27.2135C27.668 4.50667 28.0135 4.86406 28.0135 5.27334V9.24C28.0135 9.65127 27.6727 10.0067 27.2135 10.0067H2.92679C2.47225 10.0067 2.12679 9.64927 2.12679 9.24V5.27334ZM2.92679 3.17334C1.75934 3.17334 0.793457 4.09791 0.793457 5.27334V9.24C0.793457 10.4174 1.768 11.34 2.92679 11.34H27.2135C28.3809 11.34 29.3468 10.4155 29.3468 9.24V5.27334C29.3468 4.09595 28.3723 3.17334 27.2135 3.17334H2.92679ZM2.12679 14.0733C2.12679 13.6621 2.46758 13.3067 2.92679 13.3067H27.2135C27.668 13.3067 28.0135 13.664 28.0135 14.0733V18.04C28.0135 18.4512 27.6727 18.8067 27.2135 18.8067H26.1595C26.8991 19.0269 27.5601 19.4276 28.0847 19.9578C28.8249 19.6324 29.3468 18.904 29.3468 18.04V14.0733C29.3468 12.8959 28.3723 11.9733 27.2135 11.9733H2.92679C1.75934 11.9733 0.793457 12.8979 0.793457 14.0733V18.04C0.793457 19.2173 1.768 20.14 2.92679 20.14H7.87066C8.49319 19.7582 9.22979 19.5385 10.0147 19.5385C10.2963 19.5385 10.5699 19.5691 10.8328 19.6249C10.8829 19.3379 10.9695 19.0637 11.0877 18.8067H2.92679C2.47225 18.8067 2.12679 18.4493 2.12679 18.04V14.0733ZM11.8426 18.8067C11.6571 19.1115 11.5303 19.4535 11.4773 19.8182C11.462 19.9237 11.4529 20.0311 11.4502 20.14H27.2135C27.2397 20.14 27.2659 20.1395 27.2919 20.1386C26.6281 19.6038 25.7735 19.2821 24.8407 19.2821C24.7001 19.2821 24.5629 19.2915 24.4283 19.3083C24.1739 19.3402 23.929 19.3989 23.6881 19.4713C23.7581 19.2545 23.8157 19.0344 23.8499 18.8067H11.8426ZM28.6667 23H28.0135V25.0393C28.4214 24.4566 28.6614 23.7553 28.6667 23ZM28.0135 26.0613V26.84C28.0135 27.2512 27.6727 27.6067 27.2135 27.6067H2.92679C2.47225 27.6067 2.12679 27.2493 2.12679 26.84V22.8733C2.12679 22.4621 2.46758 22.1067 2.92679 22.1067H6.2384C6.42519 21.6051 6.71466 21.1532 7.08132 20.7733H2.92679C1.75934 20.7733 0.793457 21.6979 0.793457 22.8733V26.84C0.793457 28.0173 1.768 28.94 2.92679 28.94H27.2135C28.3809 28.94 29.3468 28.0154 29.3468 26.84V23H29.3334C29.3263 24.2029 28.8211 25.2813 28.0135 26.0613ZM8.11632 20.7733C7.61592 21.1059 7.21419 21.5667 6.96172 22.1067H27.2135V20.7733H8.11632ZM7.37286 25.5259C7.07952 25.1388 6.86552 24.6807 6.75412 24.1963C6.85232 24.1474 6.96299 24.12 7.08012 24.12C7.48512 24.12 7.81346 24.4483 7.81346 24.8533C7.81346 25.1543 7.63219 25.4129 7.37286 25.5259ZM25.9935 25.5867C26.3985 25.5867 26.7268 25.2583 26.7268 24.8533C26.7268 24.4483 26.3985 24.12 25.9935 24.12C25.5885 24.12 25.2601 24.4483 25.2601 24.8533C25.2601 25.2583 25.5885 25.5867 25.9935 25.5867ZM4.14679 25.5867C4.5518 25.5867 4.88012 25.2583 4.88012 24.8533C4.88012 24.4483 4.5518 24.12 4.14679 24.12C3.74178 24.12 3.41346 24.4483 3.41346 24.8533C3.41346 25.2583 3.74178 25.5867 4.14679 25.5867ZM25.9935 16.7933C26.3985 16.7933 26.7268 16.465 26.7268 16.06C26.7268 15.6549 26.3985 15.3267 25.9935 15.3267C25.5885 15.3267 25.2601 15.6549 25.2601 16.06C25.2601 16.465 25.5885 16.7933 25.9935 16.7933ZM7.81346 16.06C7.81346 16.465 7.48512 16.7933 7.08012 16.7933C6.67512 16.7933 6.34679 16.465 6.34679 16.06C6.34679 15.6549 6.67512 15.3267 7.08012 15.3267C7.48512 15.3267 7.81346 15.6549 7.81346 16.06ZM4.14679 16.7933C4.5518 16.7933 4.88012 16.465 4.88012 16.06C4.88012 15.6549 4.5518 15.3267 4.14679 15.3267C3.74178 15.3267 3.41346 15.6549 3.41346 16.06C3.41346 16.465 3.74178 16.7933 4.14679 16.7933ZM25.9935 7.98667C26.3985 7.98667 26.7268 7.65833 26.7268 7.25333C26.7268 6.84833 26.3985 6.52001 25.9935 6.52001C25.5885 6.52001 25.2601 6.84833 25.2601 7.25333C25.2601 7.65833 25.5885 7.98667 25.9935 7.98667ZM7.81346 7.25333C7.81346 7.65833 7.48512 7.98667 7.08012 7.98667C6.67512 7.98667 6.34679 7.65833 6.34679 7.25333C6.34679 6.84833 6.67512 6.52001 7.08012 6.52001C7.48512 6.52001 7.81346 6.84833 7.81346 7.25333ZM4.14679 7.98667C4.5518 7.98667 4.88012 7.65833 4.88012 7.25333C4.88012 6.84833 4.5518 6.52001 4.14679 6.52001C3.74178 6.52001 3.41346 6.84833 3.41346 7.25333C3.41346 7.65833 3.74178 7.98667 4.14679 7.98667Z\" fill=\"#0B5FFF\"/>\n<path d=\"M24.8404 26.6667C26.9543 26.6667 28.6665 25.0144 28.6665 22.9744C28.6665 20.9344 26.9543 19.2821 24.8404 19.2821C24.4339 19.2821 24.056 19.3606 23.6878 19.4713C23.8026 19.1159 23.8839 18.7513 23.8839 18.3591C23.8839 16.3191 22.1717 14.6667 20.0578 14.6667C17.9439 14.6667 16.356 16.2221 16.2508 18.1698C15.7391 17.7175 15.0648 17.4359 14.3187 17.4359C12.7356 17.4359 11.4491 18.6775 11.4491 20.2052C11.4491 20.3206 11.4682 20.4313 11.4826 20.5467C11.0378 20.3344 10.5404 20.2052 10.0143 20.2052C8.16344 20.2052 6.6665 21.6498 6.6665 23.4359C6.6665 25.0698 7.89084 26.6667 9.5265 26.6667\" fill=\"#0B5FFF\"/>\n</svg>\n"
+																																	}
+																																}
+																															}
+																														},
+																														{
+																															"id": "title",
+																															"value": {
+																																"fragmentLink": {
+																																},
+																																"text": {
+																																	"value_i18n": {
+																																		"en_US": "Cloud"
+																																	}
+																																}
+																															}
+																														}
+																													],
+																													"fragmentStyle": {
+																														"width": "90%"
+																													},
+																													"indexed": true
+																												},
+																												"type": "Fragment"
+																											},
+																											{
+																												"definition": {
+																													"fragment": {
+																														"key": "mega-menu-item",
+																														"siteKey": "Liferay Learn"
+																													},
+																													"fragmentConfig": {
+																														"external": false,
+																														"url": "",
+																														"visual": "icon"
+																													},
+																													"fragmentFields": [
+																														{
+																															"id": "description",
+																															"value": {
+																																"fragmentLink": {
+																																},
+																																"text": {
+																																	"value_i18n": {
+																																		"en_US": "Deliver assets to any channel by managing, organizing, and publishing them in one place."
+																																	}
+																																}
+																															}
+																														},
+																														{
+																															"id": "html",
+																															"value": {
+																																"html": {
+																																	"value_i18n": {
+																																		"en_US": "<svg width=\"32\" height=\"33\" viewBox=\"0 0 32 33\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_4733_806)\">\n<mask id=\"mask0_4733_806\" style=\"mask-type:luminance\" maskUnits=\"userSpaceOnUse\" x=\"0\" y=\"0\" width=\"32\" height=\"33\">\n<path d=\"M32 0.666748H0V32.6667H32V0.666748Z\" fill=\"white\"/>\n</mask>\n<g mask=\"url(#mask0_4733_806)\">\n<path d=\"M10.9863 15.28L13.873 10.28L16.7597 15.28H10.9863Z\" stroke=\"#0B5FFF\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<path d=\"M26.7331 21.7468H20.0664V28.4135H26.7331V21.7468Z\" stroke=\"#0B5FFF\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<path d=\"M7.73323 28.4135C9.57416 28.4135 11.0666 26.9211 11.0666 25.0802C11.0666 23.2392 9.57416 21.7468 7.73323 21.7468C5.89228 21.7468 4.3999 23.2392 4.3999 25.0802C4.3999 26.9211 5.89228 28.4135 7.73323 28.4135Z\" stroke=\"#0B5FFF\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<path d=\"M18.2061 12.4333H19.5394\" stroke=\"#0B5FFF\" stroke-width=\"2\" stroke-linecap=\"round\"/>\n<path d=\"M7.73975 12.4133H9.07308\" stroke=\"#0B5FFF\" stroke-width=\"2\" stroke-linecap=\"round\"/>\n<path d=\"M16.4131 25.1533H17.7464\" stroke=\"#0B5FFF\" stroke-width=\"2\" stroke-linecap=\"round\"/>\n<path d=\"M13.0732 25.2134H14.4066\" stroke=\"#0B5FFF\" stroke-width=\"2\" stroke-linecap=\"round\"/>\n<path d=\"M21.7402 12.4133H23.0736\" stroke=\"#0B5FFF\" stroke-width=\"2\" stroke-linecap=\"round\"/>\n<path d=\"M23.0732 14.5466V15.88\" stroke=\"#0B5FFF\" stroke-width=\"2\" stroke-linecap=\"round\"/>\n<path d=\"M23.0732 18.0134V19.3468\" stroke=\"#0B5FFF\" stroke-width=\"2\" stroke-linecap=\"round\"/>\n<path d=\"M7.73975 18.0134V19.3468\" stroke=\"#0B5FFF\" stroke-width=\"2\" stroke-linecap=\"round\"/>\n<path d=\"M7.73975 14.5466V15.88\" stroke=\"#0B5FFF\" stroke-width=\"2\" stroke-linecap=\"round\"/>\n<path d=\"M0.646484 7.75342H31.3198\" stroke=\"#0B5FFF\" stroke-width=\"2\"/>\n<path d=\"M30.1932 2.66675H1.77315C1.15091 2.66675 0.646484 3.17117 0.646484 3.79341V29.5467C0.646484 30.169 1.15091 30.6734 1.77315 30.6734H30.1932C30.8154 30.6734 31.3198 30.169 31.3198 29.5467V3.79341C31.3198 3.17117 30.8154 2.66675 30.1932 2.66675Z\" stroke=\"#0B5FFF\" stroke-width=\"2\" stroke-linecap=\"round\"/>\n<path d=\"M3.96631 6.06003C4.42287 6.06003 4.79298 5.68097 4.79298 5.21337C4.79298 4.74577 4.42287 4.3667 3.96631 4.3667C3.50975 4.3667 3.13965 4.74577 3.13965 5.21337C3.13965 5.68097 3.50975 6.06003 3.96631 6.06003Z\" fill=\"#0B5FFF\"/>\n<path d=\"M6.45313 6.06003C6.90967 6.06003 7.2798 5.68097 7.2798 5.21337C7.2798 4.74577 6.90967 4.3667 6.45313 4.3667C5.99658 4.3667 5.62646 4.74577 5.62646 5.21337C5.62646 5.68097 5.99658 6.06003 6.45313 6.06003Z\" fill=\"#0B5FFF\"/>\n<path d=\"M8.93995 6.06003C9.39648 6.06003 9.76661 5.68097 9.76661 5.21337C9.76661 4.74577 9.39648 4.3667 8.93995 4.3667C8.48341 4.3667 8.11328 4.74577 8.11328 5.21337C8.11328 5.68097 8.48341 6.06003 8.93995 6.06003Z\" fill=\"#0B5FFF\"/>\n</g>\n</g>\n<defs>\n<clipPath id=\"clip0_4733_806\">\n<rect width=\"32\" height=\"32\" fill=\"white\" transform=\"translate(0 0.666748)\"/>\n</clipPath>\n</defs>\n</svg>\n"
+																																	}
+																																}
+																															}
+																														},
+																														{
+																															"id": "title",
+																															"value": {
+																																"fragmentLink": {
+																																},
+																																"text": {
+																																	"value_i18n": {
+																																		"en_US": "Digital Asset Management"
+																																	}
+																																}
+																															}
+																														}
+																													],
+																													"fragmentStyle": {
+																														"width": "90%"
+																													},
+																													"indexed": true
+																												},
+																												"type": "Fragment"
+																											},
+																											{
+																												"definition": {
+																													"fragment": {
+																														"key": "mega-menu-item",
+																														"siteKey": "Liferay Learn"
+																													},
+																													"fragmentConfig": {
+																														"external": false,
+																														"url": "",
+																														"visual": "icon"
+																													},
+																													"fragmentFields": [
+																														{
+																															"id": "description",
+																															"value": {
+																																"fragmentLink": {
+																																},
+																																"text": {
+																																	"value_i18n": {
+																																		"en_US": "Create, publish, and manage content, pages, and multimedia across different channels faster."
+																																	}
+																																}
+																															}
+																														},
+																														{
+																															"id": "html",
+																															"value": {
+																																"html": {
+																																	"value_i18n": {
+																																		"en_US": "<svg width=\"32\" height=\"33\" viewBox=\"0 0 32 33\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M1.98014 18.6333C1.61196 18.6333 1.31348 18.9318 1.31348 19.3C1.31348 19.6681 1.61196 19.9666 1.98014 19.9666V18.6333ZM19.6668 19.9666H20.3335V18.6333H19.6668V19.9666ZM1.98014 19.9666H19.6668V18.6333H1.98014V19.9666Z\" fill=\"#0B5FFF\"/>\n<path d=\"M19.6667 22.5933H3.36665C2.60081 22.5933 1.97998 21.9725 1.97998 21.2066V4.84663C1.97998 4.08079 2.60081 3.45996 3.36665 3.45996H26.9867C27.7525 3.45996 28.3733 4.08079 28.3733 4.84663V12\" stroke=\"#0B5FFF\" stroke-width=\"2\" stroke-miterlimit=\"10\" stroke-linecap=\"square\"/>\n<path d=\"M19.1818 27.2066H11.1328L13.9122 23.2666H16.4074L19.1818 27.2066Z\" stroke=\"#0B5FFF\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<path d=\"M19.8633 11.1365C20.12 11.0565 20 10.9264 21 10.9264C22.2709 10.9264 23.6667 12.5931 23.6667 13.9264L22.3333 14.2598L21.3333 15.5931V16.2492C21.1203 16.304 20.8969 16.3332 20.6667 16.3332H9.99333C8.85333 16.3332 8 15.1798 8 13.9998C8 12.7098 9.04333 11.6665 10.3333 11.6665C10.7 11.6665 11.0467 11.7598 11.3567 11.9132C11.3467 11.8298 11.3333 11.7498 11.3333 11.6665C11.3333 10.5632 12.23 9.6665 13.3333 9.6665C13.8533 9.6665 14.3233 9.86984 14.68 10.1965C14.7533 8.78984 15.86 7.6665 17.3333 7.6665C18.8067 7.6665 20 8.85984 20 10.3332C20 10.6165 19.9433 10.8798 19.8633 11.1365Z\" fill=\"#0B5FFF\"/>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M22.733 13.6665H28.9997C29.7729 13.6665 30.3997 14.2933 30.3997 15.0665V27.2198C30.3997 27.993 29.7729 28.6198 28.9997 28.6198H22.733C21.9598 28.6198 21.333 27.993 21.333 27.2198V15.0665C21.333 14.2933 21.9598 13.6665 22.733 13.6665ZM22.733 14.3332H28.9997C29.4047 14.3332 29.733 14.6615 29.733 15.0665V27.2198C29.733 27.6248 29.4047 27.9532 28.9997 27.9532H22.733C22.328 27.9532 21.9997 27.6248 21.9997 27.2198V15.0665C21.9997 14.6615 22.328 14.3332 22.733 14.3332Z\" fill=\"#0B5FFF\" stroke=\"#0B5FFF\" stroke-linecap=\"round\"/>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M23.333 21.3333C23.333 21.1493 23.4669 21 23.6321 21H27.7005C27.8657 21 27.9997 21.1493 27.9997 21.3333C27.9997 21.5174 27.8657 21.6667 27.7005 21.6667H23.6321C23.4669 21.6667 23.333 21.5174 23.333 21.3333Z\" fill=\"#0B5FFF\" stroke=\"#0B5FFF\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M23.333 23.3333C23.333 23.1493 23.4584 23 23.6131 23H27.7195C27.8743 23 27.9997 23.1493 27.9997 23.3333C27.9997 23.5174 27.8743 23.6667 27.7195 23.6667H23.6131C23.4584 23.6667 23.333 23.5174 23.333 23.3333Z\" fill=\"#0B5FFF\" stroke=\"#0B5FFF\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M23.333 25.3333C23.333 25.1493 23.4765 25 23.6535 25H27.6791C27.8561 25 27.9997 25.1493 27.9997 25.3333C27.9997 25.5174 27.8561 25.6667 27.6791 25.6667H23.6535C23.4765 25.6667 23.333 25.5174 23.333 25.3333Z\" fill=\"#0B5FFF\" stroke=\"#0B5FFF\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<path d=\"M27.7388 18.9999C28.2513 18.9999 28.6663 18.6327 28.6663 18.1794C28.6663 17.7261 28.2513 17.3589 27.7388 17.3589C27.6403 17.3589 27.5487 17.3763 27.4594 17.4009C27.4872 17.322 27.5069 17.2409 27.5069 17.1538C27.5069 16.7005 27.0919 16.3333 26.5794 16.3333C26.0669 16.3333 25.682 16.6789 25.6565 17.1117C25.5324 17.0112 25.3689 16.9487 25.1881 16.9487C24.8043 16.9487 24.4924 17.2245 24.4924 17.5641C24.4924 17.5897 24.4971 17.6143 24.5005 17.6399C24.3927 17.5927 24.2721 17.5641 24.1446 17.5641C23.6959 17.5641 23.333 17.8851 23.333 18.282C23.333 18.6451 23.6298 18.9999 24.0263 18.9999\" fill=\"#0B5FFF\"/>\n</svg>\n"
+																																	}
+																																}
+																															}
+																														},
+																														{
+																															"id": "title",
+																															"value": {
+																																"fragmentLink": {
+																																},
+																																"text": {
+																																	"value_i18n": {
+																																		"en_US": "Content Management System"
+																																	}
+																																}
+																															}
+																														}
+																													],
+																													"fragmentStyle": {
+																														"width": "90%"
+																													},
+																													"indexed": true
+																												},
+																												"type": "Fragment"
+																											}
+																										],
+																										"type": "Section"
+																									},
+																									{
+																										"definition": {
+																											"indexed": true,
+																											"layout": {
+																												"contentDisplay": "FlexColumn"
+																											}
+																										},
+																										"pageElements": [
+																											{
+																												"definition": {
+																													"fragment": {
+																														"key": "mega-menu-item",
+																														"siteKey": "Liferay Learn"
+																													},
+																													"fragmentConfig": {
+																														"external": false,
+																														"url": "",
+																														"visual": "icon"
+																													},
+																													"fragmentFields": [
+																														{
+																															"id": "description",
+																															"value": {
+																																"fragmentLink": {
+																																},
+																																"text": {
+																																	"value_i18n": {
+																																		"en_US": "Increase orders with enriching product information, easy ordering tools, and product recommendations."
+																																	}
+																																}
+																															}
+																														},
+																														{
+																															"id": "html",
+																															"value": {
+																																"html": {
+																																	"value_i18n": {
+																																		"en_US": "<svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M2.33301 19.8067V6.11999C2.33301 5.30665 3.00634 4.65332 3.83301 4.65332H24.373C25.1997 4.65332 25.873 5.31332 25.873 6.11999V15\" stroke=\"#0B5FFF\" stroke-width=\"2\" stroke-miterlimit=\"10\"/>\n<path d=\"M16.8067 19.9199H11.3867C11.2578 19.9199 11.1533 20.0244 11.1533 20.1533C11.1533 20.2821 11.2578 20.3866 11.3867 20.3866H16.8067C16.9355 20.3866 17.04 20.2821 17.04 20.1533C17.04 20.0244 16.9355 19.9199 16.8067 19.9199Z\" fill=\"#0B5FFF\" stroke=\"#0B5FFF\" stroke-width=\"2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\"/>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M20.78 15.6934H27.3267C27.8421 15.6934 28.26 16.1112 28.26 16.6267V17.5454C28.5885 17.0823 29.129 16.78 29.74 16.78H30.0333C31.0348 16.78 31.8467 17.5919 31.8467 18.5934V22.18C31.8467 23.1816 31.0348 23.9934 30.0333 23.9934H29.74C29.129 23.9934 28.5885 23.6912 28.26 23.228V25.98C28.26 26.4955 27.8421 26.9134 27.3267 26.9134H20.78C20.2645 26.9134 19.8467 26.4955 19.8467 25.98V16.6267C19.8467 16.1112 20.2645 15.6934 20.78 15.6934ZM28.5933 18.5934C28.5933 17.9601 29.1067 17.4467 29.74 17.4467H30.0333C30.6666 17.4467 31.18 17.9601 31.18 18.5934V22.18C31.18 22.8134 30.6666 23.3267 30.0333 23.3267H29.74C29.1067 23.3267 28.5933 22.8134 28.5933 22.18V18.5934Z\" fill=\"#0B5FFF\"/>\n<path d=\"M23.5596 13.5268C23.5596 12.2935 24.793 12.2935 24.793 11.0602C24.793 9.82683 22.9463 10.4468 22.9463 9.21349C22.9463 7.98016 24.793 6.74683 24.793 6.74683\" stroke=\"#0B5FFF\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M19.1802 21.9667V23.3H2.35353C1.16534 23.3 0.200195 22.3349 0.200195 21.1467V20.0534C0.200195 19.4852 0.66534 19.02 1.23353 19.02H19.1802V20.3534H1.53353V21.1467C1.53353 21.5985 1.90172 21.9667 2.35353 21.9667H19.1802Z\" fill=\"#0B5FFF\"/>\n<path d=\"M11.3659 13.2793H16.8513L17.8059 9.93872H10.6504\" fill=\"#0B5FFF\"/>\n<path d=\"M11.3659 13.2793H16.8513L17.8059 9.93872H10.6504\" stroke=\"#0B5FFF\" stroke-linejoin=\"round\"/>\n<path d=\"M12.32 16.7053C12.7152 16.7053 13.0356 16.385 13.0356 15.9898C13.0356 15.5946 12.7152 15.2742 12.32 15.2742C11.9248 15.2742 11.6045 15.5946 11.6045 15.9898C11.6045 16.385 11.9248 16.7053 12.32 16.7053Z\" fill=\"#0B5FFF\"/>\n<path d=\"M15.6589 16.7053C16.0541 16.7053 16.3745 16.385 16.3745 15.9898C16.3745 15.5946 16.0541 15.2742 15.6589 15.2742C15.2637 15.2742 14.9434 15.5946 14.9434 15.9898C14.9434 16.385 15.2637 16.7053 15.6589 16.7053Z\" fill=\"#0B5FFF\"/>\n<path d=\"M16.3747 14.7104H11.6049L10.2924 8.62817H8.86133\" stroke=\"#0B5FFF\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+																																	}
+																																}
+																															}
+																														},
+																														{
+																															"id": "title",
+																															"value": {
+																																"fragmentLink": {
+																																},
+																																"text": {
+																																	"value_i18n": {
+																																		"en_US": "Commerce"
+																																	}
+																																}
+																															}
+																														}
+																													],
+																													"fragmentStyle": {
+																														"width": "90%"
+																													},
+																													"indexed": true
+																												},
+																												"type": "Fragment"
+																											},
+																											{
+																												"definition": {
+																													"fragment": {
+																														"key": "mega-menu-item",
+																														"siteKey": "Liferay Learn"
+																													},
+																													"fragmentConfig": {
+																														"external": false,
+																														"url": "",
+																														"visual": "icon"
+																													},
+																													"fragmentFields": [
+																														{
+																															"id": "description",
+																															"value": {
+																																"fragmentLink": {
+																																},
+																																"text": {
+																																	"value_i18n": {
+																																		"en_US": "Deploy, configure, and maintain Liferay DXP on your own infrastructure."
+																																	}
+																																}
+																															}
+																														},
+																														{
+																															"id": "html",
+																															"value": {
+																																"html": {
+																																	"value_i18n": {
+																																		"en_US": "<svg width=\"32\" height=\"33\" viewBox=\"0 0 32 33\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_4733_859)\">\n<path d=\"M6.10692 12.5898L6.67358 12.0232C6.78691 11.9098 6.93358 11.8765 7.04025 11.9298L8.68691 12.7832C8.76025 12.8232 8.80025 12.9032 8.78691 13.0032L8.72025 13.5698C8.71358 13.6432 8.73358 13.7098 8.77358 13.7565L12.9669 17.9498C13.0669 18.0498 13.0336 18.2298 12.9069 18.3632L12.4402 18.8298C12.3069 18.9632 12.1202 18.9898 12.0269 18.8898L7.83358 14.6965C7.78691 14.6498 7.72025 14.6298 7.64691 14.6432L7.08025 14.7098C6.98025 14.7232 6.90025 14.6832 6.86025 14.6098L6.00692 12.9632C5.95359 12.8565 5.99359 12.7032 6.10025 12.5965L6.10692 12.5898Z\" fill=\"#0B5FFF\" stroke=\"#0B5FFF\" stroke-width=\"2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\"/>\n<path d=\"M12.707 21.6032L18.2404 27.1832C18.5204 27.4632 18.967 27.4632 19.247 27.1832L21.2604 25.1566C21.5404 24.8766 21.5404 24.4232 21.2604 24.1432L15.727 18.5632\" fill=\"#0B5FFF\"/>\n<path d=\"M12.707 21.6032L18.2404 27.1832C18.5204 27.4632 18.967 27.4632 19.247 27.1832L21.2604 25.1566C21.5404 24.8766 21.5404 24.4232 21.2604 24.1432L15.727 18.5632\" stroke=\"#0B5FFF\" stroke-width=\"2\" stroke-linejoin=\"round\"/>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.8018 15.4023C17.0622 15.1419 17.0622 14.7198 16.8018 14.4595C16.5415 14.1991 16.1193 14.1991 15.859 14.4595L8.65953 21.6589C7.68506 21.4629 6.63168 21.7416 5.87487 22.4984C4.67452 23.6988 4.67452 25.6475 5.87487 26.8479C7.07519 28.0483 9.02399 28.0483 10.2243 26.8479C10.9812 26.0911 11.2599 25.0377 11.0637 24.063L18.2632 16.8636C18.5235 16.6033 18.5235 16.1811 18.2632 15.9208C18.0028 15.6605 17.5807 15.6605 17.3204 15.9208L9.99019 23.251C9.70366 23.4064 9.56726 23.7527 9.68339 24.0675C9.91233 24.6878 9.77673 25.4099 9.28153 25.9051C8.60186 26.5847 7.49733 26.5847 6.81766 25.9051C6.13803 25.2255 6.13803 24.1209 6.81766 23.4413C7.29813 22.9608 7.99213 22.8187 8.59993 23.02C8.78426 23.081 8.97619 23.0572 9.13346 22.9698C9.22953 22.9382 9.31986 22.8843 9.39619 22.8079L16.8018 15.4023Z\" fill=\"#0B5FFF\"/>\n<path d=\"M16.4941 14.7508C16.2016 13.9061 16.3924 12.9306 17.0663 12.2567C17.7196 11.5967 18.6596 11.41 19.493 11.67L18.333 13.6699L18.9996 14.3366L21.033 13.1567C21.333 14.0033 21.153 14.9833 20.473 15.6633C19.8046 16.3317 18.8395 16.5249 17.9996 16.2427\" stroke=\"#0B5FFF\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M20.0415 6.67117C20.0279 6.67034 20.0141 6.66992 20.0003 6.66992H2.66699C1.56243 6.66992 0.666992 7.56532 0.666992 8.66992V30.0033C0.666992 31.1079 1.56243 32.0033 2.66699 32.0033H24.0003C25.1049 32.0033 26.0003 31.1079 26.0003 30.0033V12.6699C26.0003 12.6561 25.9999 12.6424 25.9991 12.6288C25.7811 12.6559 25.559 12.6699 25.3337 12.6699C25.1083 12.6699 24.8863 12.6559 24.6683 12.6288C24.6674 12.6424 24.667 12.6561 24.667 12.6699V30.0033C24.667 30.3715 24.3685 30.6699 24.0003 30.6699H2.66699C2.29881 30.6699 2.00033 30.3715 2.00033 30.0033V8.66992C2.00033 8.30172 2.29881 8.00326 2.66699 8.00326H20.0003C20.0141 8.00326 20.0279 8.00286 20.0415 8.00199C20.0143 7.78399 20.0003 7.56192 20.0003 7.33659C20.0003 7.11124 20.0143 6.88916 20.0415 6.67117Z\" fill=\"#0B5FFF\"/>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M25.3337 12.0033C27.911 12.0033 30.0003 9.91392 30.0003 7.33659C30.0003 4.75926 27.911 2.66992 25.3337 2.66992C22.7563 2.66992 20.667 4.75926 20.667 7.33659C20.667 9.91392 22.7563 12.0033 25.3337 12.0033ZM25.3337 4.52848C25.7019 4.52848 26.0003 4.82696 26.0003 5.19515V6.74257H27.5477C27.9159 6.74257 28.2144 7.04104 28.2144 7.40926C28.2144 7.77745 27.9159 8.07592 27.5477 8.07592H26.0003V9.62332C26.0003 9.99146 25.7019 10.29 25.3337 10.29C24.9655 10.29 24.667 9.99146 24.667 9.62332V8.07592H23.1196C22.7514 8.07592 22.4529 7.77745 22.4529 7.40926C22.4529 7.04104 22.7514 6.74257 23.1196 6.74257H24.667V5.19515C24.667 4.82696 24.9655 4.52848 25.3337 4.52848Z\" fill=\"#0B5FFF\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_4733_859\">\n<rect width=\"32\" height=\"32\" fill=\"white\" transform=\"translate(0 0.669922)\"/>\n</clipPath>\n</defs>\n</svg>\n"
+																																	}
+																																}
+																															}
+																														},
+																														{
+																															"id": "title",
+																															"value": {
+																																"fragmentLink": {
+																																},
+																																"text": {
+																																	"value_i18n": {
+																																		"en_US": "Low-Code"
+																																	}
+																																}
+																															}
+																														}
+																													],
+																													"fragmentStyle": {
+																														"width": "90%"
+																													},
+																													"indexed": true
+																												},
+																												"type": "Fragment"
+																											},
+																											{
+																												"definition": {
+																													"fragment": {
+																														"key": "mega-menu-item",
+																														"siteKey": "Liferay Learn"
+																													},
+																													"fragmentConfig": {
+																														"external": false,
+																														"url": "",
+																														"visual": "icon"
+																													},
+																													"fragmentFields": [
+																														{
+																															"id": "description",
+																															"value": {
+																																"fragmentLink": {
+																																},
+																																"text": {
+																																	"value_i18n": {
+																																		"en_US": "View All Capabilities"
+																																	}
+																																}
+																															}
+																														},
+																														{
+																															"id": "html",
+																															"value": {
+																																"html": {
+																																	"value_i18n": {
+																																		"en_US": "<svg width=\"32\" height=\"33\" viewBox=\"0 0 32 33\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M8 16.6699H13\" stroke=\"#0B5FFF\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-dasharray=\"3 3\"/>\n<path d=\"M15.333 24.2833V19.3367\" stroke=\"#0B5FFF\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-dasharray=\"3 3\"/>\n<path d=\"M17.7734 16.6699H22.8745\" stroke=\"#0B5FFF\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-dasharray=\"3 3\"/>\n<path d=\"M15.333 14.6699V9.66992\" stroke=\"#0B5FFF\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-dasharray=\"3 3\"/>\n<path d=\"M17.0596 15.4098L23.6729 8.78979\" stroke=\"#0B5FFF\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-dasharray=\"3 3\"/>\n<path d=\"M13.8536 15.4098L7.24023 8.78979\" stroke=\"#0B5FFF\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-dasharray=\"3 3\"/>\n<path d=\"M23.333 25.3366L17.333 18.6699\" stroke=\"#0B5FFF\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-dasharray=\"3 3\"/>\n<path d=\"M7.39355 25.0565L13.6669 18.6699\" stroke=\"#0B5FFF\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-dasharray=\"3 3\"/>\n<path d=\"M15.3932 19.2031C16.6119 19.2031 17.5999 18.2152 17.5999 16.9965C17.5999 15.7778 16.6119 14.7898 15.3932 14.7898C14.1745 14.7898 13.1865 15.7778 13.1865 16.9965C13.1865 18.2152 14.1745 19.2031 15.3932 19.2031Z\" stroke=\"#0B5FFF\" stroke-width=\"2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\"/>\n<path d=\"M5.57971 9.40992C6.79845 9.40992 7.78638 8.42199 7.78638 7.20325C7.78638 5.98454 6.79845 4.99658 5.57971 4.99658C4.361 4.99658 3.37305 5.98454 3.37305 7.20325C3.37305 8.42199 4.361 9.40992 5.57971 9.40992Z\" stroke=\"#0B5FFF\" stroke-width=\"2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\"/>\n<path d=\"M15.3737 9.40992C16.5924 9.40992 17.5803 8.42199 17.5803 7.20325C17.5803 5.98454 16.5924 4.99658 15.3737 4.99658C14.1549 4.99658 13.167 5.98454 13.167 7.20325C13.167 8.42199 14.1549 9.40992 15.3737 9.40992Z\" stroke=\"#0B5FFF\" stroke-width=\"2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\"/>\n<path d=\"M25.1598 28.9966C26.3785 28.9966 27.3665 28.0087 27.3665 26.7899C27.3665 25.5713 26.3785 24.5833 25.1598 24.5833C23.9411 24.5833 22.9531 25.5713 22.9531 26.7899C22.9531 28.0087 23.9411 28.9966 25.1598 28.9966Z\" stroke=\"#0B5FFF\" stroke-width=\"2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\"/>\n<path d=\"M25.1598 19.0833C26.3785 19.0833 27.3665 18.0953 27.3665 16.8766C27.3665 15.6579 26.3785 14.6699 25.1598 14.6699C23.9411 14.6699 22.9531 15.6579 22.9531 16.8766C22.9531 18.0953 23.9411 19.0833 25.1598 19.0833Z\" stroke=\"#0B5FFF\" stroke-width=\"2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\"/>\n<path d=\"M25.1598 9.40992C26.3785 9.40992 27.3665 8.42199 27.3665 7.20325C27.3665 5.98454 26.3785 4.99658 25.1598 4.99658C23.9411 4.99658 22.9531 5.98454 22.9531 7.20325C22.9531 8.42199 23.9411 9.40992 25.1598 9.40992Z\" stroke=\"#0B5FFF\" stroke-width=\"2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\"/>\n<path d=\"M5.57971 19.0833C6.79845 19.0833 7.78638 18.0953 7.78638 16.8766C7.78638 15.6579 6.79845 14.6699 5.57971 14.6699C4.361 14.6699 3.37305 15.6579 3.37305 16.8766C3.37305 18.0953 4.361 19.0833 5.57971 19.0833Z\" stroke=\"#0B5FFF\" stroke-width=\"2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\"/>\n<path d=\"M15.3932 28.9966C16.6119 28.9966 17.5999 28.0087 17.5999 26.7899C17.5999 25.5713 16.6119 24.5833 15.3932 24.5833C14.1745 24.5833 13.1865 25.5713 13.1865 26.7899C13.1865 28.0087 14.1745 28.9966 15.3932 28.9966Z\" stroke=\"#0B5FFF\" stroke-width=\"2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\"/>\n<path d=\"M5.57971 28.9966C6.79845 28.9966 7.78638 28.0087 7.78638 26.7899C7.78638 25.5713 6.79845 24.5833 5.57971 24.5833C4.361 24.5833 3.37305 25.5713 3.37305 26.7899C3.37305 28.0087 4.361 28.9966 5.57971 28.9966Z\" stroke=\"#0B5FFF\" stroke-width=\"2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\"/>\n</svg>\n"
+																																	}
+																																}
+																															}
+																														},
+																														{
+																															"id": "title",
+																															"value": {
+																																"fragmentLink": {
+																																},
+																																"text": {
+																																	"value_i18n": {
+																																		"en_US": "All Capabilities"
+																																	}
+																																}
+																															}
+																														}
+																													],
+																													"fragmentStyle": {
+																														"width": "90%"
+																													},
+																													"indexed": true
+																												},
+																												"type": "Fragment"
+																											}
+																										],
+																										"type": "Section"
+																									}
+																								],
+																								"type": "Section"
+																							}
+																						],
+																						"type": "Section"
+																					}
+																				],
+																				"type": "Section"
+																			}
+																		],
+																		"type": "Column"
+																	},
+																	{
+																		"definition": {
+																			"columnViewports": [
+																				{
+																					"columnViewportDefinition": {
+																						"size": 12
+																					},
+																					"id": "landscapeMobile"
+																				},
+																				{
+																					"columnViewportDefinition": {
+																					},
+																					"id": "portraitMobile"
+																				},
+																				{
+																					"columnViewportDefinition": {
+																					},
+																					"id": "tablet"
+																				}
+																			],
+																			"size": 5
+																		},
+																		"pageElements": [
+																			{
+																				"definition": {
+																					"cssClasses": [
+																						"container-cta-dropdown"
+																					],
+																					"fragmentStyle": {
+																						"paddingBottom": "3",
+																						"paddingLeft": "3",
+																						"paddingRight": "3",
+																						"paddingTop": "3",
+																						"width": "100%"
+																					},
+																					"indexed": true,
+																					"layout": {
+																						"align": "Center",
+																						"contentDisplay": "FlexRow",
+																						"paddingBottom": 1,
+																						"paddingLeft": 1,
+																						"paddingRight": 1,
+																						"paddingTop": 1
+																					}
+																				},
+																				"pageElements": [
+																					{
+																						"definition": {
+																							"fragmentStyle": {
+																								"paddingTop": "4"
+																							},
+																							"indexed": true,
+																							"layout": {
+																								"align": "Center",
+																								"contentDisplay": "FlexColumn",
+																								"paddingTop": 2
+																							}
+																						},
+																						"pageElements": [
+																							{
+																								"definition": {
+																									"fragment": {
+																										"key": "dialect-text",
+																										"siteKey": "Liferay Learn"
+																									},
+																									"fragmentConfig": {
+																										"textType": "text-paragraph",
+																										"truncateText": false
+																									},
+																									"fragmentFields": [
+																										{
+																											"id": "element-text",
+																											"value": {
+																												"fragmentLink": {
+																												},
+																												"text": {
+																													"value_i18n": {
+																														"en_US": "Products"
+																													}
+																												}
+																											}
+																										}
+																									],
+																									"fragmentStyle": {
+																										"fontWeight": "600",
+																										"marginRight": "auto",
+																										"paddingBottom": "2",
+																										"textColor": "#54555F"
+																									},
+																									"indexed": true
+																								},
+																								"type": "Fragment"
+																							},
+																							{
+																								"definition": {
+																									"cssClasses": [
+																										"container-cta-content-dropdown"
+																									],
+																									"fragmentStyle": {
+																										"paddingTop": "2"
+																									},
+																									"indexed": true,
+																									"layout": {
+																										"align": "Start",
+																										"contentDisplay": "FlexRow"
+																									}
+																								},
+																								"pageElements": [
+																									{
+																										"definition": {
+																											"indexed": true,
+																											"layout": {
+																												"contentDisplay": "FlexColumn"
+																											}
+																										},
+																										"pageElements": [
+																											{
+																												"definition": {
+																													"fragment": {
+																														"key": "mega-menu-item",
+																														"siteKey": "Liferay Learn"
+																													},
+																													"fragmentConfig": {
+																														"external": false,
+																														"url": "",
+																														"visual": "icon"
+																													},
+																													"fragmentFields": [
+																														{
+																															"id": "description",
+																															"value": {
+																																"fragmentLink": {
+																																},
+																																"text": {
+																																	"value_i18n": {
+																																		"en_US": "Understand your audience with integrated analytics for Liferay DXP."
+																																	}
+																																}
+																															}
+																														},
+																														{
+																															"id": "html",
+																															"value": {
+																																"html": {
+																																	"value_i18n": {
+																																		"en_US": "<svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M12.3393 15.9749C13.0528 15.9749 13.6474 16.5547 13.6474 17.2506V27.2244C13.6474 27.9202 13.0528 28.5001 12.3393 28.5001H3.97513C3.2616 28.5001 2.66699 27.9202 2.66699 27.2244V17.2506C2.66699 16.5547 3.2616 15.9749 3.97513 15.9749H12.3393Z\" fill=\"#1AA0E8\"/>\n<path d=\"M28.0258 8.92944C28.7393 8.92944 29.3339 9.48754 29.3339 10.1573V27.2723C29.3339 27.9421 28.7393 28.5002 28.0258 28.5002H19.6616C18.9481 28.5002 18.3535 27.9421 18.3535 27.2723V10.1573C18.3535 9.48754 18.9481 8.92944 19.6616 8.92944H28.0258Z\" fill=\"#1AA0E8\"/>\n<path d=\"M20.182 2.66675C20.8956 2.66675 21.4902 3.22191 21.4902 3.8881V27.2787C21.4902 27.9449 20.8956 28.5001 20.182 28.5001H11.8179C11.1044 28.5001 10.5098 27.9449 10.5098 27.2787V3.8881C10.5098 3.22191 11.1044 2.66675 11.8179 2.66675H20.182Z\" fill=\"#0B63CE\"/>\n<path d=\"M10.55 15.9755H12.3197C12.3197 15.9755 13.647 15.8983 13.647 17.4047V27.4472C13.647 27.4472 13.647 28.4901 12.0784 28.4901C12.0784 28.4901 10.7511 28.6833 10.5098 27.37V15.9755H10.55Z\" fill=\"#134194\"/>\n<path d=\"M19.6808 8.93009C19.6808 8.93009 18.3535 8.85571 18.3535 10.306V17.8178V19.9747V27.4865C18.3535 27.4865 18.3535 28.4906 19.9221 28.4906C19.9221 28.4906 21.2494 28.6765 21.4908 27.4121V19.9003V16.4419V8.93009H19.6808Z\" fill=\"#134194\"/>\n</svg>\n"
+																																	}
+																																}
+																															}
+																														},
+																														{
+																															"id": "title",
+																															"value": {
+																																"fragmentLink": {
+																																},
+																																"text": {
+																																	"value_i18n": {
+																																		"en_US": "Analytics Cloud"
+																																	}
+																																}
+																															}
+																														}
+																													],
+																													"fragmentStyle": {
+																														"width": "90%"
+																													},
+																													"indexed": true
+																												},
+																												"type": "Fragment"
+																											},
+																											{
+																												"definition": {
+																													"fragment": {
+																														"key": "mega-menu-item",
+																														"siteKey": "Liferay Learn"
+																													},
+																													"fragmentConfig": {
+																														"external": false,
+																														"url": "",
+																														"visual": "icon"
+																													},
+																													"fragmentFields": [
+																														{
+																															"id": "description",
+																															"value": {
+																																"fragmentLink": {
+																																},
+																																"text": {
+																																	"value_i18n": {
+																																		"en_US": "Enterprise PaaS tailored for Liferay Digital Experience Platform."
+																																	}
+																																}
+																															}
+																														},
+																														{
+																															"id": "html",
+																															"value": {
+																																"html": {
+																																	"value_i18n": {
+																																		"en_US": "<svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M10.4393 3.78386C14.6406 0.504485 22.8314 1.50455 27.4854 5.70459C37.0736 14.3423 25.2433 35.2766 13.5626 28.3793C17.0081 27.2946 20.391 25.0859 22.6355 22.592L22.6382 22.589C25.2023 19.714 26.3709 16.8297 26.4151 14.1515C26.4594 11.4707 25.3747 9.10545 23.6371 7.28683C20.5503 4.05591 15.357 2.49182 10.4393 3.78386Z\" fill=\"#004AD7\"/>\n<path d=\"M12.5669 27.7218L12.5664 27.722C12.4547 27.6423 12.3432 27.5626 12.2316 27.4806C12.0456 27.3441 11.8596 27.2013 11.6734 27.0416C8.12707 23.9733 5.21591 19.7095 7.52748 9.45256C7.68151 8.76891 7.85879 8.05862 8.06065 7.3203L8.06082 7.31976C8.24675 6.61312 8.56286 6.0041 8.9238 5.43577C8.97534 5.35458 9.02783 5.27422 9.08099 5.19452C10.3401 4.67916 11.6391 4.38295 12.9292 4.28067C21.9597 3.56474 30.5509 12.3513 21.9597 21.9839C19.6646 24.534 16.0944 26.7866 12.5669 27.7218Z\" fill=\"#004AD7\"/>\n<path d=\"M3.17284 9.91251C4.48504 8.14105 5.99983 6.82532 7.61937 5.90671C7.44608 6.26893 7.29482 6.65932 7.18274 7.08405C5.54406 13.0801 5.46821 17.3684 6.36049 20.6248C7.25931 23.9053 9.11001 26.026 11.0788 27.7294L11.082 27.7321C11.1851 27.8205 11.2879 27.904 11.3894 27.9835C9.24323 28.3627 7.15794 28.1827 5.4681 27.2119C0.665078 24.5341 -0.525052 15.0131 3.17284 9.91251Z\" fill=\"#004AD7\"/>\n</svg>\n"
+																																	}
+																																}
+																															}
+																														},
+																														{
+																															"id": "title",
+																															"value": {
+																																"fragmentLink": {
+																																},
+																																"text": {
+																																	"value_i18n": {
+																																		"en_US": "DXP Cloud"
+																																	}
+																																}
+																															}
+																														}
+																													],
+																													"fragmentStyle": {
+																														"width": "90%"
+																													},
+																													"indexed": true
+																												},
+																												"type": "Fragment"
+																											}
+																										],
+																										"type": "Section"
+																									},
+																									{
+																										"definition": {
+																											"indexed": true,
+																											"layout": {
+																												"contentDisplay": "FlexColumn"
+																											}
+																										},
+																										"pageElements": [
+																											{
+																												"definition": {
+																													"fragment": {
+																														"key": "mega-menu-item",
+																														"siteKey": "Liferay Learn"
+																													},
+																													"fragmentConfig": {
+																														"external": false,
+																														"url": "",
+																														"visual": "icon"
+																													},
+																													"fragmentFields": [
+																														{
+																															"id": "description",
+																															"value": {
+																																"fragmentLink": {
+																																},
+																																"text": {
+																																	"value_i18n": {
+																																		"en_US": "Launch modern B2B commerce experiences on Liferay DXP."
+																																	}
+																																}
+																															}
+																														},
+																														{
+																															"id": "html",
+																															"value": {
+																																"html": {
+																																	"value_i18n": {
+																																		"en_US": "<svg width=\"34\" height=\"32\" viewBox=\"0 0 34 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M13.1249 5.85051L20.6586 12.3059C21.5754 13.1427 21.695 14.5772 20.8579 15.4937L12.0089 25.7744C11.6203 26.2406 11.0801 26.4984 10.5177 26.548C10.4295 26.5633 10.3285 26.5714 10.2151 26.5714L3.47865 26.4917C2.64157 26.4917 1.8045 25.7744 1.68491 24.9376L0.655018 18.5696C0.543434 17.8415 0.560452 17.002 1.087 16.3703L9.93609 6.0896C10.7333 5.13325 12.1683 5.05355 13.1249 5.85051Z\" fill=\"#1AA0E8\"/>\n<path d=\"M20.8182 25.6149L13.3243 19.1596C12.3677 18.3626 12.2481 16.9281 13.0852 15.9717L21.9343 5.691C22.4496 5.07277 23.1321 4.90853 23.9784 4.93536L30.5043 4.97374C31.3414 4.97374 32.1785 5.69099 32.298 6.5278L33.3743 13.1824C33.3888 13.2838 33.3957 13.3764 33.3954 13.4599C33.4302 14.032 33.2505 14.622 32.8561 15.0951L24.007 25.3758C23.2098 26.3322 21.7748 26.4119 20.8182 25.6149Z\" fill=\"#0B63CE\"/>\n<path d=\"M18.116 10.127L20.6587 12.3057C21.5755 13.1425 21.6951 14.577 20.858 15.4935L15.8384 21.3252L13.3243 19.1595C12.3677 18.3626 12.2481 16.9281 13.0852 15.9717L18.116 10.127Z\" fill=\"#134194\"/>\n</svg>\n"
+																																	}
+																																}
+																															}
+																														},
+																														{
+																															"id": "title",
+																															"value": {
+																																"fragmentLink": {
+																																},
+																																"text": {
+																																	"value_i18n": {
+																																		"en_US": "Commerce"
+																																	}
+																																}
+																															}
+																														}
+																													],
+																													"fragmentStyle": {
+																														"width": "90%"
+																													},
+																													"indexed": true
+																												},
+																												"type": "Fragment"
+																											},
+																											{
+																												"definition": {
+																													"fragment": {
+																														"key": "mega-menu-item",
+																														"siteKey": "Liferay Learn"
+																													},
+																													"fragmentConfig": {
+																														"external": false,
+																														"url": "",
+																														"visual": "icon"
+																													},
+																													"fragmentFields": [
+																														{
+																															"id": "description",
+																															"value": {
+																																"fragmentLink": {
+																																},
+																																"text": {
+																																	"value_i18n": {
+																																		"en_US": "Documents and resources to further help implementation."
+																																	}
+																																}
+																															}
+																														},
+																														{
+																															"id": "html",
+																															"value": {
+																																"html": {
+																																	"value_i18n": {
+																																		"en_US": "<svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_4733_1070)\">\n<rect width=\"26.6667\" height=\"26.6667\" transform=\"translate(2.66699 2.66675)\" fill=\"white\"/>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M2.66699 4.6423C2.66699 3.55119 3.55144 2.66675 4.64255 2.66675H27.3581C28.4492 2.66675 29.3337 3.55119 29.3337 4.6423V27.3579C29.3337 28.449 28.4492 29.3334 27.3581 29.3334H4.64255C3.55148 29.3334 2.66699 28.4489 2.66699 27.3579V4.6423ZM6.6181 7.11119C6.6181 6.83897 6.83921 6.61786 7.11144 6.61786H10.0748C10.347 6.61786 10.5681 6.83897 10.5681 7.11119V10.0745C10.5681 10.2054 10.5161 10.3308 10.4236 10.4234C10.3311 10.5159 10.2056 10.5679 10.0748 10.5679H7.11144C6.83898 10.5679 6.6181 10.347 6.6181 10.0745V7.11119ZM12.0492 6.61786C11.7768 6.61786 11.5559 6.83873 11.5559 7.11119V10.0745C11.5559 10.3467 11.777 10.5679 12.0492 10.5679H15.0125C15.1436 10.5682 15.2693 10.5163 15.3621 10.4238C15.4549 10.3312 15.507 10.2056 15.507 10.0745V7.11119C15.507 6.98016 15.4549 6.85451 15.3621 6.76196C15.2693 6.66941 15.1436 6.61756 15.0125 6.61786H12.0492ZM16.4937 7.11119C16.4937 6.83897 16.7159 6.61786 16.9881 6.61786H19.9514C20.2237 6.61786 20.4448 6.83897 20.4448 7.11119V10.0745C20.4448 10.2054 20.3928 10.3308 20.3003 10.4234C20.2078 10.5159 20.0823 10.5679 19.9514 10.5679H16.9881C16.8571 10.5682 16.7313 10.5163 16.6385 10.4238C16.5458 10.3312 16.4937 10.2056 16.4937 10.0745V7.11119ZM7.11144 11.5556C6.9806 11.5556 6.85512 11.6076 6.7626 11.7001C6.67008 11.7926 6.6181 11.9181 6.6181 12.049V15.0123C6.6181 15.2856 6.83921 15.5067 7.11144 15.5067H10.0748C10.2058 15.5067 10.3315 15.4546 10.424 15.3619C10.5166 15.2691 10.5684 15.1433 10.5681 15.0123V12.049C10.5681 11.9181 10.5161 11.7926 10.4236 11.7001C10.3311 11.6076 10.2056 11.5556 10.0748 11.5556H7.11144ZM11.5559 12.049C11.5559 11.7779 11.777 11.5556 12.0492 11.5556H15.0125C15.2859 11.5556 15.507 11.7767 15.507 12.049V15.0123C15.5073 15.1435 15.4553 15.2695 15.3625 15.3623C15.2697 15.455 15.1438 15.507 15.0125 15.5067H12.0492C11.918 15.5068 11.7922 15.4545 11.6996 15.3615C11.607 15.2685 11.5553 15.1424 11.5559 15.0112V12.049ZM21.9259 11.5556C21.795 11.5556 21.6696 11.6076 21.577 11.7001C21.4845 11.7926 21.4325 11.9181 21.4325 12.049V15.0123C21.4325 15.2856 21.6537 15.5067 21.9259 15.5067H24.8892C25.0202 15.5067 25.1459 15.4546 25.2384 15.3619C25.331 15.2691 25.3828 15.1433 25.3825 15.0123V12.049C25.3825 11.9181 25.3306 11.7926 25.2381 11.7001C25.1455 11.6076 25.0201 11.5556 24.8892 11.5556H21.9259ZM6.6181 16.9879C6.6181 16.7145 6.83921 16.4934 7.11144 16.4934H10.0748C10.347 16.4934 10.5681 16.7156 10.5681 16.9879V19.9512C10.5681 20.082 10.5161 20.2075 10.4236 20.3C10.3311 20.3926 10.2056 20.4445 10.0748 20.4445H7.11144C6.83898 20.4445 6.6181 20.2237 6.6181 19.9512V16.9879ZM16.9881 16.4934C16.8569 16.4931 16.7309 16.5451 16.6382 16.6379C16.5454 16.7307 16.4934 16.8566 16.4937 16.9879V19.9512C16.4937 20.2234 16.7159 20.4445 16.9881 20.4445H19.9514C20.2239 20.4445 20.4448 20.2237 20.4448 19.9512V16.9879C20.4451 16.8568 20.3932 16.7311 20.3007 16.6383C20.2081 16.5455 20.0825 16.4934 19.9514 16.4934H16.9881ZM21.4325 16.9879C21.4325 16.7145 21.6537 16.4934 21.9259 16.4934H24.8892C25.1614 16.4934 25.3825 16.7156 25.3825 16.9879V19.9512C25.3825 20.2237 25.1617 20.4445 24.8892 20.4445H21.9259C21.6534 20.4445 21.4325 20.2237 21.4325 19.9512V16.9879ZM12.0492 21.4323C11.7768 21.4323 11.5559 21.6532 11.5559 21.9256V24.889C11.5559 25.1612 11.777 25.3823 12.0492 25.3823H15.0125C15.1436 25.3826 15.2693 25.3308 15.3621 25.2382C15.4549 25.1457 15.507 25.02 15.507 24.889V21.9256C15.507 21.7946 15.4549 21.669 15.3621 21.5764C15.2693 21.4839 15.1436 21.432 15.0125 21.4323H12.0492ZM16.4937 21.9256C16.4937 21.6534 16.7159 21.4323 16.9881 21.4323H19.9514C20.2237 21.4323 20.4448 21.6534 20.4448 21.9256V24.889C20.4448 25.1614 20.2239 25.3823 19.9514 25.3823H16.9881C16.8571 25.3826 16.7313 25.3308 16.6385 25.2382C16.5458 25.1457 16.4937 25.02 16.4937 24.889V21.9256ZM21.927 21.4323C21.796 21.432 21.6702 21.4839 21.5774 21.5764C21.4847 21.669 21.4325 21.7946 21.4325 21.9256V24.889C21.4325 25.1612 21.6537 25.3823 21.9259 25.3823H24.8892C25.1617 25.3823 25.3825 25.1614 25.3825 24.889V21.9256C25.3819 21.6536 25.1612 21.4334 24.8892 21.4334H21.9259L21.927 21.4323Z\" fill=\"#0B63CE\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_4733_1070\">\n<rect width=\"26.6667\" height=\"26.6667\" fill=\"white\" transform=\"translate(2.66699 2.66675)\"/>\n</clipPath>\n</defs>\n</svg>\n"
+																																	}
+																																}
+																															}
+																														},
+																														{
+																															"id": "title",
+																															"value": {
+																																"fragmentLink": {
+																																},
+																																"text": {
+																																	"value_i18n": {
+																																		"en_US": "Reference"
+																																	}
+																																}
+																															}
+																														}
+																													],
+																													"fragmentStyle": {
+																														"width": "90%"
+																													},
+																													"indexed": true
+																												},
+																												"type": "Fragment"
+																											}
+																										],
+																										"type": "Section"
+																									}
+																								],
+																								"type": "Section"
+																							}
+																						],
+																						"type": "Section"
+																					}
+																				],
+																				"type": "Section"
+																			}
+																		],
+																		"type": "Column"
+																	},
+																	{
+																		"definition": {
+																			"columnViewports": [
+																				{
+																					"columnViewportDefinition": {
+																						"size": 12
+																					},
+																					"id": "landscapeMobile"
+																				},
+																				{
+																					"columnViewportDefinition": {
+																					},
+																					"id": "portraitMobile"
+																				},
+																				{
+																					"columnViewportDefinition": {
+																					},
+																					"id": "tablet"
+																				}
+																			],
+																			"size": 1
+																		},
+																		"type": "Column"
+																	}
+																],
+																"type": "Row"
+															}
+														],
+														"type": "Section"
+													}
+												],
+												"type": "FragmentDropZone"
+											}
+										],
+										"type": "Fragment"
+									},
+									{
+										"definition": {
+											"cssClasses": [
+												"education-dropdown"
+											],
+											"fragment": {
+												"key": "public-sites-navigation-dropdown",
+												"siteKey": "Liferay Learn"
+											},
+											"fragmentConfig": {
+												"buttonSize": "nm",
+												"buttonType": "primary",
+												"displayOnHover": false,
+												"keepOpen": false,
+												"panelType": "mega-menu"
+											},
+											"fragmentFields": [
+												{
+													"id": "dropdown-text",
+													"value": {
+														"fragmentLink": {
+														},
+														"text": {
+															"value_i18n": {
+																"en_US": "Education"
+															}
+														}
+													}
+												},
+												{
+													"id": "title",
+													"value": {
+														"fragmentLink": {
+														}
+													}
+												}
+											],
+											"indexed": true
+										},
+										"pageElements": [
+											{
+												"definition": {
+													"fragmentDropZoneId": "1"
+												},
+												"pageElements": [
+													{
+														"definition": {
+															"indexed": true,
+															"layout": {
+															}
+														},
+														"pageElements": [
+															{
+																"definition": {
+																	"gutters": true,
+																	"indexed": true,
+																	"modulesPerRow": 4,
+																	"numberOfColumns": 4,
+																	"reverseOrder": false,
+																	"rowViewports": [
+																		{
+																			"id": "landscapeMobile",
+																			"rowViewportDefinition": {
+																				"modulesPerRow": 1
+																			}
+																		},
+																		{
+																			"id": "portraitMobile",
+																			"rowViewportDefinition": {
+																			}
+																		},
+																		{
+																			"id": "tablet",
+																			"rowViewportDefinition": {
+																			}
+																		}
+																	],
+																	"verticalAlignment": "top"
+																},
+																"pageElements": [
+																	{
+																		"definition": {
+																			"columnViewports": [
+																				{
+																					"columnViewportDefinition": {
+																						"size": 12
+																					},
+																					"id": "landscapeMobile"
+																				},
+																				{
+																					"columnViewportDefinition": {
+																					},
+																					"id": "portraitMobile"
+																				},
+																				{
+																					"columnViewportDefinition": {
+																					},
+																					"id": "tablet"
+																				}
+																			],
+																			"size": 1
+																		},
+																		"type": "Column"
+																	},
+																	{
+																		"definition": {
+																			"columnViewports": [
+																				{
+																					"columnViewportDefinition": {
+																						"size": 12
+																					},
+																					"id": "landscapeMobile"
+																				},
+																				{
+																					"columnViewportDefinition": {
+																					},
+																					"id": "portraitMobile"
+																				},
+																				{
+																					"columnViewportDefinition": {
+																					},
+																					"id": "tablet"
+																				}
+																			],
+																			"size": 3
+																		},
+																		"pageElements": [
+																			{
+																				"definition": {
+																					"cssClasses": [
+																						"container-cta-dropdown"
+																					],
+																					"fragmentStyle": {
+																						"paddingBottom": "3",
+																						"paddingLeft": "3",
+																						"paddingRight": "3",
+																						"paddingTop": "3",
+																						"width": "100%"
+																					},
+																					"indexed": true,
+																					"layout": {
+																						"align": "Center",
+																						"contentDisplay": "FlexRow",
+																						"justify": "End",
+																						"paddingBottom": 1,
+																						"paddingLeft": 1,
+																						"paddingRight": 1,
+																						"paddingTop": 1
+																					}
+																				},
+																				"pageElements": [
+																					{
+																						"definition": {
+																							"fragmentStyle": {
+																								"paddingTop": "4"
+																							},
+																							"indexed": true,
+																							"layout": {
+																								"align": "Center",
+																								"contentDisplay": "FlexColumn",
+																								"paddingTop": 2
+																							}
+																						},
+																						"pageElements": [
+																							{
+																								"definition": {
+																									"fragment": {
+																										"key": "dialect-text",
+																										"siteKey": "Liferay Learn"
+																									},
+																									"fragmentConfig": {
+																										"textType": "text-paragraph",
+																										"truncateText": false
+																									},
+																									"fragmentFields": [
+																										{
+																											"id": "element-text",
+																											"value": {
+																												"fragmentLink": {
+																												},
+																												"text": {
+																													"value_i18n": {
+																														"en_US": "Browse Resources"
+																													}
+																												}
+																											}
+																										}
+																									],
+																									"fragmentStyle": {
+																										"fontWeight": "600",
+																										"marginRight": "auto",
+																										"paddingBottom": "2",
+																										"textColor": "#54555F"
+																									},
+																									"indexed": true
+																								},
+																								"type": "Fragment"
+																							},
+																							{
+																								"definition": {
+																									"cssClasses": [
+																										"container-cta-content-dropdown-education"
+																									],
+																									"fragmentStyle": {
+																										"paddingTop": "2"
+																									},
+																									"indexed": true,
+																									"layout": {
+																										"align": "Start",
+																										"contentDisplay": "FlexRow"
+																									}
+																								},
+																								"pageElements": [
+																									{
+																										"definition": {
+																											"cssClasses": [
+																												"container-cta-content-dropdown"
+																											],
+																											"indexed": true,
+																											"layout": {
+																												"contentDisplay": "FlexColumn"
+																											}
+																										},
+																										"pageElements": [
+																											{
+																												"definition": {
+																													"fragment": {
+																														"key": "mega-menu-item",
+																														"siteKey": "Liferay Learn"
+																													},
+																													"fragmentConfig": {
+																														"external": false,
+																														"url": "",
+																														"visual": "icon"
+																													},
+																													"fragmentFields": [
+																														{
+																															"id": "description",
+																															"value": {
+																																"fragmentLink": {
+																																},
+																																"text": {
+																																	"value_i18n": {
+																																		"en_US": "Become a Liferay master with guided content created by Liferay experts."
+																																	}
+																																}
+																															}
+																														},
+																														{
+																															"id": "html",
+																															"value": {
+																																"html": {
+																																	"value_i18n": {
+																																		"en_US": "<svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M21.5802 18.7466H16.2736C16.2552 18.7466 16.2402 18.7615 16.2402 18.7799V19.0732C16.2402 19.0916 16.2552 19.1066 16.2736 19.1066H21.5802C21.5986 19.1066 21.6136 19.0916 21.6136 19.0732V18.7799C21.6136 18.7615 21.5986 18.7466 21.5802 18.7466Z\" fill=\"#0B5FFF\" stroke=\"#0B5FFF\" stroke-width=\"1.45\" stroke-miterlimit=\"10\" stroke-linecap=\"round\"/>\n<path d=\"M18.8799 11.5934C19.3033 11.5934 19.6466 11.2501 19.6466 10.8267C19.6466 10.4033 19.3033 10.0601 18.8799 10.0601C18.4565 10.0601 18.1133 10.4033 18.1133 10.8267C18.1133 11.2501 18.4565 11.5934 18.8799 11.5934Z\" fill=\"#0B5FFF\"/>\n<path d=\"M21.2332 12.6467H16.5332V12.7467H21.2332V12.6467Z\" fill=\"#0B5FFF\"/>\n<path d=\"M21.5269 12.3533H16.2402V13.0399H21.5269V12.3533Z\" fill=\"#0B5FFF\" stroke=\"#0B5FFF\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M9.59305 5.53328C9.19505 5.53328 8.89305 5.84757 8.89305 6.20662V7.47918C8.60238 7.43145 8.30391 7.40658 7.99971 7.40658C7.85158 7.40658 7.70485 7.41245 7.55971 7.42405V6.20662C7.55971 5.08566 8.48445 4.19995 9.59305 4.19995H28.3264C29.435 4.19995 30.3597 5.08566 30.3597 6.20662V17.9199H30.6797C31.2479 17.9199 31.713 18.3851 31.713 18.9533V19.7866C31.713 20.9748 30.7479 21.9399 29.5597 21.9399H16.3281C16.201 21.4817 16.0394 21.0359 15.8462 20.6066H29.5597C30.0115 20.6066 30.3797 20.2384 30.3797 19.7866V19.2533H15.0957C14.7749 18.7743 14.4101 18.3273 14.0063 17.9199H29.0264V6.20662C29.0264 5.84756 28.7244 5.53328 28.3264 5.53328H9.59305ZM8.89305 8.15625V17.9199H13.0261C13.4906 18.315 13.9104 18.763 14.2785 19.2533H7.55305V19.7866C7.55305 20.2384 7.92125 20.6066 8.37305 20.6066H15.1095C15.3198 21.0331 15.4958 21.4792 15.6344 21.9399H8.37305C7.18485 21.9399 6.21973 20.9748 6.21973 19.7866V18.9533C6.21973 18.3851 6.68485 17.9199 7.25305 17.9199H7.55971V8.09312C7.70465 8.07998 7.85138 8.07325 7.99971 8.07325C8.30498 8.07325 8.60358 8.10172 8.89305 8.15625Z\" fill=\"#0B5FFF\"/>\n<path d=\"M14.8862 8.58667H23.0462C23.3129 8.58667 23.5262 8.82 23.5262 9.10667V14.5667C23.5262 14.8533 23.3129 15.0867 23.0462 15.0867H14.8862C14.6196 15.0867 14.4062 14.8533 14.4062 14.5667V9.10667C14.4062 8.82 14.6196 8.58667 14.8862 8.58667Z\" stroke=\"#0B5FFF\" stroke-width=\"2\" stroke-linecap=\"round\"/>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M10.9599 16.6522C12.0802 15.7735 12.8 14.4074 12.8 12.8732C12.8 10.2222 10.651 8.07324 8 8.07324C5.34903 8.07324 3.2 10.2222 3.2 12.8732C3.2 14.402 3.91466 15.7638 5.0281 16.6428C2.08092 17.8208 0 20.7034 0 24.0733V26.4733C0 26.9133 0.36 27.2733 0.8 27.2733H15.2C15.64 27.2733 16 26.9133 16 26.4733V24.42C16 21.0096 13.9676 17.8966 10.9599 16.6522Z\" fill=\"#0B5FFF\"/>\n</svg>\n"
+																																	}
+																																}
+																															}
+																														},
+																														{
+																															"id": "title",
+																															"value": {
+																																"fragmentLink": {
+																																},
+																																"text": {
+																																	"value_i18n": {
+																																		"en_US": "Education Resources"
+																																	}
+																																}
+																															}
+																														}
+																													],
+																													"fragmentStyle": {
+																														"width": "90%"
+																													},
+																													"indexed": true
+																												},
+																												"type": "Fragment"
+																											}
+																										],
+																										"type": "Section"
+																									}
+																								],
+																								"type": "Section"
+																							}
+																						],
+																						"type": "Section"
+																					}
+																				],
+																				"type": "Section"
+																			}
+																		],
+																		"type": "Column"
+																	},
+																	{
+																		"definition": {
+																			"columnViewports": [
+																				{
+																					"columnViewportDefinition": {
+																						"size": 12
+																					},
+																					"id": "landscapeMobile"
+																				},
+																				{
+																					"columnViewportDefinition": {
+																					},
+																					"id": "portraitMobile"
+																				},
+																				{
+																					"columnViewportDefinition": {
+																					},
+																					"id": "tablet"
+																				}
+																			],
+																			"size": 7
+																		},
+																		"pageElements": [
+																			{
+																				"definition": {
+																					"cssClasses": [
+																						"container-cta-dropdown"
+																					],
+																					"fragmentStyle": {
+																						"paddingBottom": "3",
+																						"paddingLeft": "3",
+																						"paddingRight": "3",
+																						"paddingTop": "3",
+																						"width": "100%"
+																					},
+																					"indexed": true,
+																					"layout": {
+																						"align": "Center",
+																						"contentDisplay": "FlexRow",
+																						"paddingBottom": 1,
+																						"paddingLeft": 1,
+																						"paddingRight": 1,
+																						"paddingTop": 1
+																					}
+																				},
+																				"pageElements": [
+																					{
+																						"definition": {
+																							"fragmentStyle": {
+																								"paddingTop": "4"
+																							},
+																							"indexed": true,
+																							"layout": {
+																								"align": "Center",
+																								"contentDisplay": "FlexColumn",
+																								"paddingTop": 2
+																							}
+																						},
+																						"pageElements": [
+																							{
+																								"definition": {
+																									"fragment": {
+																										"key": "dialect-text",
+																										"siteKey": "Liferay Learn"
+																									},
+																									"fragmentConfig": {
+																										"textType": "text-paragraph",
+																										"truncateText": false
+																									},
+																									"fragmentFields": [
+																										{
+																											"id": "element-text",
+																											"value": {
+																												"fragmentLink": {
+																												},
+																												"text": {
+																													"value_i18n": {
+																														"en_US": "Jump In"
+																													}
+																												}
+																											}
+																										}
+																									],
+																									"fragmentStyle": {
+																										"fontWeight": "600",
+																										"marginRight": "auto",
+																										"paddingBottom": "2",
+																										"textColor": "#54555F"
+																									},
+																									"indexed": true
+																								},
+																								"type": "Fragment"
+																							},
+																							{
+																								"definition": {
+																									"cssClasses": [
+																										"container-cta-content-dropdown-education"
+																									],
+																									"fragmentStyle": {
+																										"paddingTop": "2"
+																									},
+																									"indexed": true,
+																									"layout": {
+																										"align": "Start",
+																										"contentDisplay": "FlexRow"
+																									}
+																								},
+																								"pageElements": [
+																									{
+																										"definition": {
+																											"cssClasses": [
+																												"container-cta-content-dropdown"
+																											],
+																											"indexed": true,
+																											"layout": {
+																												"contentDisplay": "FlexRow"
+																											}
+																										},
+																										"pageElements": [
+																											{
+																												"definition": {
+																													"fragment": {
+																														"key": "mega-menu-item",
+																														"siteKey": "Liferay Learn"
+																													},
+																													"fragmentConfig": {
+																														"external": false,
+																														"url": "",
+																														"visual": "icon"
+																													},
+																													"fragmentFields": [
+																														{
+																															"id": "description",
+																															"value": {
+																																"fragmentLink": {
+																																},
+																																"text": {
+																																	"value_i18n": {
+																																		"en_US": "Learn at your own pace with self-directed courses that guide you through specific topics in-depth."
+																																	}
+																																}
+																															}
+																														},
+																														{
+																															"id": "html",
+																															"value": {
+																																"html": {
+																																	"value_i18n": {
+																																		"en_US": "<svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M8.66699 2V30\" stroke=\"#0B5FFF\" stroke-width=\"2\"/>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16 1.33325H6.66667C5.19391 1.33325 4 2.52716 4 3.99992V27.9999C4 29.4727 5.19391 30.6666 6.66667 30.6666H25.3333C26.8061 30.6666 28 29.4727 28 27.9999V3.99992C28 2.52716 26.8061 1.33325 25.3333 1.33325V2.66659C26.0697 2.66659 26.6667 3.26354 26.6667 3.99992V27.9999C26.6667 28.7363 26.0697 29.3333 25.3333 29.3333H6.66667C5.93029 29.3333 5.33333 28.7363 5.33333 27.9999V3.99992C5.33333 3.26354 5.93029 2.66659 6.66667 2.66659H16V1.33325ZM24.6667 2.66659H16.6667V1.33325H24.6667V2.66659Z\" fill=\"#0B5FFF\"/>\n<path d=\"M16.667 0.666748V21.3334L20.667 19.3334L24.667 21.3334V1.33341C24.667 0.965228 24.3685 0.666748 24.0003 0.666748H16.667Z\" fill=\"#0B5FFF\"/>\n</svg>\n"
+																																	}
+																																}
+																															}
+																														},
+																														{
+																															"id": "title",
+																															"value": {
+																																"fragmentLink": {
+																																},
+																																"text": {
+																																	"value_i18n": {
+																																		"en_US": "Courses"
+																																	}
+																																}
+																															}
+																														}
+																													],
+																													"fragmentStyle": {
+																														"width": "90%"
+																													},
+																													"indexed": true
+																												},
+																												"type": "Fragment"
+																											},
+																											{
+																												"definition": {
+																													"fragment": {
+																														"key": "mega-menu-item",
+																														"siteKey": "Liferay Learn"
+																													},
+																													"fragmentConfig": {
+																														"external": false,
+																														"url": "",
+																														"visual": "icon"
+																													},
+																													"fragmentFields": [
+																														{
+																															"id": "description",
+																															"value": {
+																																"fragmentLink": {
+																																},
+																																"text": {
+																																	"value_i18n": {
+																																		"en_US": "Take a structured learning path tailored to your role and experience level, ensuring you gain the Liferay skills you need."
+																																	}
+																																}
+																															}
+																														},
+																														{
+																															"id": "html",
+																															"value": {
+																																"html": {
+																																	"value_i18n": {
+																																		"en_US": "<svg width=\"33\" height=\"32\" viewBox=\"0 0 33 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M24.6074 6.59312L30.3607 9.84645C30.7674 10.0731 30.7741 10.6598 30.3674 10.8998L24.6741 14.2531C24.2674 14.4931 23.7541 14.1998 23.7541 13.7331L23.7407 12.2665C21.1292 12.5454 19.5534 13.617 17.7713 16.2997C17.4559 15.8518 17.1366 15.3556 16.8074 14.8066C16.4159 14.1531 16.0227 13.5694 15.624 13.0483C17.5895 10.5079 19.9075 8.95599 23.7141 8.61979L23.7007 7.12645C23.6941 6.65979 24.2007 6.35979 24.6074 6.59312ZM13.8567 15.6973C11.6833 19.235 9.967 19.8065 5.72073 19.8065H4.02073C3.6874 19.8065 3.41406 20.0798 3.41406 20.4131V22.8398C3.41406 23.1731 3.6874 23.4465 4.02073 23.4465H5.72073C10.2635 23.4465 13.2673 22.7084 16.0401 18.9641C15.422 18.188 14.8397 17.3093 14.2541 16.3333C14.1203 16.1107 13.9881 15.8989 13.8567 15.6973Z\" fill=\"#0B5FFF\"/>\n<path d=\"M5.71406 9.21322C10.6941 9.21322 13.5874 10.0732 16.5207 14.9732C18.7541 18.6932 20.5541 20.0599 23.6607 20.3932L24.3941 20.4732V19.7399L24.4141 18.3732L29.9407 21.6266L24.3607 24.7932L24.3741 23.3932V22.7799L23.7674 22.7266C19.0941 22.3132 16.8474 20.0132 14.5474 16.1732C12.1674 12.2066 10.2541 11.5332 5.72073 11.5332H4.07406V9.21989H5.72073M5.72073 8.55322H4.02073C3.6874 8.55322 3.41406 8.82656 3.41406 9.15989V11.5866C3.41406 11.9199 3.6874 12.1932 4.02073 12.1932H5.72073C10.0407 12.1932 11.7474 12.7866 13.9807 16.5066C16.3741 20.4999 18.8074 22.9532 23.7141 23.3799L23.7007 24.8732C23.7007 25.2332 23.9941 25.4866 24.3141 25.4866C24.4141 25.4866 24.5141 25.4599 24.6141 25.4066L30.3674 22.1532C30.7741 21.9199 30.7807 21.3332 30.3741 21.0999L24.6807 17.7466C24.5807 17.6866 24.4741 17.6599 24.3741 17.6599C24.0607 17.6599 23.7674 17.9132 23.7607 18.2666L23.7474 19.7332C20.8141 19.4199 19.1874 18.0999 17.1074 14.6332C14.0207 9.49322 10.8541 8.55322 5.7274 8.55322H5.72073Z\" fill=\"#0B5FFF\"/>\n<path d=\"M5.71406 9.21322C10.6941 9.21322 13.5874 10.0732 16.5207 14.9732C18.7541 18.6932 20.5541 20.0599 23.6607 20.3932L24.3941 20.4732V19.7399L24.4141 18.3732L29.9407 21.6266L24.3607 24.7932L24.3741 23.3932V22.7799L23.7674 22.7266C19.0941 22.3132 16.8474 20.0132 14.5474 16.1732C12.1674 12.2066 10.2541 11.5332 5.72073 11.5332H4.07406V9.21989H5.72073M5.72073 8.55322H4.02073C3.6874 8.55322 3.41406 8.82656 3.41406 9.15989V11.5866C3.41406 11.9199 3.6874 12.1932 4.02073 12.1932H5.72073C10.0407 12.1932 11.7474 12.7866 13.9807 16.5066C16.3741 20.4999 18.8074 22.9532 23.7141 23.3799L23.7007 24.8732C23.7007 25.2332 23.9941 25.4866 24.3141 25.4866C24.4141 25.4866 24.5141 25.4599 24.6141 25.4066L30.3674 22.1532C30.7741 21.9199 30.7807 21.3332 30.3741 21.0999L24.6807 17.7466C24.5807 17.6866 24.4741 17.6599 24.3741 17.6599C24.0607 17.6599 23.7674 17.9132 23.7607 18.2666L23.7474 19.7332C20.8141 19.4199 19.1874 18.0999 17.1074 14.6332C14.0207 9.49322 10.8541 8.55322 5.7274 8.55322H5.72073Z\" stroke=\"#0B5FFF\"/>\n</svg>\n"
+																																	}
+																																}
+																															}
+																														},
+																														{
+																															"id": "title",
+																															"value": {
+																																"fragmentLink": {
+																																},
+																																"text": {
+																																	"value_i18n": {
+																																		"en_US": "Learning Paths"
+																																	}
+																																}
+																															}
+																														}
+																													],
+																													"fragmentStyle": {
+																														"width": "90%"
+																													},
+																													"indexed": true
+																												},
+																												"type": "Fragment"
+																											},
+																											{
+																												"definition": {
+																													"fragment": {
+																														"key": "mega-menu-item",
+																														"siteKey": "Liferay Learn"
+																													},
+																													"fragmentConfig": {
+																														"external": false,
+																														"url": "",
+																														"visual": "icon"
+																													},
+																													"fragmentFields": [
+																														{
+																															"id": "description",
+																															"value": {
+																																"fragmentLink": {
+																																},
+																																"text": {
+																																	"value_i18n": {
+																																		"en_US": "Elevate your Liferay skills, showcase your expertise, and unlock new opportunities with our industry recognized certifications."
+																																	}
+																																}
+																															}
+																														},
+																														{
+																															"id": "html",
+																															"value": {
+																																"html": {
+																																	"value_i18n": {
+																																		"en_US": "<svg width=\"33\" height=\"32\" viewBox=\"0 0 33 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M7.89258 16.0129H21.2259\" stroke=\"#0B5FFF\" stroke-width=\"2\" stroke-linecap=\"round\"/>\n<path d=\"M7.89258 19.3464H21.2259\" stroke=\"#0B5FFF\" stroke-width=\"2\" stroke-linecap=\"round\"/>\n<path d=\"M10.333 12.5867H18.9997\" stroke=\"#0B5FFF\" stroke-width=\"2\" stroke-linecap=\"round\"/>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M23.9997 20.733C23.9997 18.7079 25.6413 17.0663 27.6663 17.0663C29.6913 17.0663 31.333 18.7079 31.333 20.733C31.333 22.0748 30.6122 23.2483 29.5367 23.8874C29.5201 23.8936 29.5039 23.9011 29.4883 23.9099C28.9856 24.1956 28.4109 24.3736 27.8039 24.3971C27.7583 24.3988 27.7124 24.3997 27.6663 24.3997C27.5809 24.3997 27.4962 24.3967 27.4123 24.391C26.8469 24.3517 26.3145 24.1825 25.8468 23.9114C25.8305 23.9019 25.8135 23.8939 25.7959 23.8873C24.7204 23.2483 23.9997 22.0748 23.9997 20.733ZM25.333 24.3851C24.1302 23.6151 23.333 22.2671 23.333 20.733C23.333 18.3397 25.2731 16.3997 27.6663 16.3997C30.0595 16.3997 31.9997 18.3397 31.9997 20.733C31.9997 22.2671 31.2024 23.6151 29.9997 24.3851V28.6998C29.9997 28.8346 29.9185 28.9561 29.7939 29.0077C29.6693 29.0593 29.5259 29.0308 29.4306 28.9355L27.6663 27.1712L25.902 28.9355C25.8067 29.0308 25.6633 29.0593 25.5387 29.0077C25.4142 28.9561 25.333 28.8346 25.333 28.6998V24.3851Z\" fill=\"#0B5FFF\"/>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M2.78666 2.66675C1.77583 2.66675 1 3.50829 1 4.49341V23.5001C1 24.4878 1.78503 25.3267 2.78666 25.3267H24.56C24.5964 25.3267 24.632 25.3239 24.6667 25.3183V24.7336C24.3771 24.5161 24.1118 24.2677 23.8757 23.9934H2.78666C2.56163 23.9934 2.33333 23.7923 2.33333 23.5001V4.49341C2.33333 4.19855 2.5575 4.00008 2.78666 4.00008H5.20667H26.5467C26.7717 4.00008 27 4.20117 27 4.49341V15.6801C27 15.7128 27.0024 15.745 27.0069 15.7765C27.2228 15.748 27.443 15.7333 27.6667 15.7333C27.8903 15.7333 28.1106 15.748 28.3264 15.7765C28.331 15.745 28.3334 15.7128 28.3334 15.6801V4.49341C28.3334 3.50566 27.5483 2.66675 26.5467 2.66675H5.20667H2.78666Z\" fill=\"#0B5FFF\"/>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M31.666 20.7332C31.666 22.9423 29.8751 24.7332 27.666 24.7332C25.4569 24.7332 23.666 22.9423 23.666 20.7332C23.666 18.524 25.4569 16.7332 27.666 16.7332C29.8751 16.7332 31.666 18.524 31.666 20.7332ZM29.6374 20.1714C29.8977 19.911 29.8977 19.4889 29.6374 19.2285C29.3771 18.9682 28.9549 18.9682 28.6946 19.2285L27.166 20.7571L26.6374 20.2285C26.3771 19.9682 25.9549 19.9682 25.6946 20.2285C25.4342 20.4889 25.4342 20.911 25.6946 21.1714L26.6946 22.1714C26.9549 22.4317 27.3771 22.4317 27.6374 22.1714L29.6374 20.1714Z\" fill=\"#0B5FFF\"/>\n<path d=\"M16.4263 6.1332C16.0063 5.7132 15.4196 5.44653 14.7796 5.44653C14.1396 5.44653 13.553 5.70653 13.133 6.1332C12.713 6.5532 12.4463 7.13987 12.4463 7.77987C12.4463 8.41985 12.7063 9.00652 13.133 9.42652C13.553 9.84652 14.1396 10.1132 14.7796 10.1132C15.4196 10.1132 16.0063 9.85319 16.4263 9.42652C16.8463 9.00652 17.113 8.41985 17.113 7.77987C17.113 7.13987 16.853 6.5532 16.4263 6.1332Z\" fill=\"#0B5FFF\"/>\n</svg>\n"
+																																	}
+																																}
+																															}
+																														},
+																														{
+																															"id": "title",
+																															"value": {
+																																"fragmentLink": {
+																																},
+																																"text": {
+																																	"value_i18n": {
+																																		"en_US": "Certifications"
+																																	}
+																																}
+																															}
+																														}
+																													],
+																													"fragmentStyle": {
+																														"width": "90%"
+																													},
+																													"indexed": true
+																												},
+																												"type": "Fragment"
+																											}
+																										],
+																										"type": "Section"
+																									}
+																								],
+																								"type": "Section"
+																							}
+																						],
+																						"type": "Section"
+																					}
+																				],
+																				"type": "Section"
+																			}
+																		],
+																		"type": "Column"
+																	},
+																	{
+																		"definition": {
+																			"columnViewports": [
+																				{
+																					"columnViewportDefinition": {
+																						"size": 12
+																					},
+																					"id": "landscapeMobile"
+																				},
+																				{
+																					"columnViewportDefinition": {
+																					},
+																					"id": "portraitMobile"
+																				},
+																				{
+																					"columnViewportDefinition": {
+																					},
+																					"id": "tablet"
+																				}
+																			],
+																			"size": 1
+																		},
+																		"type": "Column"
+																	}
+																],
+																"type": "Row"
+															}
+														],
+														"type": "Section"
+													}
+												],
+												"type": "FragmentDropZone"
+											}
+										],
+										"type": "Fragment"
+									}
+								],
+								"type": "Section"
+							}
+						],
+						"type": "FragmentDropZone"
+					},
+					{
+						"definition": {
+						},
+						"type": "FragmentDropZone"
+					}
+				],
+				"type": "Fragment"
+			},
+			{
+				"definition": {
+					"fragmentSettings": {
+						"unallowedFragments": [
+						]
+					}
+				},
+				"type": "DropZone"
+			},
+			{
+				"definition": {
+					"customCSS": ".[$FRAGMENT_CLASS$] {\na:hover {\n  color:  var(--color-action-primary-hover, #0053F0);\n  text-decoration: none;\n}}",
+					"customCSSViewports": [
+						{
+							"customCSS": ".[$FRAGMENT_CLASS$] {\na:hover {\n  color:  var(--color-action-primary-hover, #0053F0);\n  text-decoration: none;\n}\n\ngap: var(--spacer-4);\n}",
+							"id": "portraitMobile"
+						},
+						{
+							"customCSS": ".[$FRAGMENT_CLASS$] {\na:hover {\n  color:  var(--color-action-primary-hover, #0053F0);\n  text-decoration: none;\n}\n\ngap: var(--spacer-4);\n}",
+							"id": "tablet"
+						}
+					],
+					"fragmentStyle": {
+						"marginLeft": "auto",
+						"marginRight": "auto",
+						"maxWidth": "var(--container-max-xl)"
+					},
+					"indexed": true,
+					"layout": {
+					},
+					"name": "Footer"
+				},
+				"pageElements": [
+					{
+						"definition": {
+							"customCSS": ".[$FRAGMENT_CLASS$] {\ngap: var(--spacer-4);\n}",
+							"fragmentStyle": {
+								"backgroundColor": "colorNeutral1",
+								"borderRadius": "borderRadiusLg",
+								"marginBottom": "4",
+								"marginLeft": "4",
+								"marginRight": "4",
+								"marginTop": "4",
+								"paddingBottom": "3",
+								"paddingLeft": "4",
+								"paddingRight": "4",
+								"paddingTop": "4",
+								"textColor": "colorNeutral10"
+							},
+							"indexed": true,
+							"layout": {
+								"contentDisplay": "FlexColumn",
+								"justify": "SpaceBetween",
+								"marginBottom": 2,
+								"marginLeft": 2,
+								"marginRight": 2,
+								"marginTop": 2,
+								"paddingBottom": 1,
+								"paddingLeft": 2,
+								"paddingRight": 2,
+								"paddingTop": 2
+							},
+							"name": "Footer-Contents"
+						},
+						"pageElements": [
+							{
+								"definition": {
+									"customCSS": ".[$FRAGMENT_CLASS$] {\ngap: var(--spacer-4);\njustify-content: space-between;\n}",
+									"customCSSViewports": [
+										{
+											"customCSS": ".[$FRAGMENT_CLASS$] {\nflex-direction: column !important;\ngap: var(--spacer-4);\n}",
+											"id": "portraitMobile"
+										}
+									],
+									"indexed": true,
+									"layout": {
+										"contentDisplay": "FlexRow"
+									},
+									"name": "Footer-Contents-Top"
+								},
+								"pageElements": [
+									{
+										"definition": {
+											"customCSS": ".[$FRAGMENT_CLASS$] {\ngap: var(--spacer-3);\n}",
+											"fragmentViewports": [
+												{
+													"fragmentViewportStyle": {
+														"width": "100%"
+													},
+													"id": "portraitMobile"
+												},
+												{
+													"fragmentViewportStyle": {
+														"width": "50%"
+													},
+													"id": "tablet"
+												}
+											],
+											"indexed": true,
+											"layout": {
+												"align": "Start",
+												"contentDisplay": "FlexColumn"
+											},
+											"name": "Logo Info Section"
+										},
+										"pageElements": [
+											{
+												"definition": {
+													"customCSS": ".[$FRAGMENT_CLASS$] {\ngap: var(--spacer-2);\n}",
+													"indexed": true,
+													"layout": {
+														"contentDisplay": "FlexRow"
+													},
+													"name": "Logo-Info-Title"
+												},
+												"pageElements": [
+													{
+														"definition": {
+															"fragment": {
+																"key": "BASIC_COMPONENT-html"
+															},
+															"fragmentConfig": {
+															},
+															"fragmentFields": [
+																{
+																	"id": "element-html",
+																	"value": {
+																		"html": {
+																			"value_i18n": {
+																				"en_US": "<svg width=\"6.3rem\" height=\"2rem\" viewBox=\"0 0 135 43\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M0.170227 5.21272C0.170227 4.08465 1.08471 3.17017 2.21278 3.17017H25.7021C26.8302 3.17017 27.7447 4.08465 27.7447 5.21272V28.7021C27.7447 29.8302 26.8302 30.7446 25.7021 30.7446H2.21278C1.08471 30.7446 0.170227 29.8302 0.170227 28.7021V5.21272ZM4.25533 7.76591C4.25533 7.48389 4.48395 7.25527 4.76597 7.25527H7.8298C8.11182 7.25527 8.34044 7.48389 8.34044 7.76591V10.8297C8.34044 11.1118 8.11182 11.3404 7.8298 11.3404H4.76597C4.48395 11.3404 4.25533 11.1118 4.25533 10.8297V7.76591ZM9.87236 7.25527C9.59034 7.25527 9.36172 7.48389 9.36172 7.76591V10.8297C9.36172 11.1118 9.59034 11.3404 9.87236 11.3404H12.9362C13.2182 11.3404 13.4468 11.1118 13.4468 10.8297V7.76591C13.4468 7.48389 13.2182 7.25527 12.9362 7.25527H9.87236ZM14.4681 7.76591C14.4681 7.48389 14.6967 7.25527 14.9787 7.25527H18.0426C18.3246 7.25527 18.5532 7.48389 18.5532 7.76591V10.8297C18.5532 11.1118 18.3246 11.3404 18.0426 11.3404H14.9787C14.6967 11.3404 14.4681 11.1118 14.4681 10.8297V7.76591ZM4.76597 12.3617C4.48395 12.3617 4.25533 12.5903 4.25533 12.8723V15.9361C4.25533 16.2181 4.48395 16.4468 4.76597 16.4468H7.8298C8.11182 16.4468 8.34044 16.2181 8.34044 15.9361V12.8723C8.34044 12.5903 8.11182 12.3617 7.8298 12.3617H4.76597ZM9.36172 12.8723C9.36172 12.5903 9.59034 12.3617 9.87236 12.3617H12.9362C13.2182 12.3617 13.4468 12.5903 13.4468 12.8723V15.9361C13.4468 16.2181 13.2182 16.4468 12.9362 16.4468H9.87236C9.59034 16.4468 9.36172 16.2181 9.36172 15.9361V12.8723ZM20.0851 12.3617C19.8031 12.3617 19.5745 12.5903 19.5745 12.8723V15.9361C19.5745 16.2181 19.8031 16.4468 20.0851 16.4468H23.149C23.431 16.4468 23.6596 16.2181 23.6596 15.9361V12.8723C23.6596 12.5903 23.431 12.3617 23.149 12.3617H20.0851ZM4.25533 17.9787C4.25533 17.6967 4.48395 17.468 4.76597 17.468H7.8298C8.11182 17.468 8.34044 17.6967 8.34044 17.9787V21.0425C8.34044 21.3245 8.11182 21.5531 7.8298 21.5531H4.76597C4.48395 21.5531 4.25533 21.3245 4.25533 21.0425V17.9787ZM14.9787 17.468C14.6967 17.468 14.4681 17.6967 14.4681 17.9787V21.0425C14.4681 21.3245 14.6967 21.5531 14.9787 21.5531H18.0426C18.3246 21.5531 18.5532 21.3245 18.5532 21.0425V17.9787C18.5532 17.6967 18.3246 17.468 18.0426 17.468H14.9787ZM19.5745 17.9787C19.5745 17.6967 19.8031 17.468 20.0851 17.468H23.149C23.431 17.468 23.6596 17.6967 23.6596 17.9787V21.0425C23.6596 21.3245 23.431 21.5531 23.149 21.5531H20.0851C19.8031 21.5531 19.5745 21.3245 19.5745 21.0425V17.9787ZM9.87236 22.5744C9.59034 22.5744 9.36172 22.803 9.36172 23.0851V26.1489C9.36172 26.4309 9.59034 26.6595 9.87236 26.6595H12.9362C13.2182 26.6595 13.4468 26.4309 13.4468 26.1489V23.0851C13.4468 22.803 13.2182 22.5744 12.9362 22.5744H9.87236ZM14.4681 23.0851C14.4681 22.803 14.6967 22.5744 14.9787 22.5744H18.0426C18.3246 22.5744 18.5532 22.803 18.5532 23.0851V26.1489C18.5532 26.4309 18.3246 26.6595 18.0426 26.6595H14.9787C14.6967 26.6595 14.4681 26.4309 14.4681 26.1489V23.0851ZM20.0851 22.5744C19.8031 22.5744 19.5745 22.803 19.5745 23.0851V26.1489C19.5745 26.4309 19.8031 26.6595 20.0851 26.6595H23.149C23.431 26.6595 23.6596 26.4309 23.6596 26.1489V23.0851C23.6596 22.803 23.431 22.5744 23.149 22.5744H20.0851Z\" fill=\"#0B63CE\"></path> <path d=\"M50.417 28.3446H38.3149V3.32331C38.3149 3.17012 38.2128 3.06799 38.0596 3.06799H36.1702C36.017 3.06799 35.9149 3.17012 35.9149 3.32331V30.1829C35.9149 30.3361 36.017 30.4382 36.1702 30.4382H50.417C50.5702 30.4382 50.6723 30.3361 50.6723 30.1829V28.5488C50.6723 28.4467 50.5702 28.3446 50.417 28.3446Z\" fill=\"#282934\"></path> <path d=\"M68.3404 10.3702H64.0511V6.38717C64.0511 3.57866 64.9702 2.19994 66.8596 2.19994C67.6255 2.19994 68.3915 2.4042 69.1064 2.71058C69.1575 2.76164 69.2596 2.76164 69.3106 2.71058C69.3617 2.65951 69.4128 2.60845 69.4638 2.55739L69.9745 1.07654C70.0255 0.974408 69.9745 0.821217 69.8213 0.770153C68.8511 0.361642 67.7787 0.106323 66.8596 0.106323C63.5915 0.106323 61.7532 2.30207 61.7532 6.23398V10.3702L59.3021 10.5233C59.1489 10.5233 59.0468 10.6255 59.0468 10.7787V12.1574C59.0468 12.3106 59.1489 12.4127 59.3021 12.4127H61.7532V30.1829C61.7532 30.3361 61.8553 30.4382 62.0085 30.4382H63.7957C63.9489 30.4382 64.0511 30.3361 64.0511 30.1829V12.4127H68.3404C68.4936 12.4127 68.5957 12.3106 68.5957 12.1574V10.5744C68.5957 10.4723 68.4936 10.3702 68.3404 10.3702Z\" fill=\"#282934\"></path> <path d=\"M77.6341 9.8595C73.3958 9.8595 68.8511 13.5872 68.8511 20.4297C68.8511 26.6084 72.6809 30.9489 78.1447 30.9489C81.0553 30.9489 82.8426 29.9786 84.4766 29.0084C84.5787 28.9574 84.6298 28.8042 84.5787 28.651L83.8128 27.2723C83.7617 27.2212 83.7106 27.1701 83.6596 27.1701C83.6085 27.1701 83.5064 27.1701 83.4553 27.2212C81.8213 28.3957 80.1872 28.9063 78.3489 28.9063C74.2128 28.9063 71.4043 25.6893 71.2511 20.9403H85.0894C85.1915 20.9403 85.2936 20.8382 85.3447 20.7361C85.4468 20.2255 85.4468 19.6638 85.4468 19.2042C85.3447 13.3318 82.4851 9.8595 77.6341 9.8595ZM71.2 18.8978C71.6596 14.7616 74.2638 11.9021 77.6341 11.9021C81.1575 11.9021 83.0979 14.4042 83.1489 18.8978H71.2Z\" fill=\"#282934\"></path> <path d=\"M98.417 10.319C97.8042 10.0127 97.1915 9.91052 96.3744 9.91052C94.3319 9.91052 92.3915 11.1871 90.9106 13.5871L90.7574 10.6254C90.7574 10.4722 90.6553 10.3701 90.5021 10.3701H88.9702C88.817 10.3701 88.7149 10.4722 88.7149 10.6254V30.2339C88.7149 30.3871 88.817 30.4892 88.9702 30.4892H90.7574C90.9106 30.4892 91.0127 30.3871 91.0127 30.2339V16.9573C92.2383 13.8935 94.1276 12.1063 96.1191 12.1063C96.834 12.1063 97.1404 12.2084 97.8042 12.4127C97.8553 12.4127 97.9574 12.4127 98.0085 12.4127C98.0596 12.3616 98.1106 12.3105 98.1106 12.2595L98.5191 10.6254C98.5702 10.4722 98.5191 10.3701 98.417 10.319Z\" fill=\"#282934\"></path> <path d=\"M114.553 10.3701H112.97C112.817 10.3701 112.715 10.4722 112.715 10.6254L112.613 12.1063C110.928 10.7786 109.294 9.91052 106.945 9.91052C101.736 9.91052 98.0085 14.3531 98.0085 20.4807C98.0085 27.068 101.123 30.9999 106.383 30.9999C108.528 30.9999 110.672 30.0297 112.664 28.1914L112.817 30.285C112.817 30.4382 112.919 30.5403 113.072 30.5403H114.604C114.757 30.5403 114.86 30.4382 114.86 30.285V10.6254C114.809 10.4722 114.706 10.3701 114.553 10.3701ZM112.511 14.3531V25.7403C110.417 27.885 108.579 28.8041 106.638 28.8041C102.757 28.8041 100.409 25.6382 100.409 20.3786C100.409 15.6297 103.319 11.902 107.047 11.902C108.987 11.9531 110.621 12.668 112.511 14.3531Z\" fill=\"#282934\"></path> <path d=\"M134.06 10.4723C134.009 10.4212 133.957 10.3702 133.855 10.3702H132.017C131.915 10.3702 131.813 10.4212 131.762 10.5233L127.574 22.8297C127.37 23.4936 127.115 24.2085 126.911 24.9233C126.604 25.9446 126.247 26.9659 125.94 27.8851C125.532 26.8638 125.123 25.7404 124.715 24.668C124.46 24.0042 124.204 23.3914 124 22.7787L119.302 10.4723C119.251 10.3702 119.149 10.3191 119.047 10.3191H117.106C117.004 10.3191 116.953 10.3702 116.902 10.4212C116.851 10.4723 116.851 10.5744 116.902 10.6765L124.919 30.5404L124.409 32.1744C123.643 34.4723 122.213 37.1787 119.609 37.1787C119.098 37.1787 118.485 37.0255 118.077 36.8723C118.026 36.8723 117.923 36.8723 117.872 36.8723C117.821 36.9234 117.77 36.9744 117.719 37.0255L117.311 38.6085C117.26 38.7106 117.362 38.8638 117.464 38.9148C118.026 39.1702 118.843 39.3234 119.557 39.3234C122.57 39.3234 124.919 37.0255 126.4 32.6851L134.111 10.6255C134.162 10.6255 134.111 10.5233 134.06 10.4723Z\" fill=\"#282934\"></path> <path d=\"M55.5234 5.92765C55.8298 5.92765 56.0851 5.67233 56.0851 5.36594V3.52765C56.0851 3.22126 55.8298 2.96594 55.5234 2.96594H53.6851C53.3787 2.96594 53.1234 3.22126 53.1234 3.52765V5.36594C53.1234 5.67233 53.3787 5.92765 53.6851 5.92765H55.5234Z\" fill=\"#282934\"></path> <path d=\"M53.6851 10.3702H55.4723C55.6255 10.3702 55.7277 10.4723 55.7277 10.6255V30.234C55.7277 30.3872 55.6255 30.4894 55.4723 30.4894H53.6851C53.5319 30.4894 53.4298 30.3872 53.4298 30.234V10.6255C53.4298 10.4723 53.5319 10.3702 53.6851 10.3702Z\" fill=\"#282934\"></path></svg>"
+																			}
+																		}
+																	}
+																}
+															],
+															"indexed": true,
+															"name": "Liferay-logo"
+														},
+														"type": "Fragment"
+													}
+												],
+												"type": "Section"
+											},
+											{
+												"definition": {
+													"customCSS": ".[$FRAGMENT_CLASS$] {\ngap: var(--spacer-2);\n}",
+													"indexed": true,
+													"layout": {
+														"contentDisplay": "FlexColumn",
+														"justify": "SpaceBetween"
+													},
+													"name": "Logo-Info-Links"
+												},
+												"pageElements": [
+													{
+														"definition": {
+															"fragment": {
+																"key": "dialect-text",
+																"siteKey": "Liferay Learn"
+															},
+															"fragmentConfig": {
+																"textType": "text-paragraph",
+																"truncateText": false
+															},
+															"fragmentFields": [
+																{
+																	"id": "element-text",
+																	"value": {
+																		"fragmentLink": {
+																			"value": {
+																				"href": {
+																					"value_i18n": {
+																						"en_US": "https://www.liferay.com"
+																					}
+																				}
+																			}
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "Liferay.com"
+																			}
+																		}
+																	}
+																}
+															],
+															"indexed": true,
+															"name": "Liferay.com"
+														},
+														"type": "Fragment"
+													},
+													{
+														"definition": {
+															"fragment": {
+																"key": "dialect-text",
+																"siteKey": "Liferay Learn"
+															},
+															"fragmentConfig": {
+																"textType": "text-paragraph",
+																"truncateText": false
+															},
+															"fragmentFields": [
+																{
+																	"id": "element-text",
+																	"value": {
+																		"fragmentLink": {
+																			"value": {
+																				"href": {
+																					"value_i18n": {
+																						"en_US": "https://liferay.dev/ask"
+																					}
+																				}
+																			}
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "Ask"
+																			}
+																		}
+																	}
+																}
+															],
+															"indexed": true,
+															"name": "Ask"
+														},
+														"type": "Fragment"
+													},
+													{
+														"definition": {
+															"fragment": {
+																"key": "dialect-text",
+																"siteKey": "Liferay Learn"
+															},
+															"fragmentConfig": {
+																"textType": "text-paragraph",
+																"truncateText": false
+															},
+															"fragmentFields": [
+																{
+																	"id": "element-text",
+																	"value": {
+																		"fragmentLink": {
+																			"value": {
+																				"href": {
+																					"value_i18n": {
+																						"en_US": "https://www.liferay.com/events"
+																					}
+																				}
+																			}
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "Events"
+																			}
+																		}
+																	}
+																}
+															],
+															"indexed": true,
+															"name": "Events"
+														},
+														"type": "Fragment"
+													},
+													{
+														"definition": {
+															"fragment": {
+																"key": "dialect-text",
+																"siteKey": "Liferay Learn"
+															},
+															"fragmentConfig": {
+																"textType": "text-paragraph",
+																"truncateText": false
+															},
+															"fragmentFields": [
+																{
+																	"id": "element-text",
+																	"value": {
+																		"fragmentLink": {
+																			"value": {
+																				"href": {
+																					"value_i18n": {
+																						"en_US": "https://liferay.dev/meet"
+																					}
+																				}
+																			}
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "Meet"
+																			}
+																		}
+																	}
+																}
+															],
+															"indexed": true,
+															"name": "Meet"
+														},
+														"type": "Fragment"
+													}
+												],
+												"type": "Section"
+											}
+										],
+										"type": "Section"
+									},
+									{
+										"definition": {
+											"customCSSViewports": [
+												{
+													"customCSS": ".[$FRAGMENT_CLASS$] {\n}",
+													"id": "landscapeMobile"
+												},
+												{
+													"customCSS": ".[$FRAGMENT_CLASS$] {\nflex-direction: column !important;\n}",
+													"id": "portraitMobile"
+												},
+												{
+													"customCSS": ".[$FRAGMENT_CLASS$] {\ndisplay: flex;\nflex-direction: column !important;\ngap: var(--spacer-5);\n}",
+													"id": "tablet"
+												}
+											],
+											"fragmentStyle": {
+												"width": "75%"
+											},
+											"fragmentViewports": [
+												{
+													"fragmentViewportStyle": {
+														"width": "100%"
+													},
+													"id": "portraitMobile"
+												},
+												{
+													"fragmentViewportStyle": {
+														"width": "50%"
+													},
+													"id": "tablet"
+												}
+											],
+											"indexed": true,
+											"layout": {
+												"contentDisplay": "FlexRow",
+												"justify": "SpaceBetween"
+											},
+											"name": "Other Sections"
+										},
+										"pageElements": [
+											{
+												"definition": {
+													"customCSS": ".[$FRAGMENT_CLASS$] {\ngap: var(--spacer-4);\n}",
+													"indexed": true,
+													"layout": {
+														"contentDisplay": "FlexColumn"
+													},
+													"name": "Capabilities Section"
+												},
+												"pageElements": [
+													{
+														"definition": {
+															"indexed": true,
+															"layout": {
+															},
+															"name": "Capabilities-Title"
+														},
+														"pageElements": [
+															{
+																"definition": {
+																	"fragment": {
+																		"key": "dialect-text",
+																		"siteKey": "Liferay Learn"
+																	},
+																	"fragmentConfig": {
+																		"textType": "text-paragraph-lg",
+																		"truncateText": false
+																	},
+																	"fragmentFields": [
+																		{
+																			"id": "element-text",
+																			"value": {
+																				"fragmentLink": {
+																				},
+																				"text": {
+																					"value_i18n": {
+																						"en_US": "Capabilities"
+																					}
+																				}
+																			}
+																		}
+																	],
+																	"fragmentStyle": {
+																		"fontWeight": "600",
+																		"textColor": "colorBrandPrimaryDarken4"
+																	},
+																	"indexed": true,
+																	"name": "Capabilities"
+																},
+																"type": "Fragment"
+															}
+														],
+														"type": "Section"
+													},
+													{
+														"definition": {
+															"cssClasses": [
+																"capabilities-link-container"
+															],
+															"indexed": true,
+															"layout": {
+															},
+															"name": "Capabalities-Links"
+														},
+														"pageElements": [
+															{
+																"definition": {
+																	"fragment": {
+																		"key": "dialect-text",
+																		"siteKey": "Liferay Learn"
+																	},
+																	"fragmentConfig": {
+																		"textType": "text-paragraph",
+																		"truncateText": false
+																	},
+																	"fragmentFields": [
+																		{
+																			"id": "element-text",
+																			"value": {
+																				"fragmentLink": {
+																					"value": {
+																						"href": {
+																							"value_i18n": {
+																								"en_US": "/"
+																							}
+																						}
+																					}
+																				},
+																				"text": {
+																					"value_i18n": {
+																						"en_US": "View All Capabilities"
+																					}
+																				}
+																			}
+																		}
+																	],
+																	"indexed": true,
+																	"name": "View All Capabilities"
+																},
+																"type": "Fragment"
+															}
+														],
+														"type": "Section"
+													}
+												],
+												"type": "Section"
+											},
+											{
+												"definition": {
+													"customCSS": ".[$FRAGMENT_CLASS$] {\ngap: var(--spacer-4);\n}",
+													"indexed": true,
+													"layout": {
+														"contentDisplay": "FlexColumn",
+														"justify": "SpaceBetween"
+													},
+													"name": "Products Section"
+												},
+												"pageElements": [
+													{
+														"definition": {
+															"indexed": true,
+															"layout": {
+															},
+															"name": "Products-Title"
+														},
+														"pageElements": [
+															{
+																"definition": {
+																	"fragment": {
+																		"key": "dialect-text",
+																		"siteKey": "Liferay Learn"
+																	},
+																	"fragmentConfig": {
+																		"textType": "text-paragraph-lg",
+																		"truncateText": false
+																	},
+																	"fragmentFields": [
+																		{
+																			"id": "element-text",
+																			"value": {
+																				"fragmentLink": {
+																				},
+																				"text": {
+																					"value_i18n": {
+																						"en_US": "Product"
+																					}
+																				}
+																			}
+																		}
+																	],
+																	"fragmentStyle": {
+																		"fontSize": "fontSizeLg",
+																		"fontWeight": "600",
+																		"textColor": "colorBrandPrimaryDarken5"
+																	},
+																	"indexed": true,
+																	"name": "Product"
+																},
+																"type": "Fragment"
+															}
+														],
+														"type": "Section"
+													},
+													{
+														"definition": {
+															"cssClasses": [
+																"123",
+																"product-contents"
+															],
+															"customCSS": ".[$FRAGMENT_CLASS$] {\ngap: var(--spacer-2);\n}",
+															"indexed": true,
+															"layout": {
+																"contentDisplay": "FlexColumn",
+																"justify": "SpaceBetween"
+															},
+															"name": "Products-Links"
+														},
+														"pageElements": [
+															{
+																"definition": {
+																	"fragment": {
+																		"key": "dialect-text",
+																		"siteKey": "Liferay Learn"
+																	},
+																	"fragmentConfig": {
+																		"textType": "text-paragraph",
+																		"truncateText": false
+																	},
+																	"fragmentFields": [
+																		{
+																			"id": "element-text",
+																			"value": {
+																				"fragmentLink": {
+																					"value": {
+																						"href": {
+																							"value_i18n": {
+																								"en_US": "/w/analytics-cloud/index",
+																								"ja_JP": "/w/analytics-cloud/index"
+																							}
+																						}
+																					}
+																				},
+																				"text": {
+																					"value_i18n": {
+																						"en_US": "Analytics Cloud"
+																					}
+																				}
+																			}
+																		}
+																	],
+																	"indexed": true,
+																	"name": "Analytics Cloud"
+																},
+																"type": "Fragment"
+															},
+															{
+																"definition": {
+																	"fragment": {
+																		"key": "dialect-text",
+																		"siteKey": "Liferay Learn"
+																	},
+																	"fragmentConfig": {
+																		"textType": "text-paragraph",
+																		"truncateText": false
+																	},
+																	"fragmentFields": [
+																		{
+																			"id": "element-text",
+																			"value": {
+																				"fragmentLink": {
+																					"value": {
+																						"href": {
+																							"value_i18n": {
+																								"en_US": "/w/commerce/index",
+																								"ja_JP": "/w/commerce/index"
+																							}
+																						}
+																					}
+																				},
+																				"text": {
+																					"value_i18n": {
+																						"en_US": "Commerce"
+																					}
+																				}
+																			}
+																		}
+																	],
+																	"indexed": true,
+																	"name": "Commerce"
+																},
+																"type": "Fragment"
+															},
+															{
+																"definition": {
+																	"fragment": {
+																		"key": "dialect-text",
+																		"siteKey": "Liferay Learn"
+																	},
+																	"fragmentConfig": {
+																		"textType": "text-paragraph",
+																		"truncateText": false
+																	},
+																	"fragmentFields": [
+																		{
+																			"id": "element-text",
+																			"value": {
+																				"fragmentLink": {
+																					"value": {
+																						"href": {
+																							"value_i18n": {
+																								"en_US": "/w/dxp/index",
+																								"ja_JP": "/w/dxp/index"
+																							}
+																						}
+																					}
+																				},
+																				"text": {
+																					"value_i18n": {
+																						"en_US": "DXP"
+																					}
+																				}
+																			}
+																		}
+																	],
+																	"indexed": true,
+																	"name": "DXP"
+																},
+																"type": "Fragment"
+															},
+															{
+																"definition": {
+																	"fragment": {
+																		"key": "dialect-text",
+																		"siteKey": "Liferay Learn"
+																	},
+																	"fragmentConfig": {
+																		"textType": "text-paragraph",
+																		"truncateText": false
+																	},
+																	"fragmentFields": [
+																		{
+																			"id": "element-text",
+																			"value": {
+																				"fragmentLink": {
+																					"value": {
+																						"href": {
+																							"value_i18n": {
+																								"en_US": "/w/liferay-cloud/index",
+																								"ja_JP": "/w/liferay-cloud/index"
+																							}
+																						}
+																					}
+																				},
+																				"text": {
+																					"value_i18n": {
+																						"en_US": "Liferay Cloud"
+																					}
+																				}
+																			}
+																		}
+																	],
+																	"indexed": true,
+																	"name": "Liferay Cloud"
+																},
+																"type": "Fragment"
+															},
+															{
+																"definition": {
+																	"fragment": {
+																		"key": "dialect-text",
+																		"siteKey": "Liferay Learn"
+																	},
+																	"fragmentConfig": {
+																		"textType": "text-paragraph",
+																		"truncateText": false
+																	},
+																	"fragmentFields": [
+																		{
+																			"id": "element-text",
+																			"value": {
+																				"fragmentLink": {
+																					"value": {
+																						"href": {
+																							"value_i18n": {
+																								"en_US": "/w/reference/index",
+																								"ja_JP": "/w/reference/index"
+																							}
+																						}
+																					}
+																				},
+																				"text": {
+																					"value_i18n": {
+																						"en_US": "Reference"
+																					}
+																				}
+																			}
+																		}
+																	],
+																	"indexed": true,
+																	"name": "Reference"
+																},
+																"type": "Fragment"
+															}
+														],
+														"type": "Section"
+													}
+												],
+												"type": "Section"
+											},
+											{
+												"definition": {
+													"customCSSViewports": [
+														{
+															"customCSS": ".[$FRAGMENT_CLASS$] {\ngap: var(--spacer-5);\n}",
+															"id": "tablet"
+														}
+													],
+													"indexed": true,
+													"layout": {
+														"contentDisplay": "FlexColumn",
+														"justify": "SpaceBetween"
+													},
+													"name": "Contact-Connect Section"
+												},
+												"pageElements": [
+													{
+														"definition": {
+															"customCSS": ".[$FRAGMENT_CLASS$] {\ngap: var(--spacer-4);\n}",
+															"indexed": true,
+															"layout": {
+																"contentDisplay": "FlexColumn",
+																"justify": "SpaceBetween"
+															},
+															"name": "Contact Section"
+														},
+														"pageElements": [
+															{
+																"definition": {
+																	"indexed": true,
+																	"layout": {
+																	},
+																	"name": "Contact-Title"
+																},
+																"pageElements": [
+																	{
+																		"definition": {
+																			"fragment": {
+																				"key": "dialect-text",
+																				"siteKey": "Liferay Learn"
+																			},
+																			"fragmentConfig": {
+																				"textType": "text-paragraph-lg",
+																				"truncateText": false
+																			},
+																			"fragmentFields": [
+																				{
+																					"id": "element-text",
+																					"value": {
+																						"fragmentLink": {
+																						},
+																						"text": {
+																							"value_i18n": {
+																								"en_US": "Contact Us"
+																							}
+																						}
+																					}
+																				}
+																			],
+																			"fragmentStyle": {
+																				"fontSize": "fontSizeLg",
+																				"fontWeight": "600",
+																				"textColor": "colorBrandPrimaryDarken5"
+																			},
+																			"indexed": true,
+																			"name": "Contact Us"
+																		},
+																		"type": "Fragment"
+																	}
+																],
+																"type": "Section"
+															},
+															{
+																"definition": {
+																	"indexed": true,
+																	"layout": {
+																	},
+																	"name": "Contact-Links"
+																},
+																"pageElements": [
+																	{
+																		"definition": {
+																			"fragment": {
+																				"key": "dialect-text",
+																				"siteKey": "Liferay Learn"
+																			},
+																			"fragmentConfig": {
+																				"textType": "text-paragraph",
+																				"truncateText": false
+																			},
+																			"fragmentFields": [
+																				{
+																					"id": "element-text",
+																					"value": {
+																						"fragmentLink": {
+																							"value": {
+																								"href": {
+																									"value_i18n": {
+																										"en_US": "http://discuss.liferay.com"
+																									}
+																								}
+																							}
+																						},
+																						"text": {
+																							"value_i18n": {
+																								"en_US": "Submit Feedback"
+																							}
+																						}
+																					}
+																				}
+																			],
+																			"indexed": true,
+																			"name": "Submit Feedback"
+																		},
+																		"type": "Fragment"
+																	}
+																],
+																"type": "Section"
+															}
+														],
+														"type": "Section"
+													},
+													{
+														"definition": {
+															"customCSS": ".[$FRAGMENT_CLASS$] {\ngap: var(--spacer-4);\n}",
+															"indexed": true,
+															"layout": {
+																"contentDisplay": "FlexColumn",
+																"justify": "SpaceBetween"
+															},
+															"name": "Connect Section"
+														},
+														"pageElements": [
+															{
+																"definition": {
+																	"indexed": true,
+																	"layout": {
+																	},
+																	"name": "Connect-Title"
+																},
+																"pageElements": [
+																	{
+																		"definition": {
+																			"fragment": {
+																				"key": "dialect-text",
+																				"siteKey": "Liferay Learn"
+																			},
+																			"fragmentConfig": {
+																				"textType": "text-paragraph",
+																				"truncateText": false
+																			},
+																			"fragmentFields": [
+																				{
+																					"id": "element-text",
+																					"value": {
+																						"fragmentLink": {
+																						},
+																						"text": {
+																							"value_i18n": {
+																								"en_US": "Connect"
+																							}
+																						}
+																					}
+																				}
+																			],
+																			"fragmentStyle": {
+																				"fontSize": "fontSizeLg",
+																				"fontWeight": "600",
+																				"textColor": "colorBrandPrimaryDarken5"
+																			},
+																			"indexed": true,
+																			"name": "Connect"
+																		},
+																		"type": "Fragment"
+																	}
+																],
+																"type": "Section"
+															},
+															{
+																"definition": {
+																	"customCSS": ".[$FRAGMENT_CLASS$] {\na {\n  color: var(--color-neutral-10, #282934);\n}\n\na:hover {\n  color:  var(--color-action-primary-hover, #0053F0)\n}\n\ngap: var(--spacer-3);\n\n}",
+																	"indexed": true,
+																	"layout": {
+																		"contentDisplay": "FlexRow"
+																	},
+																	"name": "Connect-Links"
+																},
+																"pageElements": [
+																	{
+																		"definition": {
+																			"fragment": {
+																				"key": "BASIC_COMPONENT-html"
+																			},
+																			"fragmentConfig": {
+																			},
+																			"fragmentFields": [
+																				{
+																					"id": "element-html",
+																					"value": {
+																						"html": {
+																							"value_i18n": {
+																								"en_US": "<a href=\"https://github.com/liferay\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 22 22\" fill=\"none\">\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M11.0197 0.0826416C4.95658 0.0826416 0.0400391 5.0821 0.0400391 11.2497C0.0400391 16.1837 3.18604 20.3697 7.54858 21.8463C8.09731 21.9497 8.29877 21.6041 8.29877 21.3091C8.29877 21.0428 8.28858 20.1631 8.28386 19.23C5.22931 19.9055 4.58477 17.9124 4.58477 17.9124C4.08531 16.6216 3.36568 16.2784 3.36568 16.2784C2.36949 15.5853 3.44077 15.5995 3.44077 15.5995C4.54331 15.6781 5.12386 16.7503 5.12386 16.7503C6.10313 18.4576 7.6924 17.964 8.31895 17.6787C8.41749 16.9571 8.70204 16.4641 9.01604 16.1854C6.57731 15.903 4.01368 14.9455 4.01368 10.6665C4.01368 9.44726 4.44258 8.45107 5.14495 7.66902C5.03095 7.38756 4.65513 6.25194 5.25131 4.71373C5.25131 4.71373 6.17331 4.41359 8.27149 5.85841C9.14731 5.61098 10.0866 5.4869 11.0197 5.48265C11.9528 5.4869 12.8928 5.61098 13.7702 5.85841C15.8659 4.41359 16.7866 4.71373 16.7866 4.71373C17.3842 6.25194 17.0082 7.38756 16.8942 7.66902C17.5982 8.45107 18.0242 9.44726 18.0242 10.6665C18.0242 14.9556 15.4557 15.9 13.0108 16.1765C13.4046 16.5231 13.7555 17.2027 13.7555 18.2445C13.7555 19.7385 13.7428 20.9411 13.7428 21.3091C13.7428 21.6063 13.9404 21.9545 14.4969 21.8448C18.8571 20.3665 21.9991 16.1821 21.9991 11.2497C21.9991 5.0821 17.0833 0.0826416 11.0197 0.0826416Z\" fill=\"currentColor\"></path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M4.19858 16.1162C4.1744 16.1719 4.08858 16.1883 4.0104 16.1502C3.93077 16.1138 3.88604 16.0382 3.91186 15.9825C3.93549 15.9254 4.02149 15.9097 4.10095 15.9476C4.18077 15.9842 4.22622 16.0606 4.19858 16.1162Z\" fill=\"currentColor\"></path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M4.64331 16.6207C4.59095 16.6701 4.48858 16.6471 4.41913 16.5691C4.34731 16.4913 4.33386 16.3871 4.38695 16.337C4.44095 16.2876 4.54022 16.3108 4.61222 16.3886C4.68404 16.4674 4.69804 16.5708 4.64331 16.6207Z\" fill=\"currentColor\"></path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M5.07622 17.2639C5.00895 17.3114 4.89895 17.2668 4.83095 17.1675C4.76368 17.0682 4.76368 16.9491 4.8324 16.9014C4.90058 16.8537 5.00895 16.8966 5.07786 16.9952C5.14495 17.096 5.14495 17.2152 5.07622 17.2639Z\" fill=\"currentColor\"></path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M5.66931 17.8852C5.60913 17.9527 5.48095 17.9346 5.38713 17.8425C5.29113 17.7524 5.2644 17.6247 5.32477 17.5572C5.38568 17.4895 5.51459 17.5085 5.60913 17.5999C5.7044 17.6898 5.73349 17.8185 5.66931 17.8852Z\" fill=\"currentColor\"></path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M6.48749 18.246C6.46095 18.3335 6.33749 18.3732 6.21313 18.3361C6.08895 18.2978 6.00768 18.1953 6.03277 18.1069C6.05858 18.0189 6.18258 17.9775 6.30786 18.0173C6.43186 18.0553 6.51331 18.1571 6.48749 18.246Z\" fill=\"currentColor\"></path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M7.38604 18.313C7.38913 18.405 7.28368 18.4814 7.15313 18.4829C7.02186 18.486 6.91568 18.4115 6.91422 18.3209C6.91422 18.2279 7.01731 18.1523 7.14858 18.15C7.27913 18.1474 7.38604 18.2214 7.38604 18.313Z\" fill=\"currentColor\"></path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M8.22222 18.1682C8.23786 18.258 8.14713 18.3503 8.01749 18.3747C7.89004 18.3986 7.77204 18.3431 7.75586 18.254C7.74004 18.1619 7.8324 18.0696 7.95968 18.0457C8.08949 18.0228 8.20568 18.0768 8.22222 18.1682Z\" fill=\"currentColor\"></path>\n</svg></a>\n\n"
+																							}
+																						}
+																					}
+																				}
+																			],
+																			"indexed": true,
+																			"name": "Github-Logo"
+																		},
+																		"type": "Fragment"
+																	},
+																	{
+																		"definition": {
+																			"fragment": {
+																				"key": "BASIC_COMPONENT-html"
+																			},
+																			"fragmentConfig": {
+																			},
+																			"fragmentFields": [
+																				{
+																					"id": "element-html",
+																					"value": {
+																						"html": {
+																							"value_i18n": {
+																								"en_US": "<a href=\"https://www.linkedin.com/company/liferay-inc-\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 20 20\" fill=\"none\">\n<g clip-path=\"url(#clip0_2990_2884)\">\n<path d=\"M18.5195 0H1.47656C0.660156 0 0 0.644531 0 1.44141V18.5547C0 19.3516 0.660156 20 1.47656 20H18.5195C19.3359 20 20 19.3516 20 18.5586V1.44141C20 0.644531 19.3359 0 18.5195 0ZM5.93359 17.043H2.96484V7.49609H5.93359V17.043ZM4.44922 6.19531C3.49609 6.19531 2.72656 5.42578 2.72656 4.47656C2.72656 3.52734 3.49609 2.75781 4.44922 2.75781C5.39844 2.75781 6.16797 3.52734 6.16797 4.47656C6.16797 5.42188 5.39844 6.19531 4.44922 6.19531ZM17.043 17.043H14.0781V12.4023C14.0781 11.2969 14.0586 9.87109 12.5352 9.87109C10.9922 9.87109 10.7578 11.0781 10.7578 12.3242V17.043H7.79688V7.49609H10.6406V8.80078H10.6797C11.0742 8.05078 12.043 7.25781 13.4844 7.25781C16.4883 7.25781 17.043 9.23438 17.043 11.8047V17.043Z\" fill=\"currentColor\"></path>\n</g>\n<defs>\n<clipPath id=\"clip0_2990_2884\">\n<rect width=\"20\" height=\"20\" fill=\"white\"></rect>\n</clipPath>\n</defs>\n</svg></a>"
+																							}
+																						}
+																					}
+																				}
+																			],
+																			"indexed": true,
+																			"name": "Linkedin-Logo"
+																		},
+																		"type": "Fragment"
+																	},
+																	{
+																		"definition": {
+																			"fragment": {
+																				"key": "BASIC_COMPONENT-html"
+																			},
+																			"fragmentConfig": {
+																			},
+																			"fragmentFields": [
+																				{
+																					"id": "element-html",
+																					"value": {
+																						"html": {
+																							"value_i18n": {
+																								"en_US": "<a href=\"https://www.youtube.com/user/liferayinc\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 22 22\" fill=\"none\">\n<path d=\"M21.7809 6.59978C21.7809 6.59978 21.566 5.08298 20.9043 4.41697C20.0664 3.54041 19.1297 3.53611 18.7 3.48455C15.6234 3.26111 11.0043 3.26111 11.0043 3.26111H10.9957C10.9957 3.26111 6.37656 3.26111 3.3 3.48455C2.87031 3.53611 1.93359 3.54041 1.0957 4.41697C0.433984 5.08298 0.223438 6.59978 0.223438 6.59978C0.223438 6.59978 0 8.38298 0 10.1619V11.8291C0 13.608 0.219141 15.3912 0.219141 15.3912C0.219141 15.3912 0.433984 16.908 1.09141 17.574C1.9293 18.4506 3.0293 18.4205 3.51914 18.515C5.28086 18.6826 11 18.7342 11 18.7342C11 18.7342 15.6234 18.7256 18.7 18.5064C19.1297 18.4549 20.0664 18.4506 20.9043 17.574C21.566 16.908 21.7809 15.3912 21.7809 15.3912C21.7809 15.3912 22 13.6123 22 11.8291V10.1619C22 8.38298 21.7809 6.59978 21.7809 6.59978ZM8.72695 13.8529V7.6697L14.6695 10.772L8.72695 13.8529Z\" fill=\"currentColor\"></path>\n</svg>\n</a>"
+																							}
+																						}
+																					}
+																				}
+																			],
+																			"indexed": true,
+																			"name": "Youtube-Logo"
+																		},
+																		"type": "Fragment"
+																	},
+																	{
+																		"definition": {
+																			"fragment": {
+																				"key": "BASIC_COMPONENT-html"
+																			},
+																			"fragmentConfig": {
+																			},
+																			"fragmentFields": [
+																				{
+																					"id": "element-html",
+																					"value": {
+																						"html": {
+																							"value_i18n": {
+																								"en_US": "<a href=\"https://www.facebook.com/pages/Liferay/45119213107\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 22 22\" fill=\"none\">\n<g clip-path=\"url(#clip0_2990_2895)\">\n<path d=\"M22 11.0672C22 4.95496 17.0751 0 11 0C4.92486 0 0 4.95496 0 11.0672C0 16.5911 4.02252 21.1697 9.28125 22V14.2663H6.48828V11.0672H9.28125V8.62898C9.28125 5.85525 10.9235 4.32313 13.4361 4.32313C14.6392 4.32313 15.8984 4.53929 15.8984 4.53929V7.26287H14.5114C13.145 7.26287 12.7188 8.11604 12.7188 8.99212V11.0672H15.7695L15.2818 14.2663H12.7188V22C17.9775 21.1697 22 16.5911 22 11.0672Z\" fill=\"currentColor\"></path>\n</g>\n<defs>\n<clipPath id=\"clip0_2990_2895\">\n<rect width=\"22\" height=\"22\" fill=\"white\"></rect>\n</clipPath>\n</defs>\n</svg>\n</a>"
+																							}
+																						}
+																					}
+																				}
+																			],
+																			"indexed": true,
+																			"name": "Facebook-Logo"
+																		},
+																		"type": "Fragment"
+																	},
+																	{
+																		"definition": {
+																			"fragment": {
+																				"key": "BASIC_COMPONENT-html"
+																			},
+																			"fragmentConfig": {
+																			},
+																			"fragmentFields": [
+																				{
+																					"id": "element-html",
+																					"value": {
+																						"html": {
+																							"value_i18n": {
+																								"en_US": "<a href=\"https://www.instagram.com/liferayinc/\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 20 20\" fill=\"currentColor\">\n<g clip-path=\"url(#clip0_2990_2900)\">\n<path d=\"M10 1.80078C12.6719 1.80078 12.9883 1.8125 14.0391 1.85937C15.0156 1.90234 15.543 2.06641 15.8945 2.20312C16.3594 2.38281 16.6953 2.60156 17.043 2.94922C17.3945 3.30078 17.6094 3.63281 17.7891 4.09766C17.9258 4.44922 18.0898 4.98047 18.1328 5.95312C18.1797 7.00781 18.1914 7.32422 18.1914 9.99219C18.1914 12.6641 18.1797 12.9805 18.1328 14.0312C18.0898 15.0078 17.9258 15.5352 17.7891 15.8867C17.6094 16.3516 17.3906 16.6875 17.043 17.0352C16.6914 17.3867 16.3594 17.6016 15.8945 17.7812C15.543 17.918 15.0117 18.082 14.0391 18.125C12.9844 18.1719 12.668 18.1836 10 18.1836C7.32812 18.1836 7.01172 18.1719 5.96094 18.125C4.98438 18.082 4.45703 17.918 4.10547 17.7812C3.64062 17.6016 3.30469 17.3828 2.95703 17.0352C2.60547 16.6836 2.39062 16.3516 2.21094 15.8867C2.07422 15.5352 1.91016 15.0039 1.86719 14.0312C1.82031 12.9766 1.80859 12.6602 1.80859 9.99219C1.80859 7.32031 1.82031 7.00391 1.86719 5.95312C1.91016 4.97656 2.07422 4.44922 2.21094 4.09766C2.39062 3.63281 2.60937 3.29687 2.95703 2.94922C3.30859 2.59766 3.64062 2.38281 4.10547 2.20312C4.45703 2.06641 4.98828 1.90234 5.96094 1.85937C7.01172 1.8125 7.32812 1.80078 10 1.80078ZM10 0C7.28516 0 6.94531 0.0117187 5.87891 0.0585937C4.81641 0.105469 4.08594 0.277344 3.45312 0.523437C2.79297 0.78125 2.23438 1.12109 1.67969 1.67969C1.12109 2.23437 0.78125 2.79297 0.523437 3.44922C0.277344 4.08594 0.105469 4.8125 0.0585938 5.875C0.0117188 6.94531 0 7.28516 0 10C0 12.7148 0.0117188 13.0547 0.0585938 14.1211C0.105469 15.1836 0.277344 15.9141 0.523437 16.5469C0.78125 17.207 1.12109 17.7656 1.67969 18.3203C2.23438 18.875 2.79297 19.2187 3.44922 19.4727C4.08594 19.7187 4.8125 19.8906 5.875 19.9375C6.94141 19.9844 7.28125 19.9961 9.99609 19.9961C12.7109 19.9961 13.0508 19.9844 14.1172 19.9375C15.1797 19.8906 15.9102 19.7187 16.543 19.4727C17.1992 19.2187 17.7578 18.875 18.3125 18.3203C18.8672 17.7656 19.2109 17.207 19.4648 16.5508C19.7109 15.9141 19.8828 15.1875 19.9297 14.125C19.9766 13.0586 19.9883 12.7187 19.9883 10.0039C19.9883 7.28906 19.9766 6.94922 19.9297 5.88281C19.8828 4.82031 19.7109 4.08984 19.4648 3.45703C19.2187 2.79297 18.8789 2.23437 18.3203 1.67969C17.7656 1.125 17.207 0.78125 16.5508 0.527344C15.9141 0.28125 15.1875 0.109375 14.125 0.0625C13.0547 0.0117188 12.7148 0 10 0Z\" fill=\"#currentColor\"></path>\n<path d=\"M10 4.86328C7.16406 4.86328 4.86328 7.16406 4.86328 10C4.86328 12.8359 7.16406 15.1367 10 15.1367C12.8359 15.1367 15.1367 12.8359 15.1367 10C15.1367 7.16406 12.8359 4.86328 10 4.86328ZM10 13.332C8.16016 13.332 6.66797 11.8398 6.66797 10C6.66797 8.16016 8.16016 6.66797 10 6.66797C11.8398 6.66797 13.332 8.16016 13.332 10C13.332 11.8398 11.8398 13.332 10 13.332Z\" fill=\"currentColor\"></path>\n<path d=\"M16.5391 4.65991C16.5391 5.32398 16 5.85913 15.3398 5.85913C14.6758 5.85913 14.1406 5.32007 14.1406 4.65991C14.1406 3.99585 14.6797 3.46069 15.3398 3.46069C16 3.46069 16.5391 3.99976 16.5391 4.65991Z\" fill=\"currentColor\"></path>\n</g>\n<defs>\n<clipPath id=\"clip0_2990_2900\">\n<rect width=\"20\" height=\"20\" fill=\"white\"></rect>\n</clipPath>\n</defs>\n</svg>\n</a>"
+																							}
+																						}
+																					}
+																				}
+																			],
+																			"indexed": true,
+																			"name": "Instagram-Logo"
+																		},
+																		"type": "Fragment"
+																	},
+																	{
+																		"definition": {
+																			"fragment": {
+																				"key": "BASIC_COMPONENT-html"
+																			},
+																			"fragmentConfig": {
+																			},
+																			"fragmentFields": [
+																				{
+																					"id": "element-html",
+																					"value": {
+																						"html": {
+																							"value_i18n": {
+																								"en_US": "<a href=\"https://www.twitter.com/liferay\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 16 16\" fill=\"currentColor\">\n<mask id=\"mask0_4127_964\" style=\"mask-type:alpha\" maskUnits=\"userSpaceOnUse\" x=\"0\" y=\"0\" width=\"16\" height=\"16\">\n<path d=\"M9.31742 6.77491L15.1457 0H13.7646L8.70389 5.88256L4.66193 0H0L6.11224 8.89547L0 16H1.38119L6.72542 9.78782L10.994 16H15.656L9.31708 6.77491H9.31742ZM7.42569 8.97384L6.80639 8.08805L1.87886 1.03974H4.00029L7.97687 6.72795L8.59617 7.61374L13.7652 15.0075H11.6438L7.42569 8.97418V8.97384Z\" fill=\"black\"></path>\n</mask>\n<g mask=\"url(#mask0_4127_964)\">\n<rect width=\"16\" height=\"16\" fill=\"currentColor\"></rect>\n</g>\n</svg>\n</a>\n\n"
+																							}
+																						}
+																					}
+																				}
+																			],
+																			"indexed": true,
+																			"name": "Twitter-Logo"
+																		},
+																		"type": "Fragment"
+																	}
+																],
+																"type": "Section"
+															}
+														],
+														"type": "Section"
+													}
+												],
+												"type": "Section"
+											}
+										],
+										"type": "Section"
+									}
+								],
+								"type": "Section"
+							},
+							{
+								"definition": {
+									"customCSS": ".[$FRAGMENT_CLASS$] {\nfont-size: .7rem;\n}",
+									"customCSSViewports": [
+										{
+											"customCSS": ".[$FRAGMENT_CLASS$] {\nflex-direction: column !important;\nfont-size: .7rem;\ngap: 0px;\n}",
+											"id": "portraitMobile"
+										},
+										{
+											"customCSS": ".[$FRAGMENT_CLASS$] {\nfont-size: .7rem;\n}",
+											"id": "tablet"
+										}
+									],
+									"indexed": true,
+									"layout": {
+										"align": "Start",
+										"contentDisplay": "FlexRow",
+										"justify": "SpaceBetween"
+									},
+									"name": "Footer-Contents-Bottom"
+								},
+								"pageElements": [
+									{
+										"definition": {
+											"fragment": {
+												"key": "BASIC_COMPONENT-html"
+											},
+											"fragmentConfig": {
+											},
+											"fragmentFields": [
+												{
+													"id": "element-html",
+													"value": {
+														"html": {
+															"value_i18n": {
+																"en_US": "<span>\n Powered by <a href=\"https://www.liferay.com\">Liferay</a>\n</span>"
+															}
+														}
+													}
+												}
+											],
+											"indexed": true
+										},
+										"type": "Fragment"
+									},
+									{
+										"definition": {
+											"fragment": {
+												"key": "BASIC_COMPONENT-html"
+											},
+											"fragmentConfig": {
+											},
+											"fragmentFields": [
+												{
+													"id": "element-html",
+													"value": {
+														"html": {
+															"value_i18n": {
+																"en_US": "<span>\n © 2024 Liferay Inc. All Rights Reserved • Privacy Policy\n</span>"
+															}
+														}
+													}
+												}
+											],
+											"indexed": true
+										},
+										"type": "Fragment"
+									}
+								],
+								"type": "Section"
+							}
+						],
+						"type": "Section"
+					}
+				],
+				"type": "Section"
+			}
+		],
+		"type": "Root"
+	},
+	"settings": {
+		"colorSchemeName": "01",
+		"globalCSSClientExtensions": [
+			{
+				"externalReferenceCode": "LXC:liferay-learn-global-css",
+				"name": "Liferay Learn Global CSS"
+			}
+		],
+		"globalJSClientExtensions": [
+			{
+				"clientExtensionConfig": {
+					"loadType": "default",
+					"scriptLocation": "bottom"
+				},
+				"externalReferenceCode": "LXC:liferay-learn-global-js",
+				"name": "Liferay Learn Global JS"
+			}
+		],
+		"styleBook": {
+			"key": "liferay-learn",
+			"name": "Liferay Learn"
+		},
+		"themeName": "Dialect",
+		"themeSettings": {
+			"lfr-theme:regular:show-footer": "false",
+			"lfr-theme:regular:show-header": "false",
+			"lfr-theme:regular:show-header-search": "false",
+			"lfr-theme:regular:wrap-widget-page-content": "false"
+		}
+	},
+	"version": 1.1
+}

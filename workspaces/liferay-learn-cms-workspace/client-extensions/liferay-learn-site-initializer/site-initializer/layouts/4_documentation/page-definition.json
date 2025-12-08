@@ -1,0 +1,1724 @@
+{
+	"pageElement": {
+		"pageElements": [
+			{
+				"definition": {
+					"indexed": true,
+					"layout": {
+					}
+				},
+				"pageElements": [
+					{
+						"definition": {
+							"cssClasses": [
+								"learn-banner"
+							],
+							"customCSS": ".[$FRAGMENT_CLASS$] {\n}",
+							"fragmentStyle": {
+								"paddingBottom": "3"
+							},
+							"indexed": true,
+							"layout": {
+								"paddingBottom": 1
+							},
+							"name": "Header Container"
+						},
+						"pageElements": [
+							{
+								"definition": {
+									"fragmentStyle": {
+										"maxWidth": "var(--container-max-md)",
+										"paddingBottom": "4",
+										"paddingLeft": "4",
+										"paddingRight": "4",
+										"paddingTop": "5",
+										"textAlign": "center"
+									},
+									"indexed": true,
+									"layout": {
+										"paddingBottom": 2,
+										"paddingLeft": 2,
+										"paddingRight": 2,
+										"paddingTop": 4,
+										"widthType": "Fixed"
+									}
+								},
+								"pageElements": [
+									{
+										"definition": {
+											"customCSS": ".[$FRAGMENT_CLASS$] {\n  * {\n    place-content: center;\n  }\n}",
+											"fragment": {
+												"key": "dialect-text",
+												"siteKey": "Guest"
+											},
+											"fragmentConfig": {
+												"textType": "h1",
+												"truncateText": false
+											},
+											"fragmentFields": [
+												{
+													"id": "element-text",
+													"value": {
+														"fragmentLink": {
+														},
+														"text": {
+															"value_i18n": {
+																"en_US": "DXP Capabilities"
+															}
+														}
+													}
+												}
+											],
+											"fragmentStyle": {
+												"marginBottom": "4"
+											},
+											"indexed": true
+										},
+										"type": "Fragment"
+									},
+									{
+										"definition": {
+											"cssClasses": [
+												"learn-search"
+											],
+											"fragmentStyle": {
+												"marginLeft": "auto",
+												"marginRight": "auto",
+												"maxWidth": "700px"
+											},
+											"widgetInstance": {
+												"widgetConfig": {
+													"destination": "/search",
+													"displayStyle": "default",
+													"displayStyleGroupId": "32484264",
+													"federatedSearchKey": "",
+													"invisible": "false",
+													"keywordsParameterName": "q",
+													"scopeParameterName": "scope",
+													"searchScope": "this-site",
+													"showStagedResults": "false",
+													"suggestionsContributorConfigurations": "{\"attributes\": {\"characterThreshold\": \"\", \"fields\": [], \"includeAssetSearchSummary\": true, \"includeAssetURL\": true, \"sxpBlueprintExternalReferenceCode\": \"LIFERAY_LEARN\"}, \"contributorName\": \"sxpBlueprint\", \"displayGroupName\": \"suggestions\", \"size\": \"5\"}",
+													"suggestionsDisplayThreshold": "2",
+													"suggestionsEnabled": "true",
+													"useAdvancedSearchSyntax": "false"
+												},
+												"widgetName": "com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet"
+											}
+										},
+										"type": "Widget"
+									}
+								],
+								"type": "Section"
+							}
+						],
+						"type": "Section"
+					},
+					{
+						"definition": {
+							"fragment": {
+								"key": "documentation-page-main-container",
+								"siteKey": "Guest"
+							},
+							"fragmentConfig": {
+							},
+							"fragmentFields": [
+							],
+							"indexed": true
+						},
+						"pageElements": [
+							{
+								"definition": {
+								},
+								"pageElements": [
+									{
+										"definition": {
+											"fragmentStyle": {
+												"marginBottom": "4",
+												"maxWidth": "1600px",
+												"paddingBottom": "4",
+												"paddingLeft": "4",
+												"paddingRight": "4",
+												"paddingTop": "4"
+											},
+											"fragmentViewports": [
+												{
+													"fragmentViewportStyle": {
+														"paddingTop": "0"
+													},
+													"id": "tablet"
+												}
+											],
+											"indexed": true,
+											"layout": {
+												"marginBottom": 2,
+												"paddingBottom": 2,
+												"paddingLeft": 2,
+												"paddingRight": 2,
+												"paddingTop": 2,
+												"widthType": "Fixed"
+											}
+										},
+										"pageElements": [
+											{
+												"definition": {
+													"cssClasses": [
+														"capabilities-container"
+													],
+													"indexed": true,
+													"layout": {
+														"contentDisplay": "FlexRow",
+														"flexWrap": "Wrap",
+														"justify": "Center"
+													},
+													"name": "Capabilities Container"
+												},
+												"pageElements": [
+													{
+														"definition": {
+															"fragment": {
+																"key": "home-page-cards",
+																"siteKey": "Guest"
+															},
+															"fragmentConfig": {
+																"cardType": "documentationCard",
+																"iconBackgroundGradient": "bg-gradient-blue",
+																"url": {
+																	"_jsonObject": {
+																		"empty": false,
+																		"map": {
+																			"href": "/w/dxp/ai"
+																		}
+																	}
+																}
+															},
+															"fragmentFields": [
+																{
+																	"id": "image",
+																	"value": {
+																		"fragmentImage": {
+																			"url": {
+																				"value_i18n": {
+																					"en_US": "[$DOCUMENT_URL:/site-initializer/documents/group/icons/documentation_ai.svg$]"
+																				}
+																			}
+																		},
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "documentation-title",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "AI"
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "documentation-description",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "Boost your content workflow with smart AI-powered integrations."
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "documentation-cta-icon",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "cta-text",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "More on AI"
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "description",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "Boost your content workflow with smart AI-powered integrations."
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "title",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "AI"
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "documentation-cta-text",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "More on AI"
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "cta-icon",
+																	"value": {
+																		"html": {
+																			"value_i18n": {
+																			}
+																		}
+																	}
+																}
+															],
+															"indexed": true
+														},
+														"type": "Fragment"
+													},
+													{
+														"definition": {
+															"fragment": {
+																"key": "home-page-cards",
+																"siteKey": "Guest"
+															},
+															"fragmentConfig": {
+																"cardType": "documentationCard",
+																"iconBackgroundGradient": "bg-gradient-blue",
+																"url": {
+																	"_jsonObject": {
+																		"empty": false,
+																		"map": {
+																			"href": "/w/dxp/content-management-system"
+																		}
+																	}
+																}
+															},
+															"fragmentFields": [
+																{
+																	"id": "image",
+																	"value": {
+																		"fragmentImage": {
+																			"url": {
+																				"value_i18n": {
+																					"en_US": "[$DOCUMENT_URL:/site-initializer/documents/group/icons/documentation_cms.svg$]"
+																				}
+																			}
+																		},
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "documentation-title",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "CMS"
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "documentation-description",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "Lear how too create, publish, and manage content faster."
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "documentation-cta-icon",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "cta-text",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "More on CMS"
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "description",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "Learn how to create, publish, and manage content faster."
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "title",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "CMS"
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "documentation-cta-text",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "More on CMS"
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "cta-icon",
+																	"value": {
+																		"html": {
+																			"value_i18n": {
+																			}
+																		}
+																	}
+																}
+															],
+															"indexed": true
+														},
+														"type": "Fragment"
+													},
+													{
+														"definition": {
+															"fragment": {
+																"key": "home-page-cards",
+																"siteKey": "Guest"
+															},
+															"fragmentConfig": {
+																"cardType": "documentationCard",
+																"iconBackgroundGradient": "bg-gradient-blue",
+																"url": {
+																	"_jsonObject": {
+																		"empty": false,
+																		"map": {
+																			"href": "/w/dxp/digital-asset-management"
+																		}
+																	}
+																}
+															},
+															"fragmentFields": [
+																{
+																	"id": "image",
+																	"value": {
+																		"fragmentImage": {
+																			"url": {
+																				"value_i18n": {
+																					"en_US": "[$DOCUMENT_URL:/site-initializer/documents/group/icons/documentation_dam.svg$]"
+																				}
+																			}
+																		},
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "documentation-title",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "DAM"
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "documentation-description",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "Discover how to organize and deliver assets securely in the cloud."
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "documentation-cta-icon",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "cta-text",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "More on DAM"
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "description",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "Discover how to organize and deliver assets securely in the&nbsp; cloud."
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "title",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "DAM"
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "documentation-cta-text",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "More on DAM"
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "cta-icon",
+																	"value": {
+																		"html": {
+																			"value_i18n": {
+																			}
+																		}
+																	}
+																}
+															],
+															"indexed": true
+														},
+														"type": "Fragment"
+													},
+													{
+														"definition": {
+															"fragment": {
+																"key": "home-page-cards",
+																"siteKey": "Guest"
+															},
+															"fragmentConfig": {
+																"cardType": "documentationCard",
+																"iconBackgroundGradient": "bg-gradient-blue",
+																"url": {
+																	"_jsonObject": {
+																		"empty": false,
+																		"map": {
+																			"href": "/w/dxp/commerce"
+																		}
+																	}
+																}
+															},
+															"fragmentFields": [
+																{
+																	"id": "image",
+																	"value": {
+																		"fragmentImage": {
+																			"url": {
+																				"value_i18n": {
+																					"en_US": "[$DOCUMENT_URL:/site-initializer/documents/group/icons/documentation_commerce.svg$]"
+																				}
+																			}
+																		},
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "documentation-title",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "Commerce"
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "documentation-description",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "Explore how to enhance online sales with smarter product tools."
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "documentation-cta-icon",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "cta-text",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "More on Commerce"
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "description",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "Explore how to enhance online sales with smarter product tools."
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "title",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "Commerce"
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "documentation-cta-text",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "More on Commerce"
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "cta-icon",
+																	"value": {
+																		"html": {
+																			"value_i18n": {
+																			}
+																		}
+																	}
+																}
+															],
+															"indexed": true
+														},
+														"type": "Fragment"
+													},
+													{
+														"definition": {
+															"fragment": {
+																"key": "home-page-cards",
+																"siteKey": "Guest"
+															},
+															"fragmentConfig": {
+																"cardType": "documentationCard",
+																"iconBackgroundGradient": "bg-gradient-blue",
+																"url": {
+																	"_jsonObject": {
+																		"empty": false,
+																		"map": {
+																			"href": "/w/dxp/personalization"
+																		}
+																	}
+																}
+															},
+															"fragmentFields": [
+																{
+																	"id": "image",
+																	"value": {
+																		"fragmentImage": {
+																			"url": {
+																				"value_i18n": {
+																					"en_US": "[$DOCUMENT_URL:/site-initializer/documents/group/icons/documentation_personalization.svg$]"
+																				}
+																			}
+																		},
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "documentation-title",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "Personalization"
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "documentation-description",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "Learn how to tailor content and experiences using AI-driven insights."
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "documentation-cta-icon",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "cta-text",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "More on Personalization"
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "description",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "Learn to tailor content and experiences using AI-driven insights."
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "title",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "Personalization"
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "documentation-cta-text",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "More on Personalization"
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "cta-icon",
+																	"value": {
+																		"html": {
+																			"value_i18n": {
+																			}
+																		}
+																	}
+																}
+															],
+															"indexed": true
+														},
+														"type": "Fragment"
+													},
+													{
+														"definition": {
+															"fragment": {
+																"key": "home-page-cards",
+																"siteKey": "Guest"
+															},
+															"fragmentConfig": {
+																"cardType": "documentationCard",
+																"iconBackgroundGradient": "bg-gradient-blue",
+																"url": {
+																	"_jsonObject": {
+																		"empty": false,
+																		"map": {
+																			"href": "/w/dxp/search"
+																		}
+																	}
+																}
+															},
+															"fragmentFields": [
+																{
+																	"id": "image",
+																	"value": {
+																		"fragmentImage": {
+																			"url": {
+																				"value_i18n": {
+																					"en_US": "[$DOCUMENT_URL:/site-initializer/documents/group/icons/documentation_search.svg$]"
+																				}
+																			}
+																		},
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "documentation-title",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "Search"
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "documentation-description",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "Master how to deliver fast, relevant search experiences."
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "documentation-cta-icon",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "cta-text",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "More on Search"
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "description",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "Master how to deliver fast, relevant search experiences."
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "title",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "Search"
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "documentation-cta-text",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "More on Search"
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "cta-icon",
+																	"value": {
+																		"html": {
+																			"value_i18n": {
+																			}
+																		}
+																	}
+																}
+															],
+															"indexed": true
+														},
+														"type": "Fragment"
+													},
+													{
+														"definition": {
+															"fragment": {
+																"key": "home-page-cards",
+																"siteKey": "Guest"
+															},
+															"fragmentConfig": {
+																"cardType": "documentationCard",
+																"iconBackgroundGradient": "bg-gradient-blue",
+																"url": {
+																	"_jsonObject": {
+																		"empty": false,
+																		"map": {
+																			"href": "/w/dxp/sites"
+																		}
+																	}
+																}
+															},
+															"fragmentFields": [
+																{
+																	"id": "image",
+																	"value": {
+																		"fragmentImage": {
+																			"url": {
+																				"value_i18n": {
+																					"en_US": "[$DOCUMENT_URL:/site-initializer/documents/group/icons/documentation_personalization.svg$]"
+																				}
+																			}
+																		},
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "documentation-title",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "Sites"
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "documentation-description",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "See how to build and scale engaging, high-performing sites."
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "documentation-cta-icon",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "cta-text",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "More on Sites"
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "description",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "See how to build and scale engaging, high-performing sites."
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "title",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "Sites"
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "documentation-cta-text",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "More on Sites"
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "cta-icon",
+																	"value": {
+																		"html": {
+																			"value_i18n": {
+																			}
+																		}
+																	}
+																}
+															],
+															"indexed": true
+														},
+														"type": "Fragment"
+													},
+													{
+														"definition": {
+															"fragment": {
+																"key": "home-page-cards",
+																"siteKey": "Guest"
+															},
+															"fragmentConfig": {
+																"cardType": "documentationCard",
+																"iconBackgroundGradient": "bg-gradient-blue",
+																"url": {
+																	"_jsonObject": {
+																		"empty": false,
+																		"map": {
+																			"href": "/w/dxp/integration"
+																		}
+																	}
+																}
+															},
+															"fragmentFields": [
+																{
+																	"id": "image",
+																	"value": {
+																		"fragmentImage": {
+																			"url": {
+																				"value_i18n": {
+																					"en_US": "[$DOCUMENT_URL:/site-initializer/documents/group/icons/documentation_integration.svg$]"
+																				}
+																			}
+																		},
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "documentation-title",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "Integration"
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "documentation-description",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "Learn how to connect systems and streamline data effortlessly."
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "documentation-cta-icon",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "cta-text",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "More on Integration"
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "description",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "Learn how to connect systems and streamline data effortlessly."
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "title",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "Integration"
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "documentation-cta-text",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "More on Integration"
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "cta-icon",
+																	"value": {
+																		"html": {
+																			"value_i18n": {
+																			}
+																		}
+																	}
+																}
+															],
+															"indexed": true
+														},
+														"type": "Fragment"
+													},
+													{
+														"definition": {
+															"fragment": {
+																"key": "home-page-cards",
+																"siteKey": "Guest"
+															},
+															"fragmentConfig": {
+																"cardType": "documentationCard",
+																"iconBackgroundGradient": "bg-gradient-blue",
+																"url": {
+																	"_jsonObject": {
+																		"empty": false,
+																		"map": {
+																			"href": "/w/dxp/security-and-administration"
+																		}
+																	}
+																}
+															},
+															"fragmentFields": [
+																{
+																	"id": "image",
+																	"value": {
+																		"fragmentImage": {
+																			"url": {
+																				"value_i18n": {
+																					"en_US": "[$DOCUMENT_URL:/site-initializer/documents/group/icons/documentation_security.svg$]"
+																				}
+																			}
+																		},
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "documentation-title",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "Security"
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "documentation-description",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "Understand how to protect your platform with enterprise-grade security."
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "documentation-cta-icon",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "cta-text",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "More on Security"
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "description",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "Understand how to protect your platform with enterprise-grade security."
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "title",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "Security"
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "documentation-cta-text",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "More on Security"
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "cta-icon",
+																	"value": {
+																		"html": {
+																			"value_i18n": {
+																			}
+																		}
+																	}
+																}
+															],
+															"indexed": true
+														},
+														"type": "Fragment"
+													},
+													{
+														"definition": {
+															"fragment": {
+																"key": "home-page-cards",
+																"siteKey": "Guest"
+															},
+															"fragmentConfig": {
+																"cardType": "documentationCard",
+																"iconBackgroundGradient": "bg-gradient-blue",
+																"url": {
+																	"_jsonObject": {
+																		"empty": false,
+																		"map": {
+																			"href": "/w/dxp/cloud"
+																		}
+																	}
+																}
+															},
+															"fragmentFields": [
+																{
+																	"id": "image",
+																	"value": {
+																		"fragmentImage": {
+																			"url": {
+																				"value_i18n": {
+																					"en_US": "[$DOCUMENT_URL:/site-initializer/documents/group/icons/documentation_cloud.svg$]"
+																				}
+																			}
+																		},
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "documentation-title",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "Cloud"
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "documentation-description",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "Explore how to deploy, scale, and manage solutions in the cloud."
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "documentation-cta-icon",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "cta-text",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "More on Cloud"
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "description",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "Explore how to deploy, scale, and manage solutions in the cloud."
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "title",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "Cloud"
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "documentation-cta-text",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "More on Cloud"
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "cta-icon",
+																	"value": {
+																		"html": {
+																			"value_i18n": {
+																			}
+																		}
+																	}
+																}
+															],
+															"indexed": true
+														},
+														"type": "Fragment"
+													},
+													{
+														"definition": {
+															"fragment": {
+																"key": "home-page-cards",
+																"siteKey": "Guest"
+															},
+															"fragmentConfig": {
+																"cardType": "documentationCard",
+																"iconBackgroundGradient": "bg-gradient-blue",
+																"url": {
+																	"_jsonObject": {
+																		"empty": false,
+																		"map": {
+																			"href": "/w/dxp/self-hosted-installation-and-upgrades"
+																		}
+																	}
+																}
+															},
+															"fragmentFields": [
+																{
+																	"id": "image",
+																	"value": {
+																		"fragmentImage": {
+																			"description": {
+																				"value_i18n": {
+																					"en_US": ""
+																				}
+																			},
+																			"url": {
+																				"value_i18n": {
+																					"en_US": "[$DOCUMENT_URL:/site-initializer/documents/group/icons/documentation_cms.svg$]"
+																				}
+																			}
+																		},
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "documentation-title",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "Self-Hosted Installation"
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "documentation-description",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "Learn how to install and manage Liferay on your own servers."
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "documentation-cta-icon",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "cta-text",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "More on Self-Hosted Installation"
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "description",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "Learn how to install and manage Liferay on your own servers."
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "title",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "Self-Hosted Installation"
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "documentation-cta-text",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "More on Self-Hosted Installation"
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "cta-icon",
+																	"value": {
+																		"html": {
+																			"value_i18n": {
+																			}
+																		}
+																	}
+																}
+															],
+															"indexed": true
+														},
+														"type": "Fragment"
+													},
+													{
+														"definition": {
+															"fragment": {
+																"key": "home-page-cards",
+																"siteKey": "Guest"
+															},
+															"fragmentConfig": {
+																"cardType": "documentationCard",
+																"iconBackgroundGradient": "bg-gradient-blue",
+																"url": {
+																	"_jsonObject": {
+																		"empty": false,
+																		"map": {
+																			"href": "/w/dxp/low-code"
+																		}
+																	}
+																}
+															},
+															"fragmentFields": [
+																{
+																	"id": "image",
+																	"value": {
+																		"fragmentImage": {
+																			"description": {
+																				"value_i18n": {
+																					"en_US": ""
+																				}
+																			},
+																			"url": {
+																				"value_i18n": {
+																					"en_US": "[$DOCUMENT_URL:/site-initializer/documents/group/icons/documentation_low_code.svg$]"
+																				}
+																			}
+																		},
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "documentation-title",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "Low-Code"
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "documentation-description",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "Empower your team to innovate without coding."
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "documentation-cta-icon",
+																	"value": {
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "cta-text",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "More on Low-Code"
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "description",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "Empower your team to innovate without coding."
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "title",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "Low-Code"
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "documentation-cta-text",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "More on Low-Code"
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "cta-icon",
+																	"value": {
+																		"html": {
+																			"value_i18n": {
+																			}
+																		}
+																	}
+																}
+															],
+															"indexed": true
+														},
+														"type": "Fragment"
+													}
+												],
+												"type": "Section"
+											}
+										],
+										"type": "Section"
+									}
+								],
+								"type": "FragmentDropZone"
+							}
+						],
+						"type": "Fragment"
+					}
+				],
+				"type": "Section"
+			}
+		],
+		"type": "Root"
+	},
+	"settings": {
+		"colorSchemeName": "01",
+		"masterPage": {
+			"key": "liferay-learn"
+		},
+		"themeName": "Dialect"
+	},
+	"version": 1.1
+}

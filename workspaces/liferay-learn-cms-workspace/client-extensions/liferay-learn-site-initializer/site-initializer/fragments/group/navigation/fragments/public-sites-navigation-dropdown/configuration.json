@@ -1,0 +1,93 @@
+{
+	"fieldSets": [
+		{
+			"fields": [
+				{
+					"dataType": "string",
+					"defaultValue": "nm",
+					"label": "size",
+					"name": "buttonSize",
+					"type": "select",
+					"typeOptions": {
+						"validValues": [
+							{
+								"label": "small",
+								"value": "sm"
+							},
+							{
+								"label": "normal",
+								"value": "nm"
+							},
+							{
+								"label": "large",
+								"value": "lg"
+							}
+						]
+					}
+				},
+				{
+					"dataType": "string",
+					"defaultValue": "primary",
+					"label": "type",
+					"name": "buttonType",
+					"type": "select",
+					"typeOptions": {
+						"validValues": [
+							{
+								"value": "link"
+							},
+							{
+								"value": "outline-primary"
+							},
+							{
+								"value": "outline-secondary"
+							},
+							{
+								"value": "primary"
+							},
+							{
+								"value": "secondary"
+							}
+						]
+					}
+				},
+				{
+					"defaultValue": false,
+					"label": "display-on-hover",
+					"name": "displayOnHover",
+					"type": "checkbox"
+				},
+				{
+					"defaultValue": false,
+					"label": "keep-panel-open-in-edit-mode",
+					"name": "keepOpen",
+					"type": "checkbox"
+				},
+				{
+					"dataType": "string",
+					"defaultValue": "regular",
+					"label": "panel-type",
+					"name": "panelType",
+					"type": "select",
+					"typeOptions": {
+						"validValues": [
+							{
+								"label": "full-width",
+								"value": "full-width"
+							},
+							{
+								"label": "regular",
+								"value": "regular"
+							},
+							{
+								"label": "mega-menu",
+								"value": "mega-menu"
+							}
+						]
+					}
+				}
+			],
+			"label": "dropdown-options"
+		}
+	]
+}

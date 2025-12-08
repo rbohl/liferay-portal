@@ -1,0 +1,222 @@
+{
+	"configuration": {
+		"className": "com.liferay.headless.admin.list.type.dto.v1_0.ListTypeDefinition",
+		"parameters": {
+			"containsHeaders": "true",
+			"createStrategy": "UPSERT",
+			"onErrorFail": "false",
+			"updateStrategy": "UPDATE"
+		},
+		"taskItemDelegateName": "DEFAULT"
+	},
+	"items": [
+		{
+			"externalReferenceCode": "P2S3_EXPERTISE_LEVELS",
+			"listTypeEntries": [
+				{
+					"externalReferenceCode": "BEGINNER",
+					"key": "beginner",
+					"name": "Beginner"
+				},
+				{
+					"externalReferenceCode": "EXPERT",
+					"key": "expert",
+					"name": "Expert"
+				},
+				{
+					"externalReferenceCode": "INTERMEDIATE",
+					"key": "intermediate",
+					"name": "Intermediate"
+				}
+			],
+			"name": "P2S3 Expertise Levels"
+		},
+		{
+			"externalReferenceCode": "P2S3_KNOWLEDGE_ARTICLE_SOURCE_TEAMS",
+			"listTypeEntries": [
+				{
+					"externalReferenceCode": "ENABLEMENT",
+					"key": "enablement",
+					"name": "Enablement"
+				},
+				{
+					"externalReferenceCode": "OTHER",
+					"key": "other",
+					"name": "Other"
+				},
+				{
+					"externalReferenceCode": "SUPPORT",
+					"key": "support",
+					"name": "Support"
+				}
+			],
+			"name": "P2S3 Knowledge Article Source Teams"
+		},
+		{
+			"externalReferenceCode": "P2S3_KNOWLEDGE_ARTICLE_TYPES",
+			"listTypeEntries": [
+				{
+					"externalReferenceCode": "HOW_TO",
+					"key": "howTo",
+					"name": "How To"
+				},
+				{
+					"externalReferenceCode": "REFERENCE",
+					"key": "reference",
+					"name": "Reference"
+				},
+				{
+					"externalReferenceCode": "TROUBLESHOOTING",
+					"key": "troubleshooting",
+					"name": "Troubleshooting"
+				}
+			],
+			"name": "P2S3 Knowledge Article Types"
+		},
+		{
+			"externalReferenceCode": "P2S3_PERSONAS",
+			"listTypeEntries": [
+				{
+					"externalReferenceCode": "ADMINISTRATOR",
+					"key": "administrator",
+					"name": "Administrator"
+				},
+				{
+					"externalReferenceCode": "ARCHITECT",
+					"key": "architect",
+					"name": "Architect"
+				},
+				{
+					"externalReferenceCode": "BUSINESS_ANALYST",
+					"key": "businessAnalyst",
+					"name": "Business Analyst"
+				},
+				{
+					"externalReferenceCode": "CLOUD_ARCHITECT",
+					"key": "cloudArchitect",
+					"name": "Cloud Architect"
+				},
+				{
+					"externalReferenceCode": "COMMERCE_ADMINISTRATOR",
+					"key": "commerceAdministrator",
+					"name": "Commerce Administrator"
+				},
+				{
+					"externalReferenceCode": "CONTENT_MANAGER",
+					"key": "contentManager",
+					"name": "Content Manager"
+				},
+				{
+					"externalReferenceCode": "DEVELOPER",
+					"key": "developer",
+					"name": "Developer"
+				},
+				{
+					"externalReferenceCode": "INTERNAL_EMPLOYEE",
+					"key": "internalEmployee",
+					"name": "Internal Employee"
+				},
+				{
+					"externalReferenceCode": "PARTNER",
+					"key": "partner",
+					"name": "Partner"
+				},
+				{
+					"externalReferenceCode": "PRACTITIONER",
+					"key": "practitioner",
+					"name": "Practitioner"
+				},
+				{
+					"externalReferenceCode": "SALES",
+					"key": "sales",
+					"name": "Sales"
+				}
+			],
+			"name": "P2S3 Personas"
+		},
+		{
+			"externalReferenceCode": "P2S3_QUIZ_QUESTION_TYPES",
+			"listTypeEntries": [
+				{
+					"externalReferenceCode": "FREE_TEXT",
+					"key": "freeText",
+					"name": "Free Text"
+				},
+				{
+					"externalReferenceCode": "SELECT_MULTIPLE_CHOICE",
+					"key": "selectMultipleChoice",
+					"name": "Select Multiple Choice"
+				},
+				{
+					"externalReferenceCode": "SELECT_SINGLE_CHOICE",
+					"key": "selectSingleChoice",
+					"name": "Select Single Choice"
+				}
+			],
+			"name": "P2S3 Quiz Question Type"
+		},
+		{
+			"externalReferenceCode": "P2S3_RESULTS",
+			"listTypeEntries": [
+				{
+					"externalReferenceCode": "FAIL",
+					"key": "fail",
+					"name": "Fail"
+				},
+				{
+					"externalReferenceCode": "NA",
+					"key": "na",
+					"name": "NA"
+				},
+				{
+					"externalReferenceCode": "PASS",
+					"key": "pass",
+					"name": "Pass"
+				}
+			],
+			"name": "P2S3 Result"
+		},
+		{
+			"externalReferenceCode": "P2S3_STEP_TYPES",
+			"listTypeEntries": [
+				{
+					"externalReferenceCode": "CONTENT",
+					"key": "content",
+					"name": "Content"
+				},
+				{
+					"externalReferenceCode": "COURSE",
+					"key": "course",
+					"name": "Course"
+				},
+				{
+					"externalReferenceCode": "VIDEO",
+					"key": "video",
+					"name": "Video"
+				}
+			],
+			"name": "P2S3 Step Type"
+		},
+		{
+			"externalReferenceCode": "P2S3_SYNCHRONIZATION_STATUS",
+			"listTypeEntries": [
+				{
+					"externalReferenceCode": "FAILED",
+					"key": "failed",
+					"name": "Failed"
+				},
+				{
+					"externalReferenceCode": "IN_PROGRESS",
+					"key": "inProgress",
+					"name": "In Progress"
+				},
+				{
+					"externalReferenceCode": "SUCCESSFUL",
+					"key": "successful",
+					"name": "Successful"
+				}
+			],
+			"name": "P2S3 Synchronization Status"
+		}
+	]
+}

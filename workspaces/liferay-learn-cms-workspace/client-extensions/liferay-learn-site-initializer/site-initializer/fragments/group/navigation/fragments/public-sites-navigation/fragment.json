@@ -1,0 +1,10 @@
+{
+	"configurationPath": "configuration.json",
+	"cssPath": "index.css",
+	"fragmentEntryKey": "public-sites-navigation",
+	"htmlPath": "index.html",
+	"icon": "text-editor",
+	"jsPath": "index.js",
+	"name": "public-sites-navigation",
+	"type": "component"
+}

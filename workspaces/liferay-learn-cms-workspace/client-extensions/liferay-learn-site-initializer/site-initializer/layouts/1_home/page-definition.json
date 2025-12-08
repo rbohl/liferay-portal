@@ -1,0 +1,2189 @@
+{
+	"pageElement": {
+		"pageElements": [
+			{
+				"definition": {
+					"indexed": true,
+					"layout": {
+					}
+				},
+				"pageElements": [
+					{
+						"definition": {
+							"fragment": {
+								"key": "learn-home-page-container",
+								"siteKey": "Guest"
+							},
+							"fragmentConfig": {
+							},
+							"fragmentFields": [
+							],
+							"indexed": true
+						},
+						"pageElements": [
+							{
+								"definition": {
+								},
+								"pageElements": [
+									{
+										"definition": {
+											"cssClasses": [
+												"learn-banner"
+											],
+											"customCSSViewports": [
+												{
+													"customCSS": ".[$FRAGMENT_CLASS$] {\n}",
+													"id": "portraitMobile"
+												}
+											],
+											"fragmentStyle": {
+												"marginBottom": "3"
+											},
+											"indexed": true,
+											"layout": {
+												"contentDisplay": "FlexRow",
+												"marginBottom": 1
+											},
+											"name": "Banner Container"
+										},
+										"pageElements": [
+											{
+												"definition": {
+													"cssClasses": [
+														"learn-header-container"
+													],
+													"fragmentStyle": {
+														"maxWidth": "1600px",
+														"paddingBottom": "5rem",
+														"paddingTop": "5rem",
+														"width": "100%"
+													},
+													"fragmentViewports": [
+														{
+															"fragmentViewportStyle": {
+																"paddingBottom": "5",
+																"paddingLeft": "4",
+																"paddingRight": "4",
+																"paddingTop": "5"
+															},
+															"id": "tablet"
+														}
+													],
+													"indexed": true,
+													"layout": {
+														"contentDisplay": "FlexRow",
+														"justify": "SpaceAround"
+													},
+													"name": "Header Container"
+												},
+												"pageElements": [
+													{
+														"definition": {
+															"cssClasses": [
+																"learn-welcome-container"
+															],
+															"customCSS": ".[$FRAGMENT_CLASS$] {\n}",
+															"customCSSViewports": [
+																{
+																	"customCSS": ".[$FRAGMENT_CLASS$] {\n}",
+																	"id": "tablet"
+																}
+															],
+															"fragmentStyle": {
+																"fontFamily": "\"Source Sans 3\", system-ui",
+																"maxWidth": "700px",
+																"width": "100%"
+															},
+															"fragmentViewports": [
+																{
+																	"fragmentViewportStyle": {
+																		"marginLeft": "0",
+																		"marginRight": "0"
+																	},
+																	"id": "portraitMobile"
+																},
+																{
+																	"fragmentViewportStyle": {
+																		"marginLeft": "0",
+																		"marginTop": "0",
+																		"maxWidth": "",
+																		"paddingBottom": "0",
+																		"paddingTop": "0",
+																		"width": "100%"
+																	},
+																	"id": "tablet"
+																}
+															],
+															"indexed": true,
+															"layout": {
+																"align": "Center",
+																"contentDisplay": "FlexColumn",
+																"justify": "Center"
+															},
+															"name": "Welcome Container"
+														},
+														"pageElements": [
+															{
+																"definition": {
+																	"fragment": {
+																		"key": "dialect-text",
+																		"siteKey": "Guest"
+																	},
+																	"fragmentConfig": {
+																		"textType": "h1",
+																		"truncateText": false
+																	},
+																	"fragmentFields": [
+																		{
+																			"id": "element-text",
+																			"value": {
+																				"fragmentLink": {
+																				},
+																				"text": {
+																					"value_i18n": {
+																						"en_US": "Welcome to Liferay Learn"
+																					}
+																				}
+																			}
+																		}
+																	],
+																	"fragmentStyle": {
+																		"fontSize": "16px",
+																		"fontWeight": "fontWeightBold",
+																		"textAlign": "center"
+																	},
+																	"fragmentViewports": [
+																		{
+																			"fragmentViewportStyle": {
+																				"fontSize": "2rem"
+																			},
+																			"id": "portraitMobile"
+																		}
+																	],
+																	"indexed": true,
+																	"name": "Title"
+																},
+																"type": "Fragment"
+															},
+															{
+																"definition": {
+																	"fragment": {
+																		"key": "dialect-text",
+																		"siteKey": "Guest"
+																	},
+																	"fragmentConfig": {
+																		"textType": "h5",
+																		"truncateText": false
+																	},
+																	"fragmentFields": [
+																		{
+																			"id": "element-text",
+																			"value": {
+																				"fragmentLink": {
+																				},
+																				"text": {
+																					"value_i18n": {
+																						"en_US": "The best way to learn Liferay, with all the resources in one spot."
+																					}
+																				}
+																			}
+																		}
+																	],
+																	"fragmentStyle": {
+																		"fontSize": "21px",
+																		"textAlign": "center"
+																	},
+																	"fragmentViewports": [
+																		{
+																			"fragmentViewportStyle": {
+																				"fontSize": "21px"
+																			},
+																			"id": "tablet"
+																		}
+																	],
+																	"indexed": true,
+																	"name": "Sub Title"
+																},
+																"type": "Fragment"
+															},
+															{
+																"definition": {
+																	"fragmentStyle": {
+																		"width": "100%"
+																	},
+																	"widgetInstance": {
+																		"widgetConfig": {
+																		},
+																		"widgetName": "com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet"
+																	}
+																},
+																"type": "Widget"
+															},
+															{
+																"definition": {
+																	"fragmentStyle": {
+																		"hidden": true
+																	},
+																	"widgetInstance": {
+																		"widgetConfig": {
+																			"federatedSearchKey": "",
+																			"sxpBlueprintExternalReferenceCode": "ab2ffafb-1bb9-bf20-42b6-4c2b7121ba16"
+																		},
+																		"widgetName": "com_liferay_search_experiences_web_internal_blueprint_options_portlet_SXPBlueprintOptionsPortlet"
+																	}
+																},
+																"type": "Widget"
+															}
+														],
+														"type": "Section"
+													}
+												],
+												"type": "Section"
+											}
+										],
+										"type": "Section"
+									},
+									{
+										"definition": {
+											"cssClasses": [
+												"learn-home-cards-container"
+											],
+											"fragmentStyle": {
+												"fontFamily": "\"Source Sans 3\", system-ui",
+												"marginLeft": "auto",
+												"marginRight": "auto",
+												"maxWidth": "1600px",
+												"paddingLeft": "7",
+												"paddingRight": "7"
+											},
+											"fragmentViewports": [
+												{
+													"fragmentViewportStyle": {
+														"paddingLeft": "4",
+														"paddingRight": "4"
+													},
+													"id": "tablet"
+												}
+											],
+											"indexed": true,
+											"layout": {
+												"contentDisplay": "FlexColumn",
+												"justify": "Center",
+												"paddingLeft": 8,
+												"paddingRight": 8
+											},
+											"name": "Main Container"
+										},
+										"pageElements": [
+											{
+												"definition": {
+													"indexed": true,
+													"layout": {
+													}
+												},
+												"pageElements": [
+													{
+														"definition": {
+															"fragment": {
+																"key": "learn-carousel",
+																"siteKey": "Guest"
+															},
+															"fragmentConfig": {
+																"numberOfSlides": 2
+															},
+															"fragmentFields": [
+															],
+															"indexed": true
+														},
+														"pageElements": [
+															{
+																"definition": {
+																	"fragmentDropZoneId": "1"
+																},
+																"pageElements": [
+																	{
+																		"definition": {
+																			"fragment": {
+																				"key": "learn-carousel-card",
+																				"siteKey": "Guest"
+																			},
+																			"fragmentConfig": {
+																				"ctaURL": {
+																					"href": "/l/34132553"
+																				}
+																			},
+																			"fragmentFields": [
+																				{
+																					"id": "carousel-card-img",
+																					"value": {
+																						"fragmentImage": {
+																							"url": {
+																								"value_i18n": {
+																									"en_US": "[$DOCUMENT_URL:/site-initializer/documents/group/images/bewl_carousel.png$]"
+																								}
+																							}
+																						},
+																						"fragmentLink": {
+																						}
+																					}
+																				},
+																				{
+																					"id": "carousel-card-cta",
+																					"value": {
+																						"fragmentLink": {
+																						},
+																						"text": {
+																							"value_i18n": {
+																								"en_US": "Go to Course"
+																							}
+																						}
+																					}
+																				},
+																				{
+																					"id": "carousel-card-tag",
+																					"value": {
+																						"fragmentLink": {
+																						},
+																						"text": {
+																							"value_i18n": {
+																								"en_US": "New Course"
+																							}
+																						}
+																					}
+																				},
+																				{
+																					"id": "carousel-card-description",
+																					"value": {
+																						"fragmentLink": {
+																						},
+																						"text": {
+																							"value_i18n": {
+																								"en_US": "Lorem ipsum dolor sit amet consectetur. Urna velit adipiscing amet enim malesuada habitant. Varius interdum cursus ut iaculis sed congue duis."
+																							}
+																						}
+																					}
+																				},
+																				{
+																					"id": "carousel-card-title",
+																					"value": {
+																						"fragmentLink": {
+																						},
+																						"text": {
+																							"value_i18n": {
+																								"en_US": "Building Enterprise Websites with Liferay"
+																							}
+																						}
+																					}
+																				}
+																			],
+																			"indexed": true
+																		},
+																		"type": "Fragment"
+																	}
+																],
+																"type": "FragmentDropZone"
+															},
+															{
+																"definition": {
+																	"fragmentDropZoneId": "2"
+																},
+																"pageElements": [
+																	{
+																		"definition": {
+																			"fragment": {
+																				"key": "learn-carousel-card",
+																				"siteKey": "Guest"
+																			},
+																			"fragmentConfig": {
+																				"ctaURL": {
+																					"href": "/w/dxp/content-management-system"
+																				}
+																			},
+																			"fragmentFields": [
+																				{
+																					"id": "carousel-card-img",
+																					"value": {
+																						"fragmentImage": {
+																							"url": {
+																								"value_i18n": {
+																									"en_US": "[$DOCUMENT_URL:/site-initializer/documents/group/images/cms_carousel.png$]"
+																								}
+																							}
+																						},
+																						"fragmentLink": {
+																						}
+																					}
+																				},
+																				{
+																					"id": "carousel-card-cta",
+																					"value": {
+																						"fragmentLink": {
+																						},
+																						"text": {
+																							"value_i18n": {
+																								"en_US": "Go to CMS Documentation"
+																							}
+																						}
+																					}
+																				},
+																				{
+																					"id": "carousel-card-tag",
+																					"value": {
+																						"fragmentLink": {
+																						},
+																						"text": {
+																							"value_i18n": {
+																								"en_US": "New Product"
+																							}
+																						}
+																					}
+																				},
+																				{
+																					"id": "carousel-card-description",
+																					"value": {
+																						"fragmentLink": {
+																						},
+																						"text": {
+																							"value_i18n": {
+																								"en_US": "Lorem ipsum dolor sit amet consectetur. Urna velit adipiscing amet enim malesuada habitant. Varius interdum cursus ut iaculis sed congue duis."
+																							}
+																						}
+																					}
+																				},
+																				{
+																					"id": "carousel-card-title",
+																					"value": {
+																						"fragmentLink": {
+																						},
+																						"text": {
+																							"value_i18n": {
+																								"en_US": "Learn How to Use the New CMS Module"
+																							}
+																						}
+																					}
+																				}
+																			],
+																			"indexed": true
+																		},
+																		"type": "Fragment"
+																	}
+																],
+																"type": "FragmentDropZone"
+															}
+														],
+														"type": "Fragment"
+													}
+												],
+												"type": "Section"
+											},
+											{
+												"definition": {
+													"fragmentStyle": {
+														"paddingBottom": "2.5rem",
+														"paddingTop": "2.5rem"
+													},
+													"fragmentViewports": [
+														{
+															"fragmentViewportStyle": {
+																"paddingBottom": "0"
+															},
+															"id": "landscapeMobile"
+														},
+														{
+															"fragmentViewportStyle": {
+																"paddingBottom": "0"
+															},
+															"id": "portraitMobile"
+														},
+														{
+															"fragmentViewportStyle": {
+																"paddingBottom": "0",
+																"paddingTop": "0"
+															},
+															"id": "tablet"
+														}
+													],
+													"indexed": true,
+													"layout": {
+													}
+												},
+												"pageElements": [
+													{
+														"definition": {
+															"cssClasses": [
+																"learn-home-assets-grid"
+															],
+															"fragmentViewports": [
+																{
+																	"fragmentViewportStyle": {
+																		"paddingTop": "2.5rem"
+																	},
+																	"id": "tablet"
+																}
+															],
+															"indexed": true,
+															"layout": {
+															}
+														},
+														"pageElements": [
+															{
+																"definition": {
+																	"fragment": {
+																		"key": "home-page-cards",
+																		"siteKey": "Guest"
+																	},
+																	"fragmentConfig": {
+																		"cardType": "homeCard",
+																		"iconBackgroundGradient": "",
+																		"showIcon": true,
+																		"url": {
+																			"layout": {
+																				"groupId": "32483059",
+																				"layoutId": "352",
+																				"layoutUuid": "4a8a9735-d3c2-d324-52e8-2ca9a35f6ae5",
+																				"privateLayout": false,
+																				"title": "Documentation"
+																			}
+																		}
+																	},
+																	"fragmentFields": [
+																		{
+																			"id": "image",
+																			"value": {
+																				"fragmentImage": {
+																					"url": {
+																						"value_i18n": {
+																							"en_US": "[$DOCUMENT_URL:/site-initializer/documents/group/icons/home_documentation_blue.svg$]"
+																						}
+																					}
+																				},
+																				"fragmentLink": {
+																				}
+																			}
+																		},
+																		{
+																			"id": "cta-text",
+																			"value": {
+																				"fragmentLink": {
+																				},
+																				"text": {
+																					"value_i18n": {
+																						"en_US": "Go to Documentation"
+																					}
+																				}
+																			}
+																		},
+																		{
+																			"id": "description",
+																			"value": {
+																				"fragmentLink": {
+																				},
+																				"text": {
+																					"value_i18n": {
+																						"en_US": "Find Documents&nbsp;categorized by Capabilities"
+																					}
+																				}
+																			}
+																		},
+																		{
+																			"id": "title",
+																			"value": {
+																				"fragmentLink": {
+																				},
+																				"text": {
+																					"value_i18n": {
+																						"en_US": "Documentation"
+																					}
+																				}
+																			}
+																		},
+																		{
+																			"id": "cta-icon",
+																			"value": {
+																				"html": {
+																					"value_i18n": {
+																					}
+																				}
+																			}
+																		}
+																	],
+																	"indexed": true
+																},
+																"type": "Fragment"
+															},
+															{
+																"definition": {
+																	"fragment": {
+																		"key": "home-page-cards",
+																		"siteKey": "Guest"
+																	},
+																	"fragmentConfig": {
+																		"cardType": "homeCard",
+																		"iconBackgroundGradient": "",
+																		"url": {
+																			"layout": {
+																				"groupId": "32483059",
+																				"layoutId": "507",
+																				"layoutUuid": "ab1eb86f-75c1-6141-65e6-6eb172a61255",
+																				"privateLayout": false,
+																				"title": "LMS Course"
+																			}
+																		}
+																	},
+																	"fragmentFields": [
+																		{
+																			"id": "image",
+																			"value": {
+																				"fragmentImage": {
+																					"url": {
+																						"value_i18n": {
+																							"en_US": "[$DOCUMENT_URL:/site-initializer/documents/group/icons/home_courses_blue.svg$]"
+																						}
+																					}
+																				},
+																				"fragmentLink": {
+																				}
+																			}
+																		},
+																		{
+																			"id": "cta-text",
+																			"value": {
+																				"fragmentLink": {
+																				},
+																				"text": {
+																					"value_i18n": {
+																						"en_US": "View All Courses"
+																					}
+																				}
+																			}
+																		},
+																		{
+																			"id": "description",
+																			"value": {
+																				"fragmentLink": {
+																				},
+																				"text": {
+																					"value_i18n": {
+																						"en_US": "Learn Liferay through engaging Courses and Learning Paths"
+																					}
+																				}
+																			}
+																		},
+																		{
+																			"id": "title",
+																			"value": {
+																				"fragmentLink": {
+																				},
+																				"text": {
+																					"value_i18n": {
+																						"en_US": "Courses"
+																					}
+																				}
+																			}
+																		},
+																		{
+																			"id": "cta-icon",
+																			"value": {
+																				"html": {
+																					"value_i18n": {
+																					}
+																				}
+																			}
+																		}
+																	],
+																	"indexed": true
+																},
+																"type": "Fragment"
+															},
+															{
+																"definition": {
+																	"fragment": {
+																		"key": "home-page-cards",
+																		"siteKey": "Guest"
+																	},
+																	"fragmentConfig": {
+																		"cardType": "homeCard",
+																		"iconBackgroundGradient": "",
+																		"url": {
+																			"layout": {
+																				"groupId": "32483059",
+																				"layoutId": "628",
+																				"layoutUuid": "1c3ace9e-a4dc-4912-e13d-b3d861b27baa",
+																				"privateLayout": false,
+																				"title": "LMS Learning Paths"
+																			}
+																		}
+																	},
+																	"fragmentFields": [
+																		{
+																			"id": "image",
+																			"value": {
+																				"fragmentImage": {
+																					"url": {
+																						"value_i18n": {
+																							"en_US": "[$DOCUMENT_URL:/site-initializer/documents/group/icons/home_learning_paths_blue.svg$]"
+																						}
+																					}
+																				},
+																				"fragmentLink": {
+																				}
+																			}
+																		},
+																		{
+																			"id": "cta-text",
+																			"value": {
+																				"fragmentLink": {
+																				},
+																				"text": {
+																					"value_i18n": {
+																						"en_US": "View All Learning Paths"
+																					}
+																				}
+																			}
+																		},
+																		{
+																			"id": "description",
+																			"value": {
+																				"fragmentLink": {
+																				},
+																				"text": {
+																					"value_i18n": {
+																						"en_US": "Learn Liferay through engaging Learning Paths"
+																					}
+																				}
+																			}
+																		},
+																		{
+																			"id": "title",
+																			"value": {
+																				"fragmentLink": {
+																				},
+																				"text": {
+																					"value_i18n": {
+																						"en_US": "Learning Paths"
+																					}
+																				}
+																			}
+																		},
+																		{
+																			"id": "cta-icon",
+																			"value": {
+																				"html": {
+																					"value_i18n": {
+																					}
+																				}
+																			}
+																		}
+																	],
+																	"indexed": true
+																},
+																"type": "Fragment"
+															},
+															{
+																"definition": {
+																	"fragment": {
+																		"key": "home-page-cards",
+																		"siteKey": "Guest"
+																	},
+																	"fragmentConfig": {
+																		"cardType": "homeCard",
+																		"iconBackgroundGradient": "",
+																		"url": {
+																			"layout": {
+																				"groupId": "32483059",
+																				"layoutId": "618",
+																				"layoutUuid": "ed50b07c-5785-d067-e822-5589edfeb8d1",
+																				"privateLayout": false,
+																				"title": "LMS Certifications"
+																			}
+																		}
+																	},
+																	"fragmentFields": [
+																		{
+																			"id": "image",
+																			"value": {
+																				"fragmentImage": {
+																					"url": {
+																						"value_i18n": {
+																							"en_US": "[$DOCUMENT_URL:/site-initializer/documents/group/icons/home_certifications_blue.svg$]"
+																						}
+																					}
+																				},
+																				"fragmentLink": {
+																				}
+																			}
+																		},
+																		{
+																			"id": "cta-text",
+																			"value": {
+																				"fragmentLink": {
+																				},
+																				"text": {
+																					"value_i18n": {
+																						"en_US": "View All Certifications"
+																					}
+																				}
+																			}
+																		},
+																		{
+																			"id": "description",
+																			"value": {
+																				"fragmentLink": {
+																				},
+																				"text": {
+																					"value_i18n": {
+																						"en_US": "Validate your expertise and showcase your skills with official Liferay certifications"
+																					}
+																				}
+																			}
+																		},
+																		{
+																			"id": "title",
+																			"value": {
+																				"fragmentLink": {
+																				},
+																				"text": {
+																					"value_i18n": {
+																						"en_US": "Certifications"
+																					}
+																				}
+																			}
+																		},
+																		{
+																			"id": "cta-icon",
+																			"value": {
+																				"html": {
+																					"value_i18n": {
+																					}
+																				}
+																			}
+																		}
+																	],
+																	"indexed": true
+																},
+																"type": "Fragment"
+															},
+															{
+																"definition": {
+																	"fragment": {
+																		"key": "home-page-cards",
+																		"siteKey": "Guest"
+																	},
+																	"fragmentConfig": {
+																		"cardType": "homeCard",
+																		"iconBackgroundGradient": "",
+																		"url": {
+																			"layout": {
+																				"groupId": "32483059",
+																				"layoutId": "686",
+																				"layoutUuid": "e683f079-a7e3-b7b8-f984-337be1fc1f94",
+																				"privateLayout": false,
+																				"title": "Knowledge Base"
+																			}
+																		}
+																	},
+																	"fragmentFields": [
+																		{
+																			"id": "image",
+																			"value": {
+																				"fragmentImage": {
+																					"url": {
+																						"value_i18n": {
+																							"en_US": "[$DOCUMENT_URL:/site-initializer/documents/group/icons/home_knowledge_base_blue.svg$]"
+																						}
+																					}
+																				},
+																				"fragmentLink": {
+																				}
+																			}
+																		},
+																		{
+																			"id": "cta-text",
+																			"value": {
+																				"fragmentLink": {
+																				},
+																				"text": {
+																					"value_i18n": {
+																						"en_US": "Go to Knowledge Base"
+																					}
+																				}
+																			}
+																		},
+																		{
+																			"id": "description",
+																			"value": {
+																				"fragmentLink": {
+																				},
+																				"text": {
+																					"value_i18n": {
+																						"en_US": "Find Answers Fast with How-To Guides and Troubleshooting Tips"
+																					}
+																				}
+																			}
+																		},
+																		{
+																			"id": "title",
+																			"value": {
+																				"fragmentLink": {
+																				},
+																				"text": {
+																					"value_i18n": {
+																						"en_US": "Knowledge Base"
+																					}
+																				}
+																			}
+																		},
+																		{
+																			"id": "cta-icon",
+																			"value": {
+																				"html": {
+																					"value_i18n": {
+																					}
+																				}
+																			}
+																		}
+																	],
+																	"indexed": true
+																},
+																"type": "Fragment"
+															},
+															{
+																"definition": {
+																	"fragment": {
+																		"key": "home-page-cards",
+																		"siteKey": "Guest"
+																	},
+																	"fragmentConfig": {
+																		"iconBackgroundGradient": "",
+																		"iconPlacement": "learn-card-icon-top",
+																		"showCTA": true,
+																		"showDescription": true,
+																		"showIcon": true,
+																		"url": ""
+																	},
+																	"fragmentFields": [
+																		{
+																			"id": "image",
+																			"value": {
+																				"fragmentImage": {
+																					"url": {
+																						"value_i18n": {
+																							"en_US": "[$DOCUMENT_URL:/site-initializer/documents/group/icons/home_enablement_hub_blue.svg$]"
+																						}
+																					}
+																				},
+																				"fragmentLink": {
+																				}
+																			}
+																		},
+																		{
+																			"id": "cta-text",
+																			"value": {
+																				"fragmentLink": {
+																				},
+																				"text": {
+																					"value_i18n": {
+																						"en_US": "Go to the Enablement Hub"
+																					}
+																				}
+																			}
+																		},
+																		{
+																			"id": "description",
+																			"value": {
+																				"fragmentLink": {
+																				},
+																				"text": {
+																					"value_i18n": {
+																						"en_US": "Access exclusive assets, tools, and materials designed to help our partners and staff succeed in their roles, from sales to certified training."
+																					}
+																				}
+																			}
+																		},
+																		{
+																			"id": "title",
+																			"value": {
+																				"fragmentLink": {
+																				},
+																				"text": {
+																					"value_i18n": {
+																						"en_US": "Enablement Hub"
+																					}
+																				}
+																			}
+																		},
+																		{
+																			"id": "cta-icon",
+																			"value": {
+																				"html": {
+																					"value_i18n": {
+																						"en_US": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n  <mask id=\"mask0_2309_6764\" style=\"mask-type:alpha\" maskUnits=\"userSpaceOnUse\" x=\"0\" y=\"0\" width=\"16\" height=\"16\">\n    <path d=\"M14 11C14 10.4477 14.4473 10 15 10C15.5527 10 16 10.4477 16 11V14C16 15.1028 15.1025 16 14 16H2C0.897461 16 0 15.1028 0 14V2C0 0.897202 0.897461 0 2 0H5C5.55273 0 6 0.447723 6 1C6 1.55228 5.55273 2 5 2H2V14H14V11Z\" fill=\"#6B6C7E\"/>\n    <path d=\"M10 0H15C15.5527 0 16 0.447708 16 1V6C16 6.55229 15.5527 7 15 7C14.4473 7 14 6.55229 14 6V3.4142L9.70703 7.70711C9.51172 7.90237 9.25586 8 9 8C8.74414 8 8.48828 7.90237 8.29297 7.70711C7.90234 7.31657 7.90234 6.68343 8.29297 6.29289L12.5859 2H10C9.44727 2 9 1.55229 9 1C9 0.447708 9.44727 0 10 0Z\" fill=\"#6B6C7E\"/>\n  </mask>\n  <g mask=\"url(#mask0_2309_6764)\">\n    <rect width=\"16\" height=\"16\" fill=\"#0B5FFF\"/>\n  </g>\n</svg>\n"
+																					}
+																				}
+																			}
+																		}
+																	],
+																	"fragmentStyle": {
+																		"height": "0px",
+																		"hidden": true
+																	},
+																	"indexed": true
+																},
+																"type": "Fragment"
+															}
+														],
+														"type": "Section"
+													}
+												],
+												"type": "Section"
+											},
+											{
+												"definition": {
+													"customCSS": ".[$FRAGMENT_CLASS$] {\n}",
+													"fragmentStyle": {
+														"paddingBottom": "2.5rem",
+														"paddingTop": "2.5rem"
+													},
+													"indexed": true,
+													"layout": {
+														"align": "Center",
+														"contentDisplay": "FlexColumn",
+														"justify": "Center"
+													}
+												},
+												"pageElements": [
+													{
+														"definition": {
+															"fragment": {
+																"key": "dialect-text",
+																"siteKey": "Guest"
+															},
+															"fragmentConfig": {
+																"textType": "h2",
+																"truncateText": false
+															},
+															"fragmentFields": [
+																{
+																	"id": "element-text",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "DXP Capabilities"
+																			}
+																		}
+																	}
+																}
+															],
+															"fragmentStyle": {
+																"fontSize": "2.5rem",
+																"fontWeight": "600",
+																"textAlign": "center",
+																"textColor": "colorBrandPrimaryDarken4"
+															},
+															"indexed": true
+														},
+														"type": "Fragment"
+													},
+													{
+														"definition": {
+															"cssClasses": [
+																"learn-home-capabilities-grid"
+															],
+															"fragmentStyle": {
+																"height": "100%",
+																"paddingBottom": "3rem",
+																"paddingTop": "3rem",
+																"width": "100%"
+															},
+															"indexed": true,
+															"layout": {
+															}
+														},
+														"pageElements": [
+															{
+																"definition": {
+																	"fragment": {
+																		"key": "home-page-cards",
+																		"siteKey": "Guest"
+																	},
+																	"fragmentConfig": {
+																		"cardType": "documentationCard",
+																		"iconBackgroundGradient": "",
+																		"iconPlacement": "learn-card-icon-left",
+																		"showCTA": false,
+																		"showDescription": false,
+																		"url": {
+																			"href": "/w/dxp/ai"
+																		}
+																	},
+																	"fragmentFields": [
+																		{
+																			"id": "image",
+																			"value": {
+																				"fragmentImage": {
+																					"url": {
+																						"value_i18n": {
+																							"en_US": "[$DOCUMENT_URL:/site-initializer/documents/group/icons/documentation_ai.svg$]"
+																						}
+																					}
+																				},
+																				"fragmentLink": {
+																				}
+																			}
+																		},
+																		{
+																			"id": "cta-text",
+																			"value": {
+																				"fragmentLink": {
+																				}
+																			}
+																		},
+																		{
+																			"id": "description",
+																			"value": {
+																				"fragmentLink": {
+																				}
+																			}
+																		},
+																		{
+																			"id": "title",
+																			"value": {
+																				"fragmentLink": {
+																				},
+																				"text": {
+																					"value_i18n": {
+																						"en_US": "AI"
+																					}
+																				}
+																			}
+																		},
+																		{
+																			"id": "cta-icon",
+																			"value": {
+																				"html": {
+																					"value_i18n": {
+																					}
+																				}
+																			}
+																		}
+																	],
+																	"indexed": true
+																},
+																"type": "Fragment"
+															},
+															{
+																"definition": {
+																	"fragment": {
+																		"key": "home-page-cards",
+																		"siteKey": "Guest"
+																	},
+																	"fragmentConfig": {
+																		"cardType": "documentationCard",
+																		"iconBackgroundGradient": "",
+																		"iconPlacement": "learn-card-icon-left",
+																		"showCTA": false,
+																		"showDescription": false,
+																		"url": {
+																			"href": "/w/dxp/content-management-system"
+																		}
+																	},
+																	"fragmentFields": [
+																		{
+																			"id": "image",
+																			"value": {
+																				"fragmentImage": {
+																					"url": {
+																						"value_i18n": {
+																							"en_US": "[$DOCUMENT_URL:/site-initializer/documents/group/icons/documentation_cms.svg$]"
+																						}
+																					}
+																				},
+																				"fragmentLink": {
+																				}
+																			}
+																		},
+																		{
+																			"id": "cta-text",
+																			"value": {
+																				"fragmentLink": {
+																				}
+																			}
+																		},
+																		{
+																			"id": "description",
+																			"value": {
+																				"fragmentLink": {
+																				}
+																			}
+																		},
+																		{
+																			"id": "title",
+																			"value": {
+																				"fragmentLink": {
+																				},
+																				"text": {
+																					"value_i18n": {
+																						"en_US": "CMS"
+																					}
+																				}
+																			}
+																		},
+																		{
+																			"id": "cta-icon",
+																			"value": {
+																				"html": {
+																					"value_i18n": {
+																					}
+																				}
+																			}
+																		}
+																	],
+																	"indexed": true
+																},
+																"type": "Fragment"
+															},
+															{
+																"definition": {
+																	"fragment": {
+																		"key": "home-page-cards",
+																		"siteKey": "Guest"
+																	},
+																	"fragmentConfig": {
+																		"cardType": "documentationCard",
+																		"iconBackgroundGradient": "",
+																		"iconPlacement": "learn-card-icon-left",
+																		"showCTA": false,
+																		"showDescription": false,
+																		"url": {
+																			"href": "/w/dxp/digital-asset-management"
+																		}
+																	},
+																	"fragmentFields": [
+																		{
+																			"id": "image",
+																			"value": {
+																				"fragmentImage": {
+																					"url": {
+																						"value_i18n": {
+																							"en_US": "[$DOCUMENT_URL:/site-initializer/documents/group/icons/documentation_dam.svg$]"
+																						}
+																					}
+																				},
+																				"fragmentLink": {
+																				}
+																			}
+																		},
+																		{
+																			"id": "cta-text",
+																			"value": {
+																				"fragmentLink": {
+																				}
+																			}
+																		},
+																		{
+																			"id": "description",
+																			"value": {
+																				"fragmentLink": {
+																				}
+																			}
+																		},
+																		{
+																			"id": "title",
+																			"value": {
+																				"fragmentLink": {
+																				},
+																				"text": {
+																					"value_i18n": {
+																						"en_US": "DAM"
+																					}
+																				}
+																			}
+																		},
+																		{
+																			"id": "cta-icon",
+																			"value": {
+																				"html": {
+																					"value_i18n": {
+																					}
+																				}
+																			}
+																		}
+																	],
+																	"indexed": true
+																},
+																"type": "Fragment"
+															},
+															{
+																"definition": {
+																	"fragment": {
+																		"key": "home-page-cards",
+																		"siteKey": "Guest"
+																	},
+																	"fragmentConfig": {
+																		"cardType": "documentationCard",
+																		"iconBackgroundGradient": "",
+																		"iconPlacement": "learn-card-icon-left",
+																		"showCTA": false,
+																		"showDescription": false,
+																		"url": {
+																			"href": "/w/dxp/commerce"
+																		}
+																	},
+																	"fragmentFields": [
+																		{
+																			"id": "image",
+																			"value": {
+																				"fragmentImage": {
+																					"url": {
+																						"value_i18n": {
+																							"en_US": "[$DOCUMENT_URL:/site-initializer/documents/group/icons/documentation_commerce.svg$]"
+																						}
+																					}
+																				},
+																				"fragmentLink": {
+																				}
+																			}
+																		},
+																		{
+																			"id": "cta-text",
+																			"value": {
+																				"fragmentLink": {
+																				}
+																			}
+																		},
+																		{
+																			"id": "description",
+																			"value": {
+																				"fragmentLink": {
+																				}
+																			}
+																		},
+																		{
+																			"id": "title",
+																			"value": {
+																				"fragmentLink": {
+																				},
+																				"text": {
+																					"value_i18n": {
+																						"en_US": "Commerce"
+																					}
+																				}
+																			}
+																		},
+																		{
+																			"id": "cta-icon",
+																			"value": {
+																				"html": {
+																					"value_i18n": {
+																					}
+																				}
+																			}
+																		}
+																	],
+																	"indexed": true
+																},
+																"type": "Fragment"
+															},
+															{
+																"definition": {
+																	"fragment": {
+																		"key": "home-page-cards",
+																		"siteKey": "Guest"
+																	},
+																	"fragmentConfig": {
+																		"cardType": "documentationCard",
+																		"iconBackgroundGradient": "",
+																		"iconPlacement": "learn-card-icon-left",
+																		"showCTA": false,
+																		"showDescription": false,
+																		"url": {
+																			"href": "/w/dxp/personalization"
+																		}
+																	},
+																	"fragmentFields": [
+																		{
+																			"id": "image",
+																			"value": {
+																				"fragmentImage": {
+																					"url": {
+																						"value_i18n": {
+																							"en_US": "[$DOCUMENT_URL:/site-initializer/documents/group/icons/documentation_personalization.svg$]"
+																						}
+																					}
+																				},
+																				"fragmentLink": {
+																				}
+																			}
+																		},
+																		{
+																			"id": "cta-text",
+																			"value": {
+																				"fragmentLink": {
+																				}
+																			}
+																		},
+																		{
+																			"id": "description",
+																			"value": {
+																				"fragmentLink": {
+																				}
+																			}
+																		},
+																		{
+																			"id": "title",
+																			"value": {
+																				"fragmentLink": {
+																				},
+																				"text": {
+																					"value_i18n": {
+																						"en_US": "Personalization"
+																					}
+																				}
+																			}
+																		},
+																		{
+																			"id": "cta-icon",
+																			"value": {
+																				"html": {
+																					"value_i18n": {
+																					}
+																				}
+																			}
+																		}
+																	],
+																	"indexed": true
+																},
+																"type": "Fragment"
+															},
+															{
+																"definition": {
+																	"fragment": {
+																		"key": "home-page-cards",
+																		"siteKey": "Guest"
+																	},
+																	"fragmentConfig": {
+																		"cardType": "documentationCard",
+																		"iconBackgroundGradient": "",
+																		"iconPlacement": "learn-card-icon-left",
+																		"showCTA": false,
+																		"showDescription": false,
+																		"url": {
+																			"href": "/w/dxp/search"
+																		}
+																	},
+																	"fragmentFields": [
+																		{
+																			"id": "image",
+																			"value": {
+																				"fragmentImage": {
+																					"url": {
+																						"value_i18n": {
+																							"en_US": "[$DOCUMENT_URL:/site-initializer/documents/group/icons/documentation_search.svg$]"
+																						}
+																					}
+																				},
+																				"fragmentLink": {
+																				}
+																			}
+																		},
+																		{
+																			"id": "cta-text",
+																			"value": {
+																				"fragmentLink": {
+																				}
+																			}
+																		},
+																		{
+																			"id": "description",
+																			"value": {
+																				"fragmentLink": {
+																				}
+																			}
+																		},
+																		{
+																			"id": "title",
+																			"value": {
+																				"fragmentLink": {
+																				},
+																				"text": {
+																					"value_i18n": {
+																						"en_US": "Search"
+																					}
+																				}
+																			}
+																		},
+																		{
+																			"id": "cta-icon",
+																			"value": {
+																				"html": {
+																					"value_i18n": {
+																					}
+																				}
+																			}
+																		}
+																	],
+																	"indexed": true
+																},
+																"type": "Fragment"
+															},
+															{
+																"definition": {
+																	"fragment": {
+																		"key": "home-page-cards",
+																		"siteKey": "Guest"
+																	},
+																	"fragmentConfig": {
+																		"cardType": "documentationCard",
+																		"iconBackgroundGradient": "",
+																		"iconPlacement": "learn-card-icon-left",
+																		"showCTA": false,
+																		"showDescription": false,
+																		"url": {
+																			"href": "/w/dxp/sites"
+																		}
+																	},
+																	"fragmentFields": [
+																		{
+																			"id": "image",
+																			"value": {
+																				"fragmentImage": {
+																					"url": {
+																						"value_i18n": {
+																							"en_US": "[$DOCUMENT_URL:/site-initializer/documents/group/icons/documentation_personalization.svg$]"
+																						}
+																					}
+																				},
+																				"fragmentLink": {
+																				}
+																			}
+																		},
+																		{
+																			"id": "cta-text",
+																			"value": {
+																				"fragmentLink": {
+																				}
+																			}
+																		},
+																		{
+																			"id": "description",
+																			"value": {
+																				"fragmentLink": {
+																				}
+																			}
+																		},
+																		{
+																			"id": "title",
+																			"value": {
+																				"fragmentLink": {
+																				},
+																				"text": {
+																					"value_i18n": {
+																						"en_US": "Sites"
+																					}
+																				}
+																			}
+																		},
+																		{
+																			"id": "cta-icon",
+																			"value": {
+																				"html": {
+																					"value_i18n": {
+																					}
+																				}
+																			}
+																		}
+																	],
+																	"indexed": true
+																},
+																"type": "Fragment"
+															},
+															{
+																"definition": {
+																	"fragment": {
+																		"key": "home-page-cards",
+																		"siteKey": "Guest"
+																	},
+																	"fragmentConfig": {
+																		"cardType": "documentationCard",
+																		"iconBackgroundGradient": "",
+																		"iconPlacement": "learn-card-icon-left",
+																		"showCTA": false,
+																		"showDescription": false,
+																		"url": {
+																			"href": "/w/dxp/integration"
+																		}
+																	},
+																	"fragmentFields": [
+																		{
+																			"id": "image",
+																			"value": {
+																				"fragmentImage": {
+																					"url": {
+																						"value_i18n": {
+																							"en_US": "[$DOCUMENT_URL:/site-initializer/documents/group/icons/documentation_integration.svg$]"
+																						}
+																					}
+																				},
+																				"fragmentLink": {
+																				}
+																			}
+																		},
+																		{
+																			"id": "cta-text",
+																			"value": {
+																				"fragmentLink": {
+																				}
+																			}
+																		},
+																		{
+																			"id": "description",
+																			"value": {
+																				"fragmentLink": {
+																				}
+																			}
+																		},
+																		{
+																			"id": "title",
+																			"value": {
+																				"fragmentLink": {
+																				},
+																				"text": {
+																					"value_i18n": {
+																						"en_US": "Integration"
+																					}
+																				}
+																			}
+																		},
+																		{
+																			"id": "cta-icon",
+																			"value": {
+																				"html": {
+																					"value_i18n": {
+																					}
+																				}
+																			}
+																		}
+																	],
+																	"indexed": true
+																},
+																"type": "Fragment"
+															},
+															{
+																"definition": {
+																	"fragment": {
+																		"key": "home-page-cards",
+																		"siteKey": "Guest"
+																	},
+																	"fragmentConfig": {
+																		"cardType": "documentationCard",
+																		"iconBackgroundGradient": "",
+																		"iconPlacement": "learn-card-icon-left",
+																		"showCTA": false,
+																		"showDescription": false,
+																		"url": {
+																			"href": "/w/dxp/security-and-administration"
+																		}
+																	},
+																	"fragmentFields": [
+																		{
+																			"id": "image",
+																			"value": {
+																				"fragmentImage": {
+																					"url": {
+																						"value_i18n": {
+																							"en_US": "[$DOCUMENT_URL:/site-initializer/documents/group/icons/documentation_security.svg$]"
+																						}
+																					}
+																				},
+																				"fragmentLink": {
+																				}
+																			}
+																		},
+																		{
+																			"id": "cta-text",
+																			"value": {
+																				"fragmentLink": {
+																				}
+																			}
+																		},
+																		{
+																			"id": "description",
+																			"value": {
+																				"fragmentLink": {
+																				}
+																			}
+																		},
+																		{
+																			"id": "title",
+																			"value": {
+																				"fragmentLink": {
+																				},
+																				"text": {
+																					"value_i18n": {
+																						"en_US": "Security"
+																					}
+																				}
+																			}
+																		},
+																		{
+																			"id": "cta-icon",
+																			"value": {
+																				"html": {
+																					"value_i18n": {
+																					}
+																				}
+																			}
+																		}
+																	],
+																	"indexed": true
+																},
+																"type": "Fragment"
+															},
+															{
+																"definition": {
+																	"fragment": {
+																		"key": "home-page-cards",
+																		"siteKey": "Guest"
+																	},
+																	"fragmentConfig": {
+																		"cardType": "documentationCard",
+																		"iconBackgroundGradient": "",
+																		"iconPlacement": "learn-card-icon-left",
+																		"showCTA": false,
+																		"showDescription": false,
+																		"url": {
+																			"href": "/w/dxp/cloud"
+																		}
+																	},
+																	"fragmentFields": [
+																		{
+																			"id": "image",
+																			"value": {
+																				"fragmentImage": {
+																					"url": {
+																						"value_i18n": {
+																							"en_US": "[$DOCUMENT_URL:/site-initializer/documents/group/icons/documentation_cloud.svg$]"
+																						}
+																					}
+																				},
+																				"fragmentLink": {
+																				}
+																			}
+																		},
+																		{
+																			"id": "cta-text",
+																			"value": {
+																				"fragmentLink": {
+																				}
+																			}
+																		},
+																		{
+																			"id": "description",
+																			"value": {
+																				"fragmentLink": {
+																				}
+																			}
+																		},
+																		{
+																			"id": "title",
+																			"value": {
+																				"fragmentLink": {
+																				},
+																				"text": {
+																					"value_i18n": {
+																						"en_US": "Cloud"
+																					}
+																				}
+																			}
+																		},
+																		{
+																			"id": "cta-icon",
+																			"value": {
+																				"html": {
+																					"value_i18n": {
+																					}
+																				}
+																			}
+																		}
+																	],
+																	"indexed": true
+																},
+																"type": "Fragment"
+															},
+															{
+																"definition": {
+																	"fragment": {
+																		"key": "home-page-cards",
+																		"siteKey": "Guest"
+																	},
+																	"fragmentConfig": {
+																		"cardType": "documentationCard",
+																		"iconBackgroundGradient": "",
+																		"iconPlacement": "learn-card-icon-left",
+																		"showCTA": false,
+																		"showDescription": false,
+																		"url": {
+																			"href": "/w/dxp/self-hosted-installation-and-upgrades"
+																		}
+																	},
+																	"fragmentFields": [
+																		{
+																			"id": "image",
+																			"value": {
+																				"fragmentImage": {
+																					"url": {
+																						"value_i18n": {
+																							"en_US": "[$DOCUMENT_URL:/site-initializer/documents/group/icons/documentation_cms.svg$]"
+																						}
+																					}
+																				},
+																				"fragmentLink": {
+																				}
+																			}
+																		},
+																		{
+																			"id": "cta-text",
+																			"value": {
+																				"fragmentLink": {
+																				}
+																			}
+																		},
+																		{
+																			"id": "description",
+																			"value": {
+																				"fragmentLink": {
+																				}
+																			}
+																		},
+																		{
+																			"id": "title",
+																			"value": {
+																				"fragmentLink": {
+																				},
+																				"text": {
+																					"value_i18n": {
+																						"en_US": "Self-Hosted Installation"
+																					}
+																				}
+																			}
+																		},
+																		{
+																			"id": "cta-icon",
+																			"value": {
+																				"html": {
+																					"value_i18n": {
+																					}
+																				}
+																			}
+																		}
+																	],
+																	"fragmentStyle": {
+																	},
+																	"indexed": true
+																},
+																"type": "Fragment"
+															},
+															{
+																"definition": {
+																	"fragment": {
+																		"key": "home-page-cards",
+																		"siteKey": "Guest"
+																	},
+																	"fragmentConfig": {
+																		"cardType": "documentationCard",
+																		"iconBackgroundGradient": "",
+																		"iconPlacement": "learn-card-icon-left",
+																		"showCTA": false,
+																		"showDescription": false,
+																		"url": {
+																			"href": "/w/dxp/low-code"
+																		}
+																	},
+																	"fragmentFields": [
+																		{
+																			"id": "image",
+																			"value": {
+																				"fragmentImage": {
+																					"url": {
+																						"value_i18n": {
+																							"en_US": "[$DOCUMENT_URL:/site-initializer/documents/group/icons/documentation_low_code.svg$]"
+																						}
+																					}
+																				},
+																				"fragmentLink": {
+																				}
+																			}
+																		},
+																		{
+																			"id": "cta-text",
+																			"value": {
+																				"fragmentLink": {
+																				}
+																			}
+																		},
+																		{
+																			"id": "description",
+																			"value": {
+																				"fragmentLink": {
+																				}
+																			}
+																		},
+																		{
+																			"id": "title",
+																			"value": {
+																				"fragmentLink": {
+																				},
+																				"text": {
+																					"value_i18n": {
+																						"en_US": "Low-Code"
+																					}
+																				}
+																			}
+																		},
+																		{
+																			"id": "cta-icon",
+																			"value": {
+																				"html": {
+																					"value_i18n": {
+																					}
+																				}
+																			}
+																		}
+																	],
+																	"fragmentViewports": [
+																		{
+																			"fragmentViewportStyle": {
+																				"height": ""
+																			},
+																			"id": "landscapeMobile"
+																		}
+																	],
+																	"indexed": true
+																},
+																"type": "Fragment"
+															}
+														],
+														"type": "Section"
+													},
+													{
+														"definition": {
+															"fragment": {
+																"key": "dialect-button",
+																"siteKey": "Guest"
+															},
+															"fragmentConfig": {
+																"buttonSize": "",
+																"inverted": false,
+																"style": "primary",
+																"type": "solid",
+																"uppercase": false
+															},
+															"fragmentFields": [
+																{
+																	"id": "link",
+																	"value": {
+																		"fragmentLink": {
+																			"value": {
+																				"href": {
+																					"mapping": {
+																						"itemReference": {
+																							"className": "com.liferay.portal.kernel.model.Layout",
+																							"fields": [
+																								{
+																									"fieldName": "friendlyURL",
+																									"fieldValue": "/documentation"
+																								},
+																								{
+																									"fieldName": "privatePage",
+																									"fieldValue": "false"
+																								},
+																								{
+																									"fieldName": "siteKey",
+																									"fieldValue": "Guest"
+																								}
+																							]
+																						}
+																					}
+																				}
+																			}
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "Explore All"
+																			}
+																		}
+																	}
+																}
+															],
+															"indexed": true
+														},
+														"type": "Fragment"
+													}
+												],
+												"type": "Section"
+											},
+											{
+												"definition": {
+													"fragment": {
+														"key": "sign-in-banner",
+														"siteKey": "Guest"
+													},
+													"fragmentConfig": {
+														"enableFragmentEdition": false
+													},
+													"fragmentFields": [
+														{
+															"id": "sign-in-banner-button-text",
+															"value": {
+																"fragmentLink": {
+																},
+																"text": {
+																	"value_i18n": {
+																		"en_US": "Login"
+																	}
+																}
+															}
+														},
+														{
+															"id": "sign-in-banner-text",
+															"value": {
+																"fragmentLink": {
+																},
+																"text": {
+																	"value_i18n": {
+																		"en_US": "Log in to save your learning progress and start earning course badges!"
+																	}
+																}
+															}
+														}
+													],
+													"indexed": true
+												},
+												"type": "Fragment"
+											},
+											{
+												"definition": {
+													"fragmentStyle": {
+														"paddingTop": "2.5rem"
+													},
+													"indexed": true,
+													"layout": {
+													}
+												},
+												"pageElements": [
+													{
+														"definition": {
+															"fragment": {
+																"key": "home-page-cards",
+																"siteKey": "Guest"
+															},
+															"fragmentConfig": {
+																"cardType": "homeCard",
+																"iconBackgroundGradient": "",
+																"iconPlacement": "learn-card-icon-left",
+																"showIcon": false,
+																"url": {
+																	"layout": {
+																		"groupId": "32483059",
+																		"layoutId": "302",
+																		"layoutUuid": "230ffc2e-1ce9-79fe-77d6-8db4e6ec056e",
+																		"privateLayout": false,
+																		"title": "Education"
+																	}
+																}
+															},
+															"fragmentFields": [
+																{
+																	"id": "image",
+																	"value": {
+																		"fragmentImage": {
+																			"url": {
+																				"value_i18n": {
+																				}
+																			}
+																		},
+																		"fragmentLink": {
+																		}
+																	}
+																},
+																{
+																	"id": "cta-text",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "Go to Learn FAQ"
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "description",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "Check the FAQ for quick answers and guidance."
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "title",
+																	"value": {
+																		"fragmentLink": {
+																		},
+																		"text": {
+																			"value_i18n": {
+																				"en_US": "Could not find what you are looking for?"
+																			}
+																		}
+																	}
+																},
+																{
+																	"id": "cta-icon",
+																	"value": {
+																		"html": {
+																			"value_i18n": {
+																			}
+																		}
+																	}
+																}
+															],
+															"fragmentStyle": {
+																"backgroundColor": "colorNeutral0",
+																"borderColor": "colorNeutral2"
+															},
+															"indexed": true
+														},
+														"type": "Fragment"
+													}
+												],
+												"type": "Section"
+											}
+										],
+										"type": "Section"
+									}
+								],
+								"type": "FragmentDropZone"
+							}
+						],
+						"type": "Fragment"
+					}
+				],
+				"type": "Section"
+			}
+		],
+		"type": "Root"
+	},
+	"settings": {
+		"masterPage": {
+			"key": "liferay-learn"
+		}
+	},
+	"version": 1.1
+}

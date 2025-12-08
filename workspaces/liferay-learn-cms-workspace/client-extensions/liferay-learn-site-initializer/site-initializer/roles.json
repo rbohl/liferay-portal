@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Employee",
+		"name_i18n": {
+			"en-US": "Employee"
+		},
+		"scope": 4,
+		"type": 1
+	},
+	{
+		"name": "Guest",
+		"name_i18n": {
+			"en-US": "Guest"
+		},
+		"scope": 4,
+		"type": 1
+	},
+	{
+		"name": "Knowledge Article Approver",
+		"name_i18n": {
+			"en-US": "Knowledge Article Approver"
+		},
+		"scope": 4,
+		"type": 1
+	},
+	{
+		"name": "Knowledge Article Creator",
+		"name_i18n": {
+			"en-US": "Knowledge Article Creator"
+		},
+		"scope": 4,
+		"type": 1
+	},
+	{
+		"name": "Partner",
+		"name_i18n": {
+			"en-US": "Partner"
+		},
+		"scope": 4,
+		"type": 1
+	}
+]

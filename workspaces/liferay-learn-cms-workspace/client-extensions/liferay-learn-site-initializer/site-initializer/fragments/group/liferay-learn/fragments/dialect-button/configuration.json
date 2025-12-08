@@ -1,0 +1,95 @@
+{
+	"fieldSets": [
+		{
+			"fields": [
+				{
+					"dataType": "string",
+					"defaultValue": "",
+					"label": "Button Size",
+					"name": "buttonSize",
+					"type": "select",
+					"typeOptions": {
+						"validValues": [
+							{
+								"label": "Small",
+								"value": "small"
+							},
+							{
+								"label": "Medium",
+								"value": "medium"
+							},
+							{
+								"label": "Large",
+								"value": "large"
+							}
+						]
+					}
+				},
+				{
+					"dataType": "string",
+					"defaultValue": false,
+					"label": "Inverted",
+					"name": "inverted",
+					"type": "checkbox"
+				},
+				{
+					"dataType": "string",
+					"defaultValue": "primary",
+					"label": "Style",
+					"name": "style",
+					"type": "select",
+					"typeOptions": {
+						"validValues": [
+							{
+								"label": "Netral",
+								"value": "neutral"
+							},
+							{
+								"label": "Primary",
+								"value": "primary"
+							},
+							{
+								"label": "Secondary",
+								"value": "secondary"
+							}
+						]
+					}
+				},
+				{
+					"dataType": "string",
+					"defaultValue": "solid",
+					"label": "Type",
+					"name": "type",
+					"type": "select",
+					"typeOptions": {
+						"validValues": [
+							{
+								"label": "Borderless",
+								"value": "borderless"
+							},
+							{
+								"label": "Ghost",
+								"value": "ghost"
+							},
+							{
+								"label": "Rounded",
+								"value": "rounded"
+							},
+							{
+								"label": "Solid",
+								"value": "solid"
+							}
+						]
+					}
+				},
+				{
+					"dataType": "string",
+					"defaultValue": false,
+					"label": "Uppercase",
+					"name": "uppercase",
+					"type": "checkbox"
+				}
+			]
+		}
+	]
+}

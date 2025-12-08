@@ -1,0 +1,240 @@
+{
+	"pageElement": {
+		"pageElements": [
+			{
+				"definition": {
+					"cssClasses": [
+						"learn-education"
+					],
+					"fragmentStyle": {
+						"width": "99%"
+					},
+					"fragmentViewports": [
+						{
+							"fragmentViewportStyle": {
+								"width": "95%"
+							},
+							"id": "portraitMobile"
+						},
+						{
+							"fragmentViewportStyle": {
+								"paddingLeft": "0",
+								"paddingRight": "0",
+								"width": "90%"
+							},
+							"id": "tablet"
+						}
+					],
+					"indexed": true,
+					"layout": {
+						"contentDisplay": "FlexColumn",
+						"widthType": "Fixed"
+					}
+				},
+				"pageElements": [
+					{
+						"definition": {
+							"fragment": {
+								"key": "lms-course-top-banner",
+								"siteKey": "Liferay Learn"
+							},
+							"fragmentConfig": {
+								"assetType": "lesson"
+							},
+							"fragmentFields": [
+							],
+							"indexed": true
+						},
+						"type": "Fragment"
+					},
+					{
+						"definition": {
+							"customCSS": ".[$FRAGMENT_CLASS$] {\n \n}\n\n\n    ",
+							"fragment": {
+								"key": "lms-lesson-display-page-layout",
+								"siteKey": "Liferay Learn"
+							},
+							"fragmentConfig": {
+							},
+							"fragmentFields": [
+							],
+							"fragmentStyle": {
+								"marginTop": "4",
+								"width": "100%"
+							},
+							"indexed": true
+						},
+						"pageElements": [
+							{
+								"definition": {
+								},
+								"pageElements": [
+									{
+										"definition": {
+											"cssClasses": [
+												"course-lesson__content"
+											],
+											"fragment": {
+												"key": "BASIC_COMPONENT-html"
+											},
+											"fragmentConfig": {
+											},
+											"fragmentFields": [
+												{
+													"id": "element-html",
+													"value": {
+														"html": {
+															"mapping": {
+																"fieldKey": "ObjectField_content",
+																"itemReference": {
+																	"contextSource": "DisplayPageItem"
+																}
+															}
+														}
+													}
+												}
+											],
+											"fragmentStyle": {
+												"width": "100%"
+											},
+											"indexed": true
+										},
+										"type": "Fragment"
+									},
+									{
+										"definition": {
+											"cssClasses": [
+												"course-lesson__bottom-navigation"
+											],
+											"widgetInstance": {
+												"widgetConfig": {
+												},
+												"widgetName": "com_liferay_client_extension_web_internal_portlet_ClientExtensionEntryPortlet_57868206215768_LXC_liferay_lms_lesson_navigation"
+											}
+										},
+										"type": "Widget"
+									},
+									{
+										"definition": {
+											"fragment": {
+												"key": "sign-in-banner",
+												"siteKey": "Liferay Learn"
+											},
+											"fragmentConfig": {
+											},
+											"fragmentFields": [
+											],
+											"fragmentStyle": {
+												"marginTop": "3"
+											},
+											"indexed": true
+										},
+										"type": "Fragment"
+									},
+									{
+										"definition": {
+											"customCSS": ".[$FRAGMENT_CLASS$] {\n    bottom: 12px;\n    position: fixed;\n    width: 1150px !important;\nz-index: 100;\n  \n  @media(max-width: 1652px) {\n  \twidth: 68% !important;\n  }\n  \n  @media(max-width: 1560px) {\n   width: 65% !important; \n  }\n@media(max-width: 1292px) {width: 51% !important;}\n}",
+											"fragmentStyle": {
+												"hidden": true,
+												"width": "100%"
+											},
+											"indexed": true,
+											"layout": {
+												"align": "Center",
+												"contentDisplay": "FlexRow",
+												"justify": "Center"
+											}
+										},
+										"pageElements": [
+											{
+												"definition": {
+													"customCSS": ".[$FRAGMENT_CLASS$] {\nz-index: 100;\n}",
+													"fragment": {
+														"key": "sign-in-banner",
+														"siteKey": "Liferay Learn"
+													},
+													"fragmentConfig": {
+													},
+													"fragmentFields": [
+														{
+															"id": "image-editable-product-facebook",
+															"value": {
+																"fragmentLink": {
+																}
+															}
+														}
+													],
+													"fragmentStyle": {
+														"width": "100%"
+													},
+													"indexed": true
+												},
+												"type": "Fragment"
+											}
+										],
+										"type": "Section"
+									}
+								],
+								"type": "FragmentDropZone"
+							}
+						],
+						"type": "Fragment"
+					}
+				],
+				"type": "Section"
+			},
+			{
+				"definition": {
+					"fragment": {
+						"key": "progress-tracker",
+						"siteKey": "Liferay Learn"
+					},
+					"fragmentConfig": {
+						"assetType": "lesson",
+						"progress": 100
+					},
+					"fragmentFields": [
+					],
+					"fragmentStyle": {
+						"hidden": true
+					},
+					"indexed": true
+				},
+				"type": "Fragment"
+			},
+			{
+				"definition": {
+					"fragment": {
+						"key": "page-loading-indicator",
+						"siteKey": "Liferay Learn"
+					},
+					"fragmentConfig": {
+						"loadingTextKey": "loading-knowledge-label"
+					},
+					"fragmentFields": [
+					],
+					"fragmentStyle": {
+						"hidden": true
+					},
+					"indexed": true
+				},
+				"type": "Fragment"
+			}
+		],
+		"type": "Root"
+	},
+	"settings": {
+		"colorSchemeName": "01",
+		"masterPage": {
+			"key": "liferay-learn"
+		},
+		"themeName": "Dialect",
+		"themeSettings": {
+			"lfr-theme:regular:show-footer": "false",
+			"lfr-theme:regular:show-header": "false",
+			"lfr-theme:regular:show-header-search": "false",
+			"lfr-theme:regular:wrap-widget-page-content": "false"
+		}
+	},
+	"version": 1.1
+}

@@ -1,0 +1,118 @@
+[
+	{
+		"actionIds": [
+			"ACCESS",
+			"ADD_DOCUMENT",
+			"ADD_SUBFOLDER",
+			"DELETE",
+			"UPDATE",
+			"VIEW"
+		],
+		"primKey": "0",
+		"resourceName": "com.liferay.document.library.kernel.model.DLFolder",
+		"roleName": "Knowledge Article Approver",
+		"scope": 1
+	},
+	{
+		"actionIds": [
+			"ACCESS",
+			"ADD_DOCUMENT",
+			"ADD_SUBFOLDER",
+			"DELETE",
+			"UPDATE",
+			"VIEW"
+		],
+		"primKey": "0",
+		"resourceName": "com.liferay.document.library.kernel.model.DLFolder",
+		"roleName": "Knowledge Article Creator",
+		"scope": 1
+	},
+	{
+		"actionIds": [
+			"VIEW"
+		],
+		"primKey": "0",
+		"resourceName": "com.liferay.journal",
+		"roleName": "Knowledge Article Approver",
+		"scope": 1
+	},
+	{
+		"actionIds": [
+			"ADD_ARTICLE",
+			"VIEW"
+		],
+		"primKey": "0",
+		"resourceName": "com.liferay.journal",
+		"roleName": "Knowledge Article Creator",
+		"scope": 1
+	},
+	{
+		"actionIds": [
+			"CREATE_TOKEN"
+		],
+		"primKey": "0",
+		"resourceName": "com.liferay.oauth2.provider.model.OAuth2Application",
+		"roleName": "User",
+		"scope": 1
+	},
+	{
+		"actionIds": [
+			"VIEW",
+			"VIEW_SITE_ADMINISTRATION"
+		],
+		"primKey": "0",
+		"resourceName": "com.liferay.portal.kernel.model.Group",
+		"roleName": "Knowledge Article Approver",
+		"scope": 1
+	},
+	{
+		"actionIds": [
+			"VIEW",
+			"VIEW_SITE_ADMINISTRATION"
+		],
+		"primKey": "0",
+		"resourceName": "com.liferay.portal.kernel.model.Group",
+		"roleName": "Knowledge Article Creator",
+		"scope": 1
+	},
+	{
+		"actionIds": [
+			"ACCESS_IN_CONTROL_PANEL",
+			"VIEW"
+		],
+		"primKey": "0",
+		"resourceName": "com_liferay_document_library_web_portlet_DLAdminPortlet",
+		"roleName": "Knowledge Article Approver",
+		"scope": 1
+	},
+	{
+		"actionIds": [
+			"ACCESS_IN_CONTROL_PANEL",
+			"VIEW"
+		],
+		"primKey": "0",
+		"resourceName": "com_liferay_document_library_web_portlet_DLAdminPortlet",
+		"roleName": "Knowledge Article Creator",
+		"scope": 1
+	},
+	{
+		"actionIds": [
+			"ACCESS_IN_CONTROL_PANEL",
+			"VIEW"
+		],
+		"primKey": "0",
+		"resourceName": "com_liferay_journal_web_portlet_JournalPortlet",
+		"roleName": "Knowledge Article Approver",
+		"scope": 1
+	},
+	{
+		"actionIds": [
+			"ACCESS_IN_CONTROL_PANEL",
+			"VIEW"
+		],
+		"primKey": "0",
+		"resourceName": "com_liferay_journal_web_portlet_JournalPortlet",
+		"roleName": "Knowledge Article Creator",
+		"scope": 1
+	}
+]
